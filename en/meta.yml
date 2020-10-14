@@ -1,0 +1,11 @@
+title: getting-started-with-the
+hero_image: images/banner.png
+description: getting-started-with-the description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2020-10-14"
+steps:
+  - title: Introduction
+  - title: Step title
+  - title: What next?
