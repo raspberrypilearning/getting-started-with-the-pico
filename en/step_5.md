@@ -96,4 +96,4 @@ Tip: You can use the up arrow on the keyboard to quicky re-enter the previous li
 
 If you want to write a longer program then it's best to save it in a file which is what you will do in the next step.
 
---- save ---
+
