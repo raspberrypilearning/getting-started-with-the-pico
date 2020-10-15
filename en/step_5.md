@@ -80,7 +80,8 @@ Enter the following code, tapping Enter after each line:
 from machine import Pin
 led = Pin(25, Pin.OUT)
 led.toggle()
- 
+```
+
 You should see the onboard LED light up. Type the code to toggle the LED again to turn the LED off. 
 
 ``` python
