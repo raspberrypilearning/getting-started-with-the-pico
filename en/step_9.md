@@ -1,4 +1,4 @@
-## Connect X to your computer
+## Control LED brightness with PWM
 
 --- task ---
  

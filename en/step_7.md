@@ -1,4 +1,4 @@
-## Connect X to your computer
+## Use digital inputs and outputs
 
 --- task ---
  

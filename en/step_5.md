@@ -1,4 +1,4 @@
-## Connect X to your computer
+## Install Thonny
 
 --- task ---
  
