@@ -74,23 +74,27 @@ MicroPython adds hardware-specific modules such as 'machine' that you can use to
 
 You're going to create a machine.Pin object corresponding to the onboard LED which can be accessed using GPIO Pin 25. 
 
+Setting the value of the led to `1` turns it on. 
+
 Enter the following code, tapping Enter after each line:
 
 ``` python
 from machine import Pin
 led = Pin(25, Pin.OUT)
-led.toggle()
+led.value(1)
 ```
 
-You should see the onboard LED light up. Type the code to toggle the LED again to turn the LED off. 
+You should see the onboard LED light up. 
+
+Type the code to set the value to 0 to turn the LED off:
 
 ``` python
-led.toggle()
+led.value(0)
 ```
 
-Toggle the LED on and off as many times as you like. 
+Turn the LED on and off as many times as you like. 
 
-Tip: You can use the up arrow on the keyboard to quicky re-enter the previous line. 
+Tip: You can use the up arrow on the keyboard to quickly access previous lines. 
 
 --- /task ---
 
