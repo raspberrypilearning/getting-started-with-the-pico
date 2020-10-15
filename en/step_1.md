@@ -31,11 +31,12 @@ title: What you will need
 + A micro USB cable
 + Optionally, a selection of electronics components such as:  a momentary button or switch, an LED with appropriate resistor, a light-sensitive resistor or potentiometer. 
 + Optionally, a breadboard and M-F jumper leads for connecting additional components. 
++ Optionally, an external power source <mark>Include the recommended power options</mark>
 
 ### Software
 
 The project will guide you through the installation of:
-
+ 
 + micropython firmware for Raspberry Pi X
 + The Thonny Python editor
 
