@@ -1,4 +1,4 @@
-## Add the micropython firmware
+## Add the MicroPython firmware
 
 --- task ---
  

@@ -4,11 +4,11 @@ In this project, you will connect up a Raspberry Pi X and learn how to program i
 
 The Raspberry Pi X is a ...
 
-<mark>Add product description</mark>
+<mark>Add product name and description</mark>
 
 ### What you will make
 
-You will connect a Raspberry Pi X to your computer, install the Thonny Python editor and write a micropython program to blink the onboard LED. If you have additional components available then you can also try out some more examples.
+You will connect a Raspberry Pi X to your computer, install the Thonny Python editor and write a MicroPython program to blink the onboard LED. If you have additional components available then you can also try out some more examples.
 
 --- no-print ---
 Add instructions for interacting with the embedded content here.
@@ -37,7 +37,7 @@ title: What you will need
 
 The project will guide you through the installation of:
  
-+ micropython firmware for Raspberry Pi X
++ MicroPython firmware for Raspberry Pi X
 + The Thonny Python editor
 
 --- /collapse ---
