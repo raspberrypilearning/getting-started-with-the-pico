@@ -1,15 +1,17 @@
 ## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+In this project, you will connect up a Raspberry Pi X and find out how to program it using Python.
+
+The Raspberry Pi X is a ...
 
 ### What you will make
+
+You will connect a Raspberry Pi X to your computer, install the Thonny Python editor and write a micropython program to blink the onboard LED. If you have additional components available then you can also try out some additional examples.
 
 --- no-print ---
 Add instructions for interacting with the embedded content here.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+![Animation of example projects](images/example-projects.gif)
 --- /no-print ---
 
 --- print-only ---
@@ -22,17 +24,18 @@ title: What you will need
 ---
 ### Hardware
 
-+ A computer or tablet capable of running Scratch 3
++ Raspberry Pi X with a header 
++ A computer that can run the Thonny editor and program the Raspberry Pi X, currently Raspberry Pi, Linux and Mac are supported. Windows coming soon.
++ A micro USB cable
++ Optionally, a selection of electronics components such as:  a momentary button or switch, an LED with appropriate resistor, a light-sensitive resistor or potentiometer. 
++ Optionally, a breadboard and M-F jumper leads for connecting additional components. 
 
 ### Software
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+The project will guide you through the installation of:
 
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
++ micropython firmware for Raspberry Pi X
++ The Thonny Python editor
 
 --- /collapse ---
 
@@ -41,9 +44,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
++ How to load the micropython firmware onto a Raspberry Pi X
++ How program a Raspberry Pi X using micropython
++ How to connect additional components to the Raspberry Pi X and write micropython programs to interact with them
 
 --- /collapse ---
 
@@ -52,8 +55,6 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+If you are completing this project in a school or other setting with a managed network then you should make sure that you have the appropriate permissions to mount a USB drive and install software. 
 
 --- /collapse ---
