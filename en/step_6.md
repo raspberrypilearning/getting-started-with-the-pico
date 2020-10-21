@@ -18,6 +18,7 @@ led = Pin(25, Pin.OUT)
 led.toggle()
 ```
 
+<mark>Add note on content assist.</mark>
 --- /task ---
 
 --- task ---
@@ -62,7 +63,7 @@ Click 'Run' and your program will blink the led on and off until you click the S
 
 --- /task ---
 
-<mark>Should we mention the Variables panel in this step?</mark>
+<mark>Should we mention the Variables panel and/or debug stepping in this step?</mark>
 
 <mark>Your file is only saved on the device at this point. What is the best workflow to also save a copy on your computer? Just remember to do 'Save as a copy ...' regularly or is there something better?</mark>
 
