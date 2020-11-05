@@ -1,103 +1,72 @@
-## Install Thonny
+## Blink the onboard LED
 
-In this step you will install Thonny or make sure you have the latest version then you will connect to the Raspberry Pi X and run some simple Python code using the Shell. 
+The Shell is useful for making sure everything is working and trying out quick commands but it's better to put longer programs in a file. 
 
---- task ---
+Thonny can save and run MicroPython programs directly on the Raspberry Pi X.
 
-Install/update Thonny. 
-
-<mark>Add precise instructions about version etc when we know.</mark> 
-![an image](images/example.png)
-
---- /task ---
+In this step you will create a MicroPython program to blink the onboard LED on and off in a loop. 
 
 --- task ---
-Click on `Run` menu and then `Select Interpreter`:
+Click in the main editor pane of Thonny. 
 
-![Run Select Interpreter menu](images/run-select-interpreter.png)
-
-Choose "MicroPython (generic)" from the drop down:
-
-![Choose MicroPython](images/run-select-interpreter.png)
-
-Click 'OK'.
-
---- /task ---
-
---- task ---
-Click on `Tools` and then `Options`.
-
-![Tools Options menu](images/tools-options.png)
-
-Select your serial port in the drop down. On the Raspberry Pi the serial port will be "Board in FS Mode — Board CDC (/dev/ttyACM0)". 
-
---- /task ---
-
---- task ---
-Look at the 'Shell' panel at the bottom of the Thonny editor. 
-
-You should see something like this:
-
-![REPL initial connection messages](images/repl-connected.png)
-
-Thonny will now be able to communicate with the Raspberry Pi X using the REPL (read–eval–print loop) which allows you to type in Python code into the Shell and see the output. 
-
-
---- collapse ---
-
----
-
-title: Troubleshooting
-
----
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-Now you can type commands directly into the Shell and they will run on the Raspberry Pi X.
-
-Type the following command:
-
-``` python
-print("Hello!")
-```
-Tap Enter and you will see the output:
-
-![Print Hello output](images/print-hello-output.png)
-
---- /task ---
-
---- task ---
-MicroPython adds hardware-specific modules such as 'machine' that you can use to program the Raspberry Pi X. 
-
-You're going to create a machine.Pin object corresponding to the onboard LED which can be accessed using GPIO Pin 25. 
-
-Setting the value of the led to `1` turns it on. 
-
-Enter the following code, tapping Enter after each line:
+Enter to following code to toggle the LED. 
 
 ``` python
 from machine import Pin
 led = Pin(25, Pin.OUT)
-led.value(1)
+
+led.toggle()
 ```
 
-You should see the onboard LED light up. 
+<mark>Add note on content assist.</mark>
+--- /task ---
 
-Type the code to set the value to 0 to turn the LED off:
+--- task ---
+Click the 'Run' button to run your code. 
 
-``` python
-led.value(0)
-```
+Thonny will ask whether you want to save the file on 'This Computer' or the 'MicroPython Device'. Choose 'MicroPython Device'.
 
-Turn the LED on and off as many times as you like. 
+![an image](images/save-on-device.png)
 
-Tip: You can use the up arrow on the keyboard to quickly access previous lines. 
+Enter 'blink.py' as the file name. 
+
+**Tip:** You do need to enter the '.py' file extension so that Thonny recognises the file as a Python file. 
+
+Thonny will save your program to the Raspberry Pi X and run it. 
+
+You should see the onboard led switch between on and off each time you click the 'Run' button.
 
 --- /task ---
 
-If you want to write a longer program then it's best to save it in a file which is what you will do in the next step.
+--- task ---
+You can use the Timer module to set timer that runs a function at regular intervals. 
 
+Update your code so it looks like this:
 
+``` python
+from machine import Pin, Timer
+led = Pin(25, Pin.OUT)
+timer = Timer(7)
+
+def blink(timer):
+  global led
+  led.toggle()
+
+timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
+```
+
+The parameter to the Timer constructor is a timer number from 1 to 14. Some timers are used for specific functions but 7 and above can be used. 
+
+<mark>Is this correct for this implementation of Timer? Which timers can be used?</mark>
+
+Click 'Run' and your program will blink the led on and off until you click the Stop button. 
+
+--- /task ---
+
+<mark>Should we mention the Variables panel and/or debug stepping in this step?</mark>
+
+<mark>Your file is only saved on the device at this point. What is the best workflow to also save a copy on your computer? Just remember to do 'Save as a copy ...' regularly or is there something better?</mark>
+
+<mark>Is there any way to access the Python files via USB Mass storage mode?</mark>
+
+--- save ---

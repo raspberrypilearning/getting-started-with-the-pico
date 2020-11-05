@@ -1,16 +1,94 @@
-## Add the MicroPython firmware
+## Connect X to your computer
 
-<mark>We may not need this step if Thonny is updated to offer to do it automatically. Or we may wish to cover it in a step after Thonny about working with the Pico from the command line and transferring programs directly. See [github discussion](https://github.com/raspberrypi/thonny-pico/issues/1)</mark>
+If you have never used MicroPython on your Pico board, or need to update your firmware, click on the collapsed section below, to learn how to install the latest version of MicroPython.
+
+--- collapse ---
+---
+
+title: Installing MicroPython firmware on your Pico board.
+
+---
+
+
+
+--- /collapse ---
+
 
 --- task ---
- 
-![an image](images/example.png)
+Click on `Tools` and then `Options`.
+
+![Tools Options menu](images/tools-options.png)
+
+Select your serial port in the drop down. On the Raspberry Pi the serial port will be "Board in FS Mode — Board CDC (/dev/ttyACM0)". 
 
 --- /task ---
 
 --- task ---
+Look at the 'Shell' panel at the bottom of the Thonny editor. 
 
+You should see something like this:
+
+![REPL initial connection messages](images/repl-connected.png)
+
+Thonny will now be able to communicate with the Raspberry Pi X using the REPL (read–eval–print loop) which allows you to type in Python code into the Shell and see the output. 
+
+
+--- collapse ---
+
+---
+
+title: Troubleshooting
+
+---
+
+--- /collapse ---
 
 --- /task ---
 
---- save ---
+--- task ---
+Now you can type commands directly into the Shell and they will run on the Raspberry Pi X.
+
+Type the following command:
+
+``` python
+print("Hello!")
+```
+Tap Enter and you will see the output:
+
+![Print Hello output](images/print-hello-output.png)
+
+--- /task ---
+
+--- task ---
+MicroPython adds hardware-specific modules such as 'machine' that you can use to program the Raspberry Pi X. 
+
+You're going to create a machine.Pin object corresponding to the onboard LED which can be accessed using GPIO Pin 25. 
+
+Setting the value of the led to `1` turns it on. 
+
+Enter the following code, tapping Enter after each line:
+
+``` python
+from machine import Pin
+led = Pin(25, Pin.OUT)
+led.value(1)
+```
+
+You should see the onboard LED light up. 
+
+Type the code to set the value to 0 to turn the LED off:
+
+``` python
+led.value(0)
+```
+
+Turn the LED on and off as many times as you like. 
+
+Tip: You can use the up arrow on the keyboard to quickly access previous lines. 
+
+--- /task ---
+
+If you want to write a longer program then it's best to save it in a file which is what you will do in the next step.
+
+
+
