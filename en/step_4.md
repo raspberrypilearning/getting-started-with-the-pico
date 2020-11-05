@@ -17,6 +17,8 @@ This puts the Raspberry Pi X into USB mass storage device mode.
 
 --- /task ---
 
+<mark>This is the easiest option following on from installing and selecting the interpreter, but we should also give the option to install the firmware from the status bar. And switch to the X firmware if they haven't selected it. </mark>
+
 --- task ---
 Run or restart Thonny. 
 
