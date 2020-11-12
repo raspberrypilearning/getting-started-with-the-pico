@@ -24,7 +24,7 @@ In the bottom right hand corner of the Thonny window, you will see the version o
 
 Click on the Python version and choose "MicroPython (Raspberry Pi Pico)":
 
-![Choose MicroPython](images/thonny-micropython-pico.png)
+![Choose MicroPython](images/thonny-micropython-pico-menu.png)
 
 If you don't see this option then check that you have plugged in your Raspberry Pi Pico. 
 
