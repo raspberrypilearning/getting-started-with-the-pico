@@ -19,11 +19,13 @@ sudo apt update && sudo apt upgrade -y
 --- /collapse ---
 
 --- collapse ---
+
 ---
 
 title: Install Thonny on other Operating Systems.
 
 ---
+
 - On Windows, macOS and Linux, you can install the latest Thonny or update an existing version.
 - In a web-browser, navigate to [thonny.org](https://thonny.org/).
 - In the top right hand corner of the browser window, you will see download links for Windows and macOS, and instructions for Linux.
@@ -46,4 +48,7 @@ You can use Thonny to write standard Python code. Try typing the following in th
 ```python3
 print('Hello World!')
 ```
+
+--- /task ---
+
 You're now ready to move on to the next step and connect your Pico board.
