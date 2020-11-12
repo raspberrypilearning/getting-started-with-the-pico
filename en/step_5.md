@@ -1,6 +1,12 @@
 ## Use the Shell
 
-In this step you will run some simple Python code using the Shell. 
+In this step you will run some simple Python code on your Raspberry Pi Pico using the Thonny Shell. 
+--- task ---
+Make sure that your Raspberry Pi Pico is connected to your computer and you have the MicroPython (Raspberry Pi Pico) interpreter selected.
+
+<mark>Does Thonny prompt you to install the firmware if you haven't done so? </mark>
+
+--- /task ---
 
 --- task ---
 Look at the 'Shell' panel at the bottom of the Thonny editor. 
@@ -19,6 +25,8 @@ title: Troubleshooting
 
 ---
 
+<mark>Will you be prompted if you have no firmware or out of date firmware?</mark>
+
 --- /collapse ---
 
 --- /task ---
@@ -29,7 +37,7 @@ Now you can type commands directly into the Shell and they will run on the Raspb
 Type the following command:
 
 ``` python
-print("Hello!")
+print("Hello")
 ```
 Tap Enter and you will see the output:
 
@@ -38,9 +46,9 @@ Tap Enter and you will see the output:
 --- /task ---
 
 --- task ---
-MicroPython adds hardware-specific modules such as 'machine' that you can use to program the Raspberry Pi X. 
+MicroPython adds hardware-specific modules such as 'machine' that you can use to program the Raspberry Pi Pico. 
 
-You're going to create a machine.Pin object corresponding to the onboard LED which can be accessed using GPIO Pin 25. 
+You're going to create a 'machine.Pin' object corresponding to the onboard LED which can be accessed using GPIO Pin 25. 
 
 Setting the value of the led to `1` turns it on. 
 
@@ -54,6 +62,8 @@ led.value(1)
 
 You should see the onboard LED light up. 
 
+![Image of onboard LED on](images/onboard-led-on)
+
 Type the code to set the value to 0 to turn the LED off:
 
 ``` python
@@ -62,7 +72,7 @@ led.value(0)
 
 Turn the LED on and off as many times as you like. 
 
-Tip: You can use the up arrow on the keyboard to quickly access previous lines. 
+**Tip:** You can use the up arrow on the keyboard to quickly access previous lines. 
 
 --- /task ---
 
