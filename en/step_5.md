@@ -2,6 +2,7 @@
 
 In this step you will run some simple Python code on your Raspberry Pi Pico using the Thonny Shell. 
 --- task ---
+
 Make sure that your Raspberry Pi Pico is connected to your computer and you have the MicroPython (Raspberry Pi Pico) interpreter selected.
 
 <mark>Does Thonny prompt you to install the firmware if you haven't done so? </mark>
@@ -15,7 +16,7 @@ You should see something like this:
 
 ![REPL initial connection messages](images/repl-connected.png)
 
-Thonny will now be able to communicate with the Raspberry Pi X using the REPL (read–eval–print loop) which allows you to type in Python code into the Shell and see the output. 
+Thonny will now be able to communicate with the Raspberry Pi Pico using the REPL (read–eval–print loop) which allows you to type in Python code into the Shell and see the output. 
 
 --- collapse ---
 
@@ -25,14 +26,15 @@ title: Troubleshooting
 
 ---
 
-<mark>Will you be prompted if you have no firmware or out of date firmware?</mark>
 
 --- /collapse ---
+
+<mark>Will you be prompted if you have no firmware or out of date firmware?</mark>
 
 --- /task ---
 
 --- task ---
-Now you can type commands directly into the Shell and they will run on the Raspberry Pi X.
+Now you can type commands directly into the Shell and they will run on the Raspberry Pi Pico.
 
 Type the following command:
 
@@ -46,6 +48,7 @@ Tap Enter and you will see the output:
 --- /task ---
 
 --- task ---
+
 MicroPython adds hardware-specific modules such as 'machine' that you can use to program the Raspberry Pi Pico. 
 
 You're going to create a 'machine.Pin' object corresponding to the onboard LED which can be accessed using GPIO Pin 25. 
