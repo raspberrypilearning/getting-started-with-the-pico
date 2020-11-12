@@ -18,17 +18,6 @@ You should see something like this:
 
 Thonny will now be able to communicate with the Raspberry Pi Pico using the REPL (read–eval–print loop) which allows you to type in Python code into the Shell and see the output. 
 
---- collapse ---
-
----
-
-title: Troubleshooting
-
----
-
-
---- /collapse ---
-
 <mark>Will you be prompted if you have no firmware or out of date firmware?</mark>
 
 --- /task ---
@@ -65,7 +54,7 @@ led.value(1)
 
 You should see the onboard LED light up. 
 
-![Image of onboard LED on](images/onboard-led-on)
+![Image of onboard LED on](images/onboard-led-on.png)
 
 Type the code to set the value to 0 to turn the LED off:
 
