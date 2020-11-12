@@ -1,5 +1,5 @@
 ## Add the MicroPython firmware
-Next you need to add the latest version of the MicroPython firmware to your Raspberry Pi X. 
+If you have never used MicroPython on your Pico board you will need to add the Micropython firmware. 
 
 --- task ---
 
@@ -17,21 +17,57 @@ This puts the Raspberry Pi X into USB mass storage device mode.
 
 --- /task ---
 
-<mark>This is the easiest option following on from installing and selecting the interpreter, but we should also give the option to install the firmware from the status bar. And switch to the X firmware if they haven't selected it. </mark>
+--- task ---
+In the bottom right hand corner of the Thonny window, you will see the version of Python, you are currently using. 
+
+Click on the Python version and choose "MicroPython (Raspberry Pi Pico)":
+
+![Choose MicroPython](images/thonny-micropython-pico.png)
+
+--- /task ---
 
 --- task ---
-Run or restart Thonny. 
-
 A dialog will pop up to install the latest version of the MicroPython firmware on the Raspberry Pi X. 
 
-Click on the 'Install' button to install the firmware. 
+Click 'Install' button to copy the firmware to the Raspberry Pi Pico. 
 
-![Firmware close button](images/install-firmware-close.png)
+![Firmware install](images/thonny-install-micropython-pico.png)
 
 Wait for the installation to complete and click 'Close'.
 
 --- /task ---
 
-You don't need to copy the MicroPython firmware every time you use your Raspberry Pi X. Next time you can just connect the USB cable without pressing the BOOTSEL button. 
+
+--- collapse ---
+
+--- 
+
+title: Firmware installation menu
+
+---
+
+You can also access the firmware installation menu by clicking on 'MicroPython (Raspberry Pi Pico)' in the status bar and choosing 'Configure interpreter ...'
+
+![Configure interpreter menu](images/thonny-configure-interpreter.png)
+
+The interpreter settings will open:
+
+![Configure interpreter settings](images/thonny-install-micropython-pico.png)
+
+Click on 'Install or update firmware'. 
+
+You will be prompted to plug in the Raspberry Pi Pico while holding the BOOTSEL button: 
+
+![Configure interpreter settings](images/thonny-install-micropython-pico.png)
+
+Then you will be able to choose 'Install'
+
+![Firmware install](images/thonny-install-micropython-pico.png)
+
+Wait for the installation to complete and click 'Close'.
+
+--- /collapse ---
+
+You don't need to update the firmware every time you use your Raspberry Pi Pico. Next time you can just plug it in to your computer without pressing the BOOTSEL button.
 
 <mark>Is this clear? Do we need to mention that you'll need to do it if you program your device using another language and want to switch back to Python? Will Thonny prompt to update when needed?</mark>

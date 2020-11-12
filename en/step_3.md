@@ -46,31 +46,4 @@ You can use Thonny to write standard Python code. Try typing the following in th
 ```python3
 print('Hello World!')
 ```
-
---- /task ---
-
-In the bottom right hand corner of the Thonny window, you will see the version of Python, you are currently using. You can change this to use MicroPython for the Pico board.
-
---- task ---
-
-Click on the Python version and choose *Configure interpreter...*
-
-![image of interpreter options](images/thonny-configure-interpreter.png)
-
-A new window should open up
-
-![image of interpreter options](images/thonny-interpreter-options.png)
-
---- /task ---
-
---- task ---
-
-Choose "MicroPython (Raspberry Pi Pico)" from the drop down:
-
-![Choose MicroPython](images/thonny-micropython-pico.png)
-
-Click 'OK'.
-
---- /task ---
-
 You're now ready to move on to the next step and connect your Pico board.
