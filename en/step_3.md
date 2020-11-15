@@ -39,6 +39,7 @@ title: Install Thonny on other Operating Systems.
 Open Thonny from your application launcher. It should look something like this
 
 ![image of the Thonny application](images/thonny-editor.png)
+
 --- /task ---
 
 --- task ---
