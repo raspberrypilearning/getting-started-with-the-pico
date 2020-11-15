@@ -7,21 +7,7 @@ Make sure that your Raspberry Pi Pico is connected to your computer and you have
 
 --- /task ---
 
-<mark>Does Thonny prompt you to install the firmware if you haven't done so? </mark>
 
---- task ---
-
-Look at the 'Shell' panel at the bottom of the Thonny editor. 
-
-You should see something like this:
-
-![REPL initial connection messages](images/repl-connected.png)
-
-Thonny will now be able to communicate with the Raspberry Pi Pico using the REPL (read–eval–print loop) which allows you to type in Python code into the Shell and see the output. 
-
---- /task ---
-
-<mark>Will you be prompted if you have no firmware or out of date firmware?</mark>
 
 --- task ---
 Now you can type commands directly into the Shell and they will run on the Raspberry Pi Pico.
