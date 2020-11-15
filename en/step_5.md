@@ -5,11 +5,12 @@ In this step you will run some simple Python code on your Raspberry Pi Pico usin
 
 Make sure that your Raspberry Pi Pico is connected to your computer and you have the MicroPython (Raspberry Pi Pico) interpreter selected.
 
-<mark>Does Thonny prompt you to install the firmware if you haven't done so? </mark>
-
 --- /task ---
 
+<mark>Does Thonny prompt you to install the firmware if you haven't done so? </mark>
+
 --- task ---
+
 Look at the 'Shell' panel at the bottom of the Thonny editor. 
 
 You should see something like this:
@@ -38,9 +39,9 @@ Tap Enter and you will see the output:
 
 --- task ---
 
-MicroPython adds hardware-specific modules such as 'machine' that you can use to program the Raspberry Pi Pico. 
+MicroPython adds hardware-specific modules such as `machine` that you can use to program the Raspberry Pi Pico. 
 
-You're going to create a 'machine.Pin' object corresponding to the onboard LED which can be accessed using GPIO Pin 25. 
+You're going to create a `machine.Pin` object corresponding to the onboard LED which can be accessed using GPIO Pin 25. 
 
 Setting the value of the led to `1` turns it on. 
 
@@ -64,7 +65,7 @@ led.value(0)
 
 Turn the LED on and off as many times as you like. 
 
-**Tip:** You can use the up arrow on the keyboard to quickly access previous lines. 
+Tip: You can use the up arrow on the keyboard to quickly access previous lines. 
 
 --- /task ---
 
