@@ -5,7 +5,7 @@ Now you know the basics, you can learn to control an external LED with the Raspb
 --- task ---
 Use a resistor between about 50 and 330 ohms, an LED and a pair of M-M jumper leads, to connect up your Raspberry Pi Pico board as shown in the image below.
 
-![an LED and resisotr connected to the pico](images/sible_LED.png)
+![an LED and resistor connected to the pico](images/single_LED.png)
 
 --- /task ---
 
