@@ -9,7 +9,7 @@ Use a resistor between about 50 and 330 ohms, an LED and a pair of M-M jumper le
 
 --- /task ---
 
-The LED is connected to Pin 15, in the example, but if you use a different pin, remember to look up the number in the pinout diagram in [step 2](/step_2.html).
+The LED is connected to Pin 15, in the example, but if you use a different pin, remember to look up the number in the pinout diagram in [step 2](1.html).
 
 --- task ---
 
@@ -40,27 +40,28 @@ Add a button to your circuit as shown in the diagram below.
 
 --- /task ---
 
-The button is on pin
+The button is on pin `14`, and is connected to the 3.3V pin on the Raspberry Pi pico. This means when you set up the pin, you need to tall MicroPython that it is an input pin, and needs to be *pulled down*.
 
-
+--- task ---
+Create a new file and add this code.
 
 ``` python
 from machine import Pin
 import time
 
-led = Pin(1, Pin.OUT)
-button = Pin(9, Pin.IN, Pin.PULL_UP)
+led = Pin(15, Pin.OUT)
+button = Pin(14, Pin.IN, Pin.PULL_DOWN)
 
 while True:
-    if not button.value():
-      led.toggle()
-      time.sleep(0.5)
+    if button.value():
+	    led.toggle()
+        time.sleep(0.5)
 ```
-                                                                             
-<mark>Is there a delay() function to use instead of sleep()?</mark>
+
+--- /task ---
 
 --- task ---
-
+Run your code and then when you press the button, the LED should toggle on or off. If you hold the button down it will flash.
 
 --- /task ---
 
