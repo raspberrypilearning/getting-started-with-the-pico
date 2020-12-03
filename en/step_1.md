@@ -1,23 +1,21 @@
 ## Introduction
 
-In this project, you will connect up a Raspberry Pi X and learn how to program it using Python.
+In this project, you will connect up a Raspberry Pi Pico to another computer and learn how to program it using MicroPython.
 
-The Raspberry Pi X is a ...
+The Raspberry Pi Pico is a low cost microcontroller device. Microcontrollers are tiny computers, but they tend to lack things like large volume storage and peripheral decices that you can plug in, like keyboards or monitors.
 
-<mark>Add product name and description</mark>
+The Raspberry Pi Pico has GPIO pins, much like the Raspberry Pi Computer, which means it can be used to control and receive input from a variety of electronic devices.
 
 ### What you will make
 
-You will connect a Raspberry Pi X to your computer, install the Thonny Python editor and write a MicroPython program to blink the onboard LED. If you have additional components available then you can also try out some more examples.
+You will connect a Raspberry Pi Pico to your computer, install the Thonny Python editor and write a MicroPython program to blink the onboard LED. If you have additional components available then you can also try out some more examples.
 
 --- no-print ---
-Add instructions for interacting with the embedded content here.
-
-![Animation of example projects](images/example-projects.gif)
+![gif of LED blinking on pico board](images/showcase.gif)
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![image of led blinking on pico board](images/showcase.png)
 --- /print-only ---
 
 --- collapse ---
@@ -26,18 +24,18 @@ title: What you will need
 ---
 ### Hardware
 
-+ Raspberry Pi X with a header 
-+ A computer that can run the Thonny editor and program the Raspberry Pi X, currently Raspberry Pi, Linux and Mac are supported. Windows coming soon.
++ Raspberry Pi Pico with soldered headers
++ A computer that can run the Thonny editor and program the Raspberry Pi Pico.
 + A micro USB cable
-+ Optionally, a selection of electronics components such as:  a momentary button or switch, an LED with appropriate resistor, a light-sensitive resistor or potentiometer. 
++ Optionally, a selection of electronics components such as: a button, an LED with appropriate resistor and a potentiometer. 
 + Optionally, a breadboard and M-F jumper leads for connecting additional components. 
-+ Optionally, an external power source <mark>Include the recommended power options</mark>
++ Optionally, an external 5V microUSB power source 
 
 ### Software
 
 The project will guide you through the installation of:
  
-+ MicroPython firmware for Raspberry Pi X
++ MicroPython firmware for Raspberry Pi Pico
 + The Thonny Python editor
 
 --- /collapse ---
