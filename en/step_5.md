@@ -6,8 +6,6 @@ In this step you will run some simple Python code on your Raspberry Pi Pico usin
 
 Make sure that your Raspberry Pi Pico is connected to your computer and you have the MicroPython (Raspberry Pi Pico) interpreter selected.
 
-<mark>Does Thonny prompt you to install the firmware if you haven't done so? </mark>
-
 --- /task ---
 
 --- task ---
@@ -19,8 +17,6 @@ You should see something like this:
 ![REPL initial connection messages](images/repl-connected.png)
 
 Thonny will now be able to communicate with the Raspberry Pi Pico using the REPL (read–eval–print loop) which allows you to type in Python code into the Shell and see the output. 
-
-<mark>Will you be prompted if you have no firmware or out of date firmware?</mark>
 
 --- /task ---
 
@@ -57,7 +53,7 @@ led.value(1)
 
 You should see the onboard LED light up. 
 
-![Image of onboard LED on](images/onboard-led-on.png)
+![Image of onboard LED on](images/Pico-onboard-LED.png)
 
 Type the code to set the value to 0 to turn the LED off:
 

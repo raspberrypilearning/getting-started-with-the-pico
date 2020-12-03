@@ -46,11 +46,10 @@ Update your code so it looks like this:
 ``` python
 from machine import Pin, Timer
 led = Pin(25, Pin.OUT)
-timer = Timer(7)
+timer = Timer()
 
 def blink(timer):
-  global led
-  led.toggle()
+    led.toggle()
 
 timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 ```

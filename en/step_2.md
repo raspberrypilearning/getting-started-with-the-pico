@@ -17,7 +17,7 @@ Place it so that the two headers are seperated by the ravine in the middle.
  
 Plug your microUSB cable into the port on the left side of the Pico.
 
-![image of microUSB cable being plugged into the pico](images/Picro_Top-Plug-v2.png)
+![image of microUSB cable being plugged into the pico](images/Pico_Top-Plug-v2.png)
 
 --- /task ---
 

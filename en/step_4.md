@@ -3,15 +3,13 @@ If you have never used MicroPython on your Pico board you will need to add the M
 
 --- task ---
 
-Connect a micro USB cable to the Raspberry Pi Pico, but don't connect the other end to your computer yet. 
-
-![micro USB cable connected](images/micro-usb-cable.png)
-
 Find the BOOTSEL button on your Raspberry Pi Pico. 
 
-![BOOTSEL Button](images/bootsel-button.png)
+![BOOTSEL Button](images/Pico-bootsel.png)
 
-Press the BOOTSEL button and hold it while you connect the other end of the micro USB cable to your computer. 
+Press the BOOTSEL button and hold it while you connect the other end of the micro USB cable to your computer. A Raspberry Pi is shown in the image below, but it could be anny computer you are using.
+
+![image showing the USB cable being plugged into a Raspberry Pi](images/Pico-Raspberry-Pi-4-Plug.png)
 
 This puts the Raspberry Pi Pico into USB mass storage device mode. 
 
@@ -73,5 +71,3 @@ Wait for the installation to complete and click 'Close'.
 --- /collapse ---
 
 You don't need to update the firmware every time you use your Raspberry Pi Pico. Next time you can just plug it in to your computer without pressing the BOOTSEL button.
-
-<mark>Is this clear? Do we need to mention that you'll need to do it if you program your device using another language and want to switch back to Python? Will Thonny prompt to update when needed?</mark>
