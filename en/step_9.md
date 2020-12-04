@@ -28,6 +28,7 @@ while True:
     print(adc.read_u16())
     time.sleep(1)
 ```
+
 Turn the potentiometer to see your maximum and minumum values.
 
 They should approximately between `0` and `65025`
