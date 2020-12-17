@@ -35,11 +35,11 @@ Save and run the file, and you should see the LED pulse bright and dim, in a con
 
 The **frequency** (`pwm.freq`) tells the Raspberry Pi Pico how often to switch the power between on and off to the LED.
 
-The duty cycle tells the LED for how long it should be on each tim. For the Raspberry Pi Pico in MicroPython, this can range from `0` up to `65025`. `65025` would be 100% of the time, so the LED would would be bright. Where as a value of around `32512` would indicate that it should be on for half the time.
+The duty cycle tells the LED for how long it should be on each time. For the Raspberry Pi Pico in MicroPython, this can range from `0` up to `65025`. `65025` would be 100% of the time, so the LED would would be bright. Where as a value of around `32512` would indicate that it should be on for half the time.
 
 --- task ---
 
-Have a play with the `pwm.freq()` values and the `pwm.duty_u16` values, as well as the length pf time for the sleeps, to get a feel for how you can adjust the brightness and pace of the pulsing LED.
+Have a play with the `pwm.freq()` values and the `pwm.duty_u16` values, as well as the length of time for the `sleep`, to get a feel for how you can adjust the brightness and pace of the pulsing LED.
 
 --- /task ---
 

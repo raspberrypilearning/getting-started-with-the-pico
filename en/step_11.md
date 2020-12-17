@@ -1,7 +1,5 @@
 ## What next?
 
-If you are following the [PathwayName](https://projects.raspberrypi.org/en/raspberrypi/pathway-name) pathway, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+- Why not try out a few more components with your Raspberry Pi Pico, perhaps a buzzer, a Light Dependent Resistor(LDR), or even a motor controller.
 
-![ProjectName project](images/projectname-project.png)
-
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+- For further guidance on using the Raspberry Pi Pico, you can have a look at the [documentatiion here](LINK TO DOCS TO BE ADDED ON RELEASE DAY)

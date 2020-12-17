@@ -2,7 +2,7 @@
 
 The Raspberry Pi Pico has input pins that can received analogue signals. This means that rather than simply the values of `1` and `0` being read (on and off), they can read values in between.
 
-A perfect analogue device to try this with is a portentiometer.
+A perfect analogue device to try this with is a potentiometer.
 
 --- task ---
  
@@ -31,7 +31,7 @@ while True:
 
 Turn the potentiometer to see your maximum and minumum values.
 
-They should approximately between `0` and `65025`
+They should be approximately between `0` and `65025`
 
 --- /task ---
 
