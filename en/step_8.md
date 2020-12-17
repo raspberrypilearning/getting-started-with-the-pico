@@ -7,7 +7,8 @@ You can use the same circuit from the last step, for this activity.
 --- task ---
 
 Open a new file in Thonny and add the following code.
-```
+
+```python
 from machine import Pin, PWM
 from time import sleep
 

@@ -27,11 +27,11 @@ Thonny will ask whether you want to save the file on 'This Computer' or the 'Mic
 
 ![an image](images/save-on-device.png)
 
-Enter 'blink.py' as the file name. 
+Enter `blink.py` as the file name. 
 
 **Tip:** You do need to enter the '.py' file extension so that Thonny recognises the file as a Python file. 
 
-Thonny will save your program to the Raspberry Pi X and run it. 
+Thonny will save your program to the Raspberry Pi Pico and run it. 
 
 You should see the onboard led switch between on and off each time you click the 'Run' button.
 
@@ -53,18 +53,8 @@ def blink(timer):
 timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 ```
 
-The parameter to the Timer constructor is a timer number from 1 to 14. Some timers are used for specific functions but 7 and above can be used. 
-
-<mark>Is this correct for this implementation of Timer? Which timers can be used?</mark>
-
 Click 'Run' and your program will blink the led on and off until you click the Stop button. 
 
 --- /task ---
-
-<mark>Should we mention the Variables panel and/or debug stepping in this step?</mark>
-
-<mark>Your file is only saved on the device at this point. What is the best workflow to also save a copy on your computer? Just remember to do 'Save as a copy ...' regularly or is there something better?</mark>
-
-<mark>Is there any way to access the Python files via USB Mass storage mode?</mark>
 
 --- save ---
