@@ -7,7 +7,7 @@ Find the BOOTSEL button on your Raspberry Pi Pico.
 
 ![BOOTSEL Button](images/Pico-bootsel.png)
 
-Press the BOOTSEL button and hold it while you connect the other end of the micro USB cable to your computer. A Raspberry Pi is shown in the image below, but it could be anny computer you are using.
+Press the BOOTSEL button and hold it while you connect the other end of the micro USB cable to your computer. A Raspberry Pi is shown in the image below, but it could be any computer you are using.
 
 ![image showing the USB cable being plugged into a Raspberry Pi](images/Pico-Raspberry-Pi-4-Plug.png)
 

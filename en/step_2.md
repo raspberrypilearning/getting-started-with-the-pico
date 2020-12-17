@@ -24,5 +24,3 @@ Plug your microUSB cable into the port on the left side of the Pico.
 If you need to know the pin numbers for the Raspberry Pi Pico, you can refer to the following diagram.
 
 ![pinout image of the Raspberry Pi pico](images/Pico-R3-Pinout.png)
-
---- save ---
