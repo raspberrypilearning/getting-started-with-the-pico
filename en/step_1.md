@@ -45,9 +45,9 @@ The project will guide you through the installation of:
 title: What you will learn
 ---
 
-+ How to load the micropython firmware onto a Raspberry Pi X
-+ How program a Raspberry Pi X using micropython
-+ How to connect additional components to the Raspberry Pi X and write micropython programs to interact with them
++ How to load the micropython firmware onto a Raspberry Pi Pico
++ How program a Raspberry Pi Pico using micropython
++ How to connect additional components to the Raspberry Pi Pico and write micropython programs to interact with them
 
 --- /collapse ---
 

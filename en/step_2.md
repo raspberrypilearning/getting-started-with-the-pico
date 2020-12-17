@@ -1,6 +1,6 @@
 ## Meet The Raspberry Pi Pico
 
-This is the Raspberry Pi Pico. Hopefully your device has already had the header pins soldered on, but if not, you might like to have a look at our [Getting started with soldering resource](https://projects.raspberrypi.org/en/projects/getting-started-with-soldering) resource.
+This is the Raspberry Pi Pico. Hopefully your device has already had the header pins soldered on, but if not, you might like to have a look at our [Getting started with soldering resource](https://projects.raspberrypi.org/en/projects/getting-started-with-soldering).
 
 ![image of the Raspberry Pi Pico](images/Pico-Top-Headers.png)
 
@@ -17,7 +17,7 @@ Place it so that the two headers are seperated by the ravine in the middle.
  
 Plug your microUSB cable into the port on the left side of the Pico.
 
-![image of microUSB cable being plugged into the pico](images/Pico_Top-Plug-v2.png)
+![image of microUSB cable being plugged into the pico](images/Pico-Top-Plug-v2.png)
 
 --- /task ---
 
