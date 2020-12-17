@@ -7,7 +7,7 @@ This is the Raspberry Pi Pico. Hopefully your device has already had the header 
 --- task ---
 
 If you have a breadboard, now would be a good time to place your Raspberry Pi Pico on to the board.
-Place it so that the two headers are seperated by the ravine in the middle.
+Place it so that the two headers are separated by the ravine in the middle.
 
 ![image of pico board on a breadboard](images/Pico-Top-Breadboard.png)
 
@@ -15,9 +15,9 @@ Place it so that the two headers are seperated by the ravine in the middle.
 
 --- task ---
  
-Plug your microUSB cable into the port on the left side of the Pico.
+Plug your micro-USB cable into the port on the left side of the Pico.
 
-![image of microUSB cable being plugged into the pico](images/Pico-Top-Plug-v2.png)
+![image of micro-USB cable being plugged into the pico](images/Pico-Top-Plug-v2.png)
 
 --- /task ---
 

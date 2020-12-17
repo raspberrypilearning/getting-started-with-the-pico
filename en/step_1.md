@@ -2,7 +2,7 @@
 
 In this project, you will connect up a Raspberry Pi Pico to another computer and learn how to program it using MicroPython.
 
-The Raspberry Pi Pico is a low cost microcontroller device. Microcontrollers are tiny computers, but they tend to lack things like large volume storage and peripheral decices that you can plug in, like keyboards or monitors.
+The Raspberry Pi Pico is a low cost microcontroller device. Microcontrollers are tiny computers, but they tend to lack things like large volume storage and peripheral devices that you can plug in, like keyboards or monitors.
 
 The Raspberry Pi Pico has GPIO pins, much like the Raspberry Pi Computer, which means it can be used to control and receive input from a variety of electronic devices.
 
@@ -29,7 +29,7 @@ title: What you will need
 + A micro USB cable
 + Optionally, a selection of electronics components such as: a button, an LED with appropriate resistor and a potentiometer. 
 + Optionally, a breadboard and M-F jumper leads for connecting additional components. 
-+ Optionally, an external 5V microUSB power source 
++ Optionally, an external 5V micro-USB power source 
 
 ### Software
 
@@ -45,9 +45,9 @@ The project will guide you through the installation of:
 title: What you will learn
 ---
 
-+ How to load the micropython firmware onto a Raspberry Pi Pico
-+ How program a Raspberry Pi Pico using micropython
-+ How to connect additional components to the Raspberry Pi Pico and write micropython programs to interact with them
++ How to load the MicroPython firmware onto a Raspberry Pi Pico
++ How program a Raspberry Pi Pico using MicroPython
++ How to connect additional components to the Raspberry Pi Pico and write MicroPython programs to interact with them
 
 --- /collapse ---
 

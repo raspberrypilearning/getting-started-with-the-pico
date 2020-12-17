@@ -6,7 +6,7 @@ A perfect analogue device to try this with is a potentiometer.
 
 --- task ---
  
-Replace the button in your circuit with a potentiometer, and follow the wiring diagram below to connect it to an anlogue pin.
+Replace the button in your circuit with a potentiometer, and follow the wiring diagram below to connect it to an analogue pin.
 
 ![potentiometer connected with an LED to the pico](images/pot_and_LED.png)
 
@@ -29,7 +29,7 @@ while True:
     time.sleep(1)
 ```
 
-Turn the potentiometer to see your maximum and minumum values.
+Turn the potentiometer to see your maximum and minimum values.
 
 They should be approximately between `0` and `65025`
 

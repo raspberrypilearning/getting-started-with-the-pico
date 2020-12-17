@@ -1,5 +1,5 @@
 ## Add the MicroPython firmware
-If you have never used MicroPython on your Pico board you will need to add the Micropython firmware. 
+If you have never used MicroPython on your Pico board you will need to add the MicroPython firmware. 
 
 --- task ---
 

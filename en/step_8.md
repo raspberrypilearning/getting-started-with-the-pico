@@ -1,6 +1,6 @@
 ## Control LED brightness with PWM
 
-[**P**ulse **W**idth **M**odulation](https://en.wikipedia.org/wiki/Pulse-width_modulation), allows you to give analogue behaviours to digital devices, such as LEDs. This means that rather than an LED being simply on or off, you can control it's brightness.
+[**P**ulse **W**idth **M**odulation](https://en.wikipedia.org/wiki/Pulse-width_modulation), allows you to give analogue behaviors to digital devices, such as LEDs. This means that rather than an LED being simply on or off, you can control it's brightness.
 
 You can use the same circuit from the last step, for this activity.
 
