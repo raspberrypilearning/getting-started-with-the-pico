@@ -57,17 +57,17 @@ You can also access the firmware installation menu by clicking on 'MicroPython (
 
 The interpreter settings will open:
 
-![Configure interpreter settings](images/thonny-install-micropython-pico.png)
+![Configure interpreter settings](images/thonny-interpreter-settings.png)
 
 Click on 'Install or update firmware'. 
 
 You will be prompted to plug in the Raspberry Pi Pico while holding the BOOTSEL button: 
 
-![Configure interpreter settings](images/thonny-install-micropython-pico.png)
+![Hold bootsel button and plug in](images/thonny-bootsel.png)
 
 Then you will be able to choose 'Install'
 
-![Firmware install](images/thonny-install-micropython-pico.png)
+![Firmware install](images/thonny-firmware-install.png)
 
 Wait for the installation to complete and click 'Close'.
 
