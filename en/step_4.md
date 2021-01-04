@@ -1,5 +1,6 @@
 ## Add the MicroPython firmware
-If you have never used MicroPython on your Pico board you will need to add the MicroPython firmware. 
+
+If you have never used MicroPython on your Raspberry Pi Pico you will need to add the MicroPython firmware. 
 
 --- task ---
 
@@ -16,6 +17,7 @@ This puts the Raspberry Pi Pico into USB mass storage device mode.
 --- /task ---
 
 --- task ---
+
 In the bottom right hand corner of the Thonny window, you will see the version of Python, you are currently using. 
 
 ![Status bar version](images/thonny-status-bar-version.png)
@@ -29,7 +31,8 @@ If you don't see this option then check that you have plugged in your Raspberry 
 --- /task ---
 
 --- task ---
-A dialog will pop up to install the latest version of the MicroPython firmware on the Raspberry Pi Pico. 
+
+A dialog will pop up to install the latest version of the MicroPython firmware on your Raspberry Pi Pico. 
 
 Click 'Install' button to copy the firmware to the Raspberry Pi Pico. 
 

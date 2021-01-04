@@ -16,7 +16,7 @@ You should see something like this:
 
 ![REPL initial connection messages](images/repl-connected.png)
 
-Thonny will now be able to communicate with the Raspberry Pi Pico using the REPL (read–eval–print loop) which allows you to type in Python code into the Shell and see the output. 
+Thonny will now be able to communicate with your Raspberry Pi Pico using the REPL (read–eval–print loop) which allows you to type in Python code into the Shell and see the output. 
 
 --- /task ---
 
@@ -37,7 +37,7 @@ Tap Enter and you will see the output:
 
 --- task ---
 
-MicroPython adds hardware-specific modules such as `machine` that you can use to program the Raspberry Pi Pico. 
+MicroPython adds hardware-specific modules such as `machine` that you can use to program your Raspberry Pi Pico. 
 
 You're going to create a `machine.Pin` object corresponding to the onboard LED which can be accessed using GPIO Pin 25. 
 

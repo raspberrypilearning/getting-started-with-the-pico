@@ -1,9 +1,10 @@
 ## Use digital inputs and outputs
 
-Now you know the basics, you can learn to control an external LED with the Raspberry Pi Pico, and have it read input from a button.
+Now you know the basics, you can learn to control an external LED with your Raspberry Pi Pico, and have it read input from a button.
 
 --- task ---
-Use a resistor between about 50 and 330 ohms, an LED and a pair of M-M jumper leads, to connect up your Raspberry Pi Pico board as shown in the image below.
+
+Use a resistor between about 50 and 330 ohms, an LED and a pair of M-M jumper leads, to connect up your Raspberry Pi Pico as shown in the image below.
 
 ![an LED and resistor connected to the pico](images/single_LED.png)
 
@@ -40,9 +41,10 @@ Add a button to your circuit as shown in the diagram below.
 
 --- /task ---
 
-The button is on pin `14`, and is connected to the 3.3V pin on the Raspberry Pi pico. This means when you set up the pin, you need to tell MicroPython that it is an input pin, and needs to be *pulled down*.
+The button is on pin `14`, and is connected to the 3.3V pin on the Raspberry Pi Pico. This means when you set up the pin, you need to tell MicroPython that it is an input pin, and needs to be *pulled down*.
 
 --- task ---
+
 Create a new file and add this code.
 
 ``` python
@@ -61,6 +63,7 @@ while True:
 --- /task ---
 
 --- task ---
+
 Run your code and then when you press the button, the LED should toggle on or off. If you hold the button down it will flash.
 
 --- /task ---

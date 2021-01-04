@@ -1,6 +1,6 @@
 ## Install Thonny or update Thonny
 
-In this step you will install Thonny or make sure you have the latest version then you will connect to the Raspberry Pi X and run some simple Python code using the Shell. 
+In this step you will install Thonny or make sure you have the latest version then you will connect to a Raspberry Pi Pico and run some simple Python code using the Shell. 
 
 --- collapse ---
 ---
@@ -26,12 +26,13 @@ title: Install Thonny on other Operating Systems.
 
 ---
 
-- On Windows, macOS and Linux, you can install the latest Thonny or update an existing version.
+- On Windows, macOS and Linux, you can install the latest Thonny IDE or update an existing version.
 - In a web-browser, navigate to [thonny.org](https://thonny.org/).
 - In the top right hand corner of the browser window, you will see download links for Windows and macOS, and instructions for Linux.
 - Download the relevant files and run them to install Thonny.
 
 ![IMAGE OF THONNY SITE ADD DAY OF RELEASE](IMAGE)
+
 --- /collapse ---
 
 --- task ---
@@ -52,4 +53,4 @@ print('Hello World!')
 
 --- /task ---
 
-You're now ready to move on to the next step and connect your Pico board.
+You're now ready to move on to the next step and connect your Raspberry Pi Pico.

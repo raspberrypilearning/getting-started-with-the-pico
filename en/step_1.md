@@ -2,13 +2,13 @@
 
 In this project, you will connect up a Raspberry Pi Pico to another computer and learn how to program it using MicroPython.
 
-The Raspberry Pi Pico is a low cost microcontroller device. Microcontrollers are tiny computers, but they tend to lack things like large volume storage and peripheral devices that you can plug in, like keyboards or monitors.
+A Raspberry Pi Pico is a low cost microcontroller device. Microcontrollers are tiny computers, but they tend to lack things like large volume storage and peripheral devices that you can plug in, like keyboards or monitors.
 
-The Raspberry Pi Pico has GPIO pins, much like the Raspberry Pi Computer, which means it can be used to control and receive input from a variety of electronic devices.
+A Raspberry Pi Pico has GPIO pins, much like a Raspberry Pi Computer, which means it can be used to control and receive input from a variety of electronic devices.
 
 ### What you will make
 
-You will connect a Raspberry Pi Pico to your computer, install the Thonny Python editor and write a MicroPython program to blink the onboard LED. If you have additional components available then you can also try out some more examples.
+You will connect a Raspberry Pi Pico to your computer, install the Thonny Python IDE and write a MicroPython program to blink the onboard LED. If you have additional components available then you can also try out some more examples.
 
 --- no-print ---
 ![gif of LED blinking on pico board](images/showcase.gif)
@@ -24,8 +24,8 @@ title: What you will need
 ---
 ### Hardware
 
-+ Raspberry Pi Pico with soldered headers
-+ A computer that can run the Thonny editor and program the Raspberry Pi Pico.
++ A Raspberry Pi Pico with soldered headers
++ A computer that can run the Thonny IDE and program a Raspberry Pi Pico.
 + A micro USB cable
 + Optionally, a selection of electronics components such as: a button, an LED with appropriate resistor and a potentiometer. 
 + Optionally, a breadboard and M-F jumper leads for connecting additional components. 
@@ -36,7 +36,7 @@ title: What you will need
 The project will guide you through the installation of:
  
 + MicroPython firmware for Raspberry Pi Pico
-+ The Thonny Python editor
++ The Thonny Python IDE
 
 --- /collapse ---
 
@@ -46,8 +46,8 @@ title: What you will learn
 ---
 
 + How to load the MicroPython firmware onto a Raspberry Pi Pico
-+ How program a Raspberry Pi Pico using MicroPython
-+ How to connect additional components to the Raspberry Pi Pico and write MicroPython programs to interact with them
++ How to program a Raspberry Pi Pico using MicroPython
++ How to connect additional components to a Raspberry Pi Pico and write MicroPython programs to interact with them
 
 --- /collapse ---
 

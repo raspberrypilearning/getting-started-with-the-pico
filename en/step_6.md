@@ -7,9 +7,10 @@ Thonny can save and run MicroPython programs directly on the Raspberry Pi Pico.
 In this step you will create a MicroPython program to blink the onboard LED on and off in a loop. 
 
 --- task ---
+
 Click in the main editor pane of Thonny. 
 
-Enter to following code to toggle the LED. 
+Enter the following code to toggle the LED. 
 
 ``` python
 from machine import Pin
@@ -21,6 +22,7 @@ led.toggle()
 --- /task ---
 
 --- task ---
+
 Click the 'Run' button to run your code. 
 
 Thonny will ask whether you want to save the file on 'This Computer' or the 'MicroPython Device'. Choose 'MicroPython Device'.
@@ -31,14 +33,15 @@ Enter `blink.py` as the file name.
 
 **Tip:** You do need to enter the '.py' file extension so that Thonny recognises the file as a Python file. 
 
-Thonny will save your program to the Raspberry Pi Pico and run it. 
+Thonny will save your program to your Raspberry Pi Pico and run it. 
 
 You should see the onboard led switch between on and off each time you click the 'Run' button.
 
 --- /task ---
 
 --- task ---
-You can use the Timer module to set timer that runs a function at regular intervals. 
+
+You can use the Timer module to set a timer that runs a function at regular intervals. 
 
 Update your code so it looks like this:
 
