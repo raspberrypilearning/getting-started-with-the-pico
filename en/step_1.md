@@ -2,13 +2,13 @@
 
 In this project, you will connect up a Raspberry Pi Pico to another computer and learn how to program it using MicroPython.
 
-A Raspberry Pi Pico is a low cost microcontroller device. Microcontrollers are tiny computers, but they tend to lack things like large volume storage and peripheral devices that you can plug in, like keyboards or monitors.
+A Raspberry Pi Pico is a low-cost microcontroller device. Microcontrollers are tiny computers, but they tend to lack large volume storage and peripheral devices that you can plug in, like keyboards or monitors.
 
-A Raspberry Pi Pico has GPIO pins, much like a Raspberry Pi Computer, which means it can be used to control and receive input from a variety of electronic devices.
+A Raspberry Pi Pico has GPIO pins, much like a Raspberry Pi computer, which means it can be used to control and receive input from a variety of electronic devices.
 
 ### What you will make
 
-You will connect a Raspberry Pi Pico to your computer, install the Thonny Python IDE and write a MicroPython program to blink the onboard LED. If you have additional components available then you can also try out some more examples.
+You will connect a Raspberry Pi Pico to your computer, install the Thonny Python IDE, and write a MicroPython program to blink the onboard LED. If you have additional components available, then you can also try out some more examples.
 
 --- no-print ---
 ![gif of LED blinking on pico board](images/showcase.gif)
@@ -25,11 +25,11 @@ title: What you will need
 ### Hardware
 
 + A Raspberry Pi Pico with soldered headers
-+ A computer that can run the Thonny IDE and program a Raspberry Pi Pico.
++ A computer that can run the Thonny IDE and program a Raspberry Pi Pico
 + A micro USB cable
-+ Optionally, a selection of electronics components such as: a button, an LED with appropriate resistor and a potentiometer. 
-+ Optionally, a breadboard and M-F jumper leads for connecting additional components. 
-+ Optionally, an external 5V micro-USB power source 
++ Optional: A selection of electronics components, such as a button, an LED with appropriate resistor, and a potentiometer 
++ Optional: A breadboard and M-F jumper leads for connecting additional components 
++ Optional: An external 5V micro-USB power source 
 
 ### Software
 
@@ -56,6 +56,6 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you are completing this project in a school or other setting with a managed network then you should make sure that you have the appropriate permissions to mount a USB drive and install software. 
+If you are completing this project in a school or other setting with a managed network, then you should make sure that you have the appropriate permissions to mount a USB drive and install software. 
 
 --- /collapse ---
