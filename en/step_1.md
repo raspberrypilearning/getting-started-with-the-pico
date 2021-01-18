@@ -29,7 +29,7 @@ title: What you will need
 + A micro USB cable
 + A selection of electronics components, such as a button, an LED with appropriate resistor, and a potentiometer (optional)
 + A breadboard and M-F jumper leads for connecting additional components (optional) 
-+ An external 5V micro-USB power source (optional) 
++ An external 5V micro USB power source (optional) 
 
 ### Software
 
