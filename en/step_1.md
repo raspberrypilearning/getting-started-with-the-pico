@@ -15,7 +15,7 @@ You will connect a Raspberry Pi Pico to your computer, install the Thonny Python
 --- /no-print ---
 
 --- print-only ---
-![LED blinking on a Pico board](images/showcase.png)
+![LED shining on a Pico board](images/showcase.png)
 --- /print-only ---
 
 --- collapse ---
