@@ -27,9 +27,9 @@ title: What you will need
 + A Raspberry Pi Pico with soldered headers
 + A computer that can run the Thonny IDE and program a Raspberry Pi Pico
 + A micro USB cable
-+ Optional: A selection of electronics components, such as a button, an LED with appropriate resistor, and a potentiometer 
-+ Optional: A breadboard and M-F jumper leads for connecting additional components 
-+ Optional: An external 5V micro-USB power source 
++ A selection of electronics components, such as a button, an LED with appropriate resistor, and a potentiometer (optional)
++ A breadboard and M-F jumper leads for connecting additional components (optional) 
++ An external 5V micro-USB power source (optional) 
 
 ### Software
 
