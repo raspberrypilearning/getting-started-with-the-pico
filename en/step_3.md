@@ -1,6 +1,6 @@
 ## Install Thonny or update Thonny
 
-In this step you will install Thonny or make sure you have the latest version then you will connect to a Raspberry Pi Pico and run some simple Python code using the Shell. 
+In this step, you will install Thonny or make sure you have the latest version. Then you will connect to a Raspberry Pi Pico and run some simple Python code using the Shell. 
 
 --- collapse ---
 ---
@@ -8,9 +8,9 @@ In this step you will install Thonny or make sure you have the latest version th
 title: Thonny on the Raspberry Pi
 
 ---
-- Thonny comes preinstalled on Raspberry Pi OS, but may need updating to the latest version.
-- Open a terminal window, either by clicking the icon in the top left of the screen or by simultaneously pressing Ctrl+Alt+T.
-- Type the following into the window, to update your OS and Thonny.
+- Thonny is already installed on Raspberry Pi OS, but may need updating to the latest version
+- Open a terminal window, either by clicking the icon in the top left-hand corner of the screen or by simultaneously pressing Ctrl+Alt+T
+- Type the following into the window, to update your OS and Thonny
 
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -22,16 +22,16 @@ sudo apt update && sudo apt upgrade -y
 
 ---
 
-title: Install Thonny on other Operating Systems.
+title: Install Thonny on other operating systems
 
 ---
 
-- On Windows, macOS and Linux, you can install the latest Thonny IDE or update an existing version.
-- In a web-browser, navigate to [thonny.org](https://thonny.org/).
-- In the top right hand corner of the browser window, you will see download links for Windows and macOS, and instructions for Linux.
-- Download the relevant files and run them to install Thonny.
+- On Windows, macOS, and Linux, you can install the latest Thonny IDE or update an existing version
+- In a web browser, navigate to [thonny.org](https://thonny.org/)
+- In the top right-hand corner of the browser window, you will see download links for Windows and macOS, and instructions for Linux
+- Download the relevant files and run them to install Thonny
 
-![IMAGE OF THONNY SITE ADD DAY OF RELEASE](IMAGE)
+![THONNY SITE ADD DAY OF RELEASE](IMAGE)
 
 --- /collapse ---
 
@@ -39,13 +39,13 @@ title: Install Thonny on other Operating Systems.
 
 Open Thonny from your application launcher. It should look something like this
 
-![image of the Thonny application](images/thonny-editor.png)
+![Thonny application](images/thonny-editor.png)
 
 --- /task ---
 
 --- task ---
 
-You can use Thonny to write standard Python code. Try typing the following in the main window, and then clicking the run button (you will be asked to save the file).
+You can use Thonny to write standard Python code. Try typing the following in the main window, and then clicking the **Run** button (you will be asked to save the file).
 
 ```python3
 print('Hello World!')
