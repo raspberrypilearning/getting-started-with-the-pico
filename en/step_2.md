@@ -6,7 +6,7 @@ This is a Raspberry Pi Pico. Hopefully your device has already had the header pi
 
 --- task ---
 
-If you have a breadboard, place your Raspberry Pi Pico on to the board.
+If you have a breadboard, place your Raspberry Pi Pico on the board.
 
 Place it so that the two headers are separated by the ravine in the middle.
 
