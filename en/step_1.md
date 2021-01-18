@@ -2,7 +2,7 @@
 
 In this project, you will connect up a Raspberry Pi Pico to another computer and learn how to program it using MicroPython.
 
-A Raspberry Pi Pico is a low-cost microcontroller device. Microcontrollers are tiny computers, but they tend to lack large volume storage and peripheral devices that you can plug in, like keyboards or monitors.
+A Raspberry Pi Pico is a low-cost microcontroller device. Microcontrollers are tiny computers, but they tend to lack large volume storage as well as peripheral devices that you can plug in, like keyboards or monitors.
 
 A Raspberry Pi Pico has GPIO pins, much like a Raspberry Pi computer, which means it can be used to control and receive input from a variety of electronic devices.
 
