@@ -11,11 +11,11 @@ A Raspberry Pi Pico has GPIO pins, much like a Raspberry Pi computer, which mean
 You will connect a Raspberry Pi Pico to your computer, install the Thonny Python IDE, and write a MicroPython program to blink the onboard LED. If you have additional components available, then you can also try out some more examples.
 
 --- no-print ---
-![gif of LED blinking on pico board](images/showcase.gif)
+![gif of LED blinking on a Pico board](images/showcase.gif)
 --- /no-print ---
 
 --- print-only ---
-![image of led blinking on pico board](images/showcase.png)
+![image of led blinking on a Pico board](images/showcase.png)
 --- /print-only ---
 
 --- collapse ---
