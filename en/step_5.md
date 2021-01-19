@@ -1,6 +1,6 @@
 ## Use the Shell
 
-In this step, you will run some simple Python code on your Raspberry Pi Pico using the Thonny Shell.
+In this step, you will use the Thonny Shell to run some simple Python code on your Raspberry Pi Pico.
 
 --- task ---
 
