@@ -1,10 +1,10 @@
-## Power your Raspberry Pi Pico and running code
+## Power your Raspberry Pi Pico
 
-If you want to run your Raspberry Pi Pico, without it being attached to a computer, you will need to use a USB power supply.
+If you want to run your Raspberry Pi Pico without it being attached to a computer, you need to use a USB power supply.
 
 Safe operating voltages are between 1.8V and 5.5V
 
-To automatically run a MicroPython program, you simply need to save it to the device with the name `main.py`
+To automatically run a MicroPython program, simply save it to the device with the name `main.py`
 
 --- task ---
 
@@ -14,7 +14,7 @@ In Thonny, click on the **File** menu and choose **Save as**, for the last progr
 
 --- task ---
 
-When prompted, choose **MicroPython Device** from the pop-up menu
+When prompted, choose **MicroPython Device** from the pop-up menu.
 
 --- /task ---
 
@@ -26,7 +26,7 @@ Name your file `main.py`
 
 --- task ---
 
-You can now disconnect your Raspberry Pi Pico from your computer, and use a micro-USB cable to connect it to a mobile power sources, such as a battery pack
+You can now disconnect your Raspberry Pi Pico from your computer, and use a micro USB cable to connect it to a mobile power source, such as a battery pack.
 
 --- /task ---
 
