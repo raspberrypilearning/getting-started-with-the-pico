@@ -16,7 +16,7 @@ You should see something like this:
 
 ![REPL initial connection messages](images/repl-connected.png)
 
-Thonny is now able to communicate with your Raspberry Pi Pico using the REPL (read–eval–print loop), which allows you to type in Python code into the Shell and see the output. 
+Thonny is now able to communicate with your Raspberry Pi Pico using the REPL (read–eval–print loop), which allows you to type Python code into the Shell and see the output. 
 
 --- /task ---
 
