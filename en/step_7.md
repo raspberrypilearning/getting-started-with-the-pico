@@ -1,16 +1,16 @@
 ## Use digital inputs and outputs
 
-Now you know the basics, you can learn to control an external LED with your Raspberry Pi Pico, and have it read input from a button.
+Now you know the basics, you can learn to control an external LED with your Raspberry Pi Pico, and get it to read input from a button.
 
 --- task ---
 
-Use a resistor between about 50 and 330 ohms, an LED and a pair of M-M jumper leads, to connect up your Raspberry Pi Pico as shown in the image below.
+Use a resistor between about 50 and 330 ohms, an LED, and a pair of M-M jumper leads to connect up your Raspberry Pi Pico as shown in the image below.
 
-![an LED and resistor connected to the pico](images/single_LED.png)
+![LED and resistor connected to the Pico](images/single_LED.png)
 
 --- /task ---
 
-The LED is connected to Pin 15, in the example, but if you use a different pin, remember to look up the number in the pinout diagram in [step 2](1.html).
+In this example, the LED is connected to pin 15. If you use a different pin, remember to look up the number in the pinout diagram in [step 2](1.html).
 
 --- task ---
 
@@ -29,7 +29,7 @@ timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 
 --- /task ---
 
-Run your program and your LED should start blinking. If it's not working, then check your wiring, to be sure that the LED is connected.
+Run your program and your LED should start to blink. If it's not working, check your wiring to be sure that the LED is connected.
 
 Next you can try and control the LED using a button.
 
@@ -37,7 +37,7 @@ Next you can try and control the LED using a button.
 
 Add a button to your circuit as shown in the diagram below.
 
-![image of LED and button on a breadboard](images/button_and_LED.png)
+![LED and button on a breadboard](images/button_and_LED.png)
 
 --- /task ---
 
@@ -64,7 +64,7 @@ while True:
 
 --- task ---
 
-Run your code and then when you press the button, the LED should toggle on or off. If you hold the button down it will flash.
+Run your code and then when you press the button, the LED should toggle on or off. If you hold the button down, it will flash.
 
 --- /task ---
 
