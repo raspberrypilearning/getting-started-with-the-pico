@@ -2,7 +2,7 @@
 
 If you want to run your Raspberry Pi Pico without it being attached to a computer, you need to use a USB power supply.
 
-Safe operating voltages are between 1.8V and 5.5V
+Safe operating voltages are between 1.8V and 5.5V.
 
 To automatically run a MicroPython program, simply save it to the device with the name `main.py`
 
