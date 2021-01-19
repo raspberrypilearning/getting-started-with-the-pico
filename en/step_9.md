@@ -6,9 +6,9 @@ A potentiometer is the  perfect analogue device for this activity.
 
 --- task ---
  
-Replace the button in your circuit with a potentiometer, and follow the wiring diagram below to connect it to an analogue pin.
+Replace the button in your circuit with a potentiometer. Follow the wiring diagram below to connect it to an analogue pin.
 
-![potentiometer connected with an LED to the pico](images/pot_and_LED.png)
+![Potentiometer connected with an LED to the Pico](images/pot_and_LED.png)
 
 --- /task ---
 
