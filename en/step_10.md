@@ -26,10 +26,10 @@ Name your file `main.py`
 
 --- task ---
 
-You can now disconnect your Raspberry Pi Pico from your computer, and use a micro USB cable to connect it to a mobile power source, such as a battery pack.
+You can now disconnect your Raspberry Pi Pico from your computer and use a micro USB cable to connect it to a mobile power source, such as a battery pack.
 
 --- /task ---
 
-Once connected, the `main.py` file should run automatically, and you can interact with the components attached to the Raspberry Pi Pico.
+Once connected, the `main.py` file should run automatically so you can interact with the components attached to the Raspberry Pi Pico.
 
 --- save ---
