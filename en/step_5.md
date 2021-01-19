@@ -10,7 +10,7 @@ Make sure that your Raspberry Pi Pico is connected to your computer and you have
 
 --- task ---
 
-Look at the 'Shell' panel at the bottom of the Thonny editor. 
+Look at the Shell panel at the bottom of the Thonny editor. 
 
 You should see something like this:
 
