@@ -4,7 +4,7 @@ In this step, you will use the Thonny Shell to run some simple Python code on yo
 
 --- task ---
 
-Make sure that your Raspberry Pi Pico is connected to your computer and you have the MicroPython (Raspberry Pi Pico) interpreter selected.
+Make sure that your Raspberry Pi Pico is connected to your computer and you have selected the MicroPython (Raspberry Pi Pico) interpreter.
 
 --- /task ---
 
