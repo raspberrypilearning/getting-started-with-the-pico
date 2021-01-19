@@ -67,5 +67,5 @@ Turn the LED on and off as many times as you like.
 
 --- /task ---
 
-If you want to write a longer program, then it's best to save it in a file which is what you will do in the next step.
+If you want to write a longer program, then it's best to save it in a file. You'll do this in the next step.
 
