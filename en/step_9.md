@@ -31,13 +31,13 @@ while True:
 
 Turn the potentiometer to see your maximum and minimum values.
 
-They should be approximately between `0` and `65025`
+They should be approximately between `0` and `65025`.
 
 --- /task ---
 
 --- task ---
 
-You can now use this value, to control the duty cycle for PWM on the LED.
+You can now use this value to control the duty cycle for PWM on the LED.
 
 Change the code to the following, and once you have run it, tune the dial on the potentiometer to control the LED's brightness.
 
