@@ -51,7 +51,7 @@ title: Firmware installation menu
 
 ---
 
-You can also access the firmware installation menu if you click on **MicroPython (Raspberry Pi Pico)** in the status bar and choose 'Configure interpreter ...'
+You can also access the firmware installation menu if you click on 'MicroPython (Raspberry Pi Pico)' in the status bar and choose 'Configure interpreter ...'
 
 ![Configure interpreter menu](images/thonny-configure-interpreter.png)
 
