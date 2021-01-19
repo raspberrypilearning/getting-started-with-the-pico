@@ -8,7 +8,7 @@ In this step, you will install Thonny or make sure you have the latest version. 
 title: Thonny on the Raspberry Pi
 
 ---
-- Thonny is already installed on Raspberry Pi OS, but may need updating to the latest version
+- Thonny is already installed on Raspberry Pi OS, but may need to be updated to the latest version
 - Open a terminal window, either by clicking the icon in the top left-hand corner of the screen or by simultaneously pressing Ctrl+Alt+T
 - Type the following into the window, to update your OS and Thonny
 
