@@ -7,7 +7,7 @@ copyedit: false
 last_tested: "2020-10-14"
 steps:
   - title: Introduction
-  - title: Meet The Raspberry Pi Pico
+  - title: Meet the Raspberry Pi Pico
   - title: Install Thonny
   - title: Add the MicroPython firmware
   - title: Use the Shell
