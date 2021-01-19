@@ -1,4 +1,4 @@
-## Install Thonny or update Thonny
+## Install Thonny
 
 In this step, you will install Thonny or make sure you have the latest version. Then you will connect to a Raspberry Pi Pico and run some simple Python code using the Shell. 
 
