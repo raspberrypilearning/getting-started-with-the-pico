@@ -2,7 +2,7 @@
 
 Your Raspberry Pi Pico has input pins that can receive analogue signals. This means that instead of only reading the values of `1` and `0` (on and off), it can read values in between.
 
-A perfect analogue device to try this with is a potentiometer.
+A potentiometer is the  perfect analogue device for this activity. 
 
 --- task ---
  
