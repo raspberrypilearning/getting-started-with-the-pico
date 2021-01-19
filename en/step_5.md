@@ -37,7 +37,7 @@ Tap the Enter key and you will see the output:
 
 --- task ---
 
-MicroPython adds hardware-specific modules such as `machine` that you can use to program your Raspberry Pi Pico. 
+MicroPython adds hardware-specific modules, such as `machine`, that you can use to program your Raspberry Pi Pico. 
 
 Now it's time to create a `machine.Pin` object corresponding to the onboard LED which can be accessed using GPIO Pin 25. 
 
