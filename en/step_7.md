@@ -31,7 +31,7 @@ timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 
 Run your program and your LED should start to blink. If it's not working, check your wiring to be sure that the LED is connected.
 
-Next you can try and control the LED using a button.
+Next, let's try and control the LED using a button.
 
 --- task ---
 
