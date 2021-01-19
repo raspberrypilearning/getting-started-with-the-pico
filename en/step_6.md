@@ -25,9 +25,9 @@ led.toggle()
 
 Click the **Run** button to run your code. 
 
-Thonny will ask whether you want to save the file on **This Computer** or the **MicroPython Device**. Choose **MicroPython Device**.
+Thonny will ask whether you want to save the file on **This computer** or the **MicroPython Device**. Choose **MicroPython Device**.
 
-![Option to save the file on **This Computer** or the **MicroPython Device**](images/save-on-device.png)
+![Option to save the file on **This computer** or the **MicroPython Device**](images/save-on-device.png)
 
 Enter `blink.py` as the file name. 
 
