@@ -39,7 +39,7 @@ They should be approximately between `0` and `65025`.
 
 You can now use this value to control the duty cycle for PWM on the LED.
 
-Change the code to the following, and once you have run it, tune the dial on the potentiometer to control the LED's brightness.
+Change the code to the following. Once you have run it, tune the dial on the potentiometer to control the LED's brightness.
 
 ```python
 from machine import Pin, PWM, ADC
