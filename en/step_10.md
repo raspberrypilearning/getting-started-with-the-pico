@@ -8,7 +8,7 @@ To automatically run a MicroPython program, simply save it to the device with th
 
 --- task ---
 
-In Thonny, click on the **File** menu and choose **Save as**, for the last program you wrote.
+In Thonny, click on the **File** menu and choose **Save as** for the last program you wrote.
 
 --- /task ---
 
