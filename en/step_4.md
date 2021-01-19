@@ -6,7 +6,7 @@ If you have never used MicroPython on your Raspberry Pi Pico, you will need to a
 
 Find the BOOTSEL button on your Raspberry Pi Pico. 
 
-![BOOTSEL Button](images/Pico-bootsel.png)
+![BOOTSEL button](images/Pico-bootsel.png)
 
 Press the BOOTSEL button and hold it while you connect the other end of the micro USB cable to your computer. A Raspberry Pi is shown in the image below, but it applies to any computer.
 
@@ -24,7 +24,7 @@ In the bottom right-hand corner of the Thonny window, you will see the version o
 
 Click on the Python version and choose 'MicroPython (Raspberry Pi Pico)':
 
-![Choose MicroPython](images/thonny-micropython-pico-menu.png)
+![Select MicroPython from the menu](images/thonny-micropython-pico-menu.png)
 
 If you don't see this option, then check that you have plugged in your Raspberry Pi Pico. 
 
@@ -32,7 +32,7 @@ If you don't see this option, then check that you have plugged in your Raspberry
 
 --- task ---
 
-A dialog will pop up to install the latest version of the MicroPython firmware on your Raspberry Pi Pico. 
+A dialog box will pop up to install the latest version of the MicroPython firmware on your Raspberry Pi Pico. 
 
 Click the **Install** button to copy the firmware to the Raspberry Pi Pico. 
 
@@ -63,11 +63,11 @@ Click on **Install or update firmware**.
 
 You will be prompted to plug in the Raspberry Pi Pico while you hold the BOOTSEL button: 
 
-![Hold bootsel button and plug in](images/thonny-bootsel.png)
+![Hold BOOTSEL button and plug in](images/thonny-bootsel.png)
 
 Then you can click **Install**. 
 
-![Firmware install](images/thonny-firmware-install.png)
+![Install firmware](images/thonny-firmware-install.png)
 
 Wait for the installation to complete and click **Close**.
 
