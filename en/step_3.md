@@ -45,7 +45,7 @@ Open Thonny from your application launcher. It should look something like this
 
 --- task ---
 
-You can use Thonny to write standard Python code. Try typing the following in the main window, and then clicking the **Run** button (you will be asked to save the file).
+You can use Thonny to write standard Python code. Type the following in the main window, and then click the **Run** button (you will be asked to save the file).
 
 ```python3
 print('Hello World!')
