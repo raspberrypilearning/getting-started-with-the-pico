@@ -1,6 +1,6 @@
 ## Use the Shell
 
-In this step you will run some simple Python code on your Raspberry Pi Pico using the Thonny Shell.
+In this step, you will run some simple Python code on your Raspberry Pi Pico using the Thonny Shell.
 
 --- task ---
 
@@ -16,7 +16,7 @@ You should see something like this:
 
 ![REPL initial connection messages](images/repl-connected.png)
 
-Thonny will now be able to communicate with your Raspberry Pi Pico using the REPL (read–eval–print loop) which allows you to type in Python code into the Shell and see the output. 
+Thonny is now able to communicate with your Raspberry Pi Pico using the REPL (read–eval–print loop), which allows you to type in Python code into the Shell and see the output. 
 
 --- /task ---
 
@@ -29,7 +29,7 @@ Type the following command:
 ``` python
 print("Hello")
 ```
-Tap Enter and you will see the output:
+Tap the Enter key and you will see the output:
 
 ![Print Hello output](images/print-hello-output.png)
 
@@ -39,9 +39,9 @@ Tap Enter and you will see the output:
 
 MicroPython adds hardware-specific modules such as `machine` that you can use to program your Raspberry Pi Pico. 
 
-You're going to create a `machine.Pin` object corresponding to the onboard LED which can be accessed using GPIO Pin 25. 
+Now it's time to create a `machine.Pin` object corresponding to the onboard LED which can be accessed using GPIO Pin 25. 
 
-Setting the value of the led to `1` turns it on. 
+If you set the value of the LED to `1`, it turns on. 
 
 Enter the following code, tapping Enter after each line:
 
@@ -55,7 +55,7 @@ You should see the onboard LED light up.
 
 ![Image of onboard LED on](images/Pico-onboard-LED.png)
 
-Type the code to set the value to 0 to turn the LED off:
+Type the code to set the value to `0` to turn the LED off:
 
 ``` python
 led.value(0)
@@ -67,5 +67,5 @@ Turn the LED on and off as many times as you like.
 
 --- /task ---
 
-If you want to write a longer program then it's best to save it in a file which is what you will do in the next step.
+If you want to write a longer program, then it's best to save it in a file which is what you will do in the next step.
 
