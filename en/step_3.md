@@ -37,7 +37,7 @@ title: Install Thonny on other operating systems
 
 --- task ---
 
-Open Thonny from your application launcher. It should look something like this
+Open Thonny from your application launcher. It should look something like this.
 
 ![Thonny application](images/thonny-editor.png)
 
