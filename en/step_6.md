@@ -1,10 +1,10 @@
 ## Blink the onboard LED
 
-The Shell is useful for making sure everything is working and trying out quick commands but it's better to put longer programs in a file. 
+The Shell is useful to make sure everything is working and try out quick commands. However, it's better to put longer programs in a file. 
 
 Thonny can save and run MicroPython programs directly on the Raspberry Pi Pico.
 
-In this step you will create a MicroPython program to blink the onboard LED on and off in a loop. 
+In this step, you will create a MicroPython program to blink the onboard LED on and off in a loop. 
 
 --- task ---
 
@@ -23,7 +23,7 @@ led.toggle()
 
 --- task ---
 
-Click the 'Run' button to run your code. 
+Click the **Run** button to run your code. 
 
 Thonny will ask whether you want to save the file on 'This Computer' or the 'MicroPython Device'. Choose 'MicroPython Device'.
 
@@ -31,17 +31,17 @@ Thonny will ask whether you want to save the file on 'This Computer' or the 'Mic
 
 Enter `blink.py` as the file name. 
 
-**Tip:** You do need to enter the '.py' file extension so that Thonny recognises the file as a Python file. 
+**Tip:** You need to enter the `.py` file extension so that Thonny recognises the file as a Python file. 
 
-Thonny will save your program to your Raspberry Pi Pico and run it. 
+Thonny can save your program to your Raspberry Pi Pico and run it. 
 
-You should see the onboard led switch between on and off each time you click the 'Run' button.
+You should see the onboard LED switch between on and off each time you click the **Run** button.
 
 --- /task ---
 
 --- task ---
 
-You can use the Timer module to set a timer that runs a function at regular intervals. 
+You can use the `Timer` module to set a timer that runs a function at regular intervals. 
 
 Update your code so it looks like this:
 
@@ -56,7 +56,7 @@ def blink(timer):
 timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 ```
 
-Click 'Run' and your program will blink the led on and off until you click the Stop button. 
+Click **Run** and your program will blink the LED on and off until you click the **Stop** button. 
 
 --- /task ---
 
