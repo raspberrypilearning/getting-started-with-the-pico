@@ -1,6 +1,6 @@
 # getting-started-with-the
 
-![getting-started-with-the](banner.png)
+![getting-started-with-the](en/images/banner.png)
 
 Find the project online at [projects.raspberrypi.org/en/projects/getting-started-with-the](https://projects.raspberrypi.org/en/projects/getting-started-with-the)
 
