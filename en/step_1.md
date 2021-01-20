@@ -56,6 +56,10 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you are completing this project in a school or other setting with a managed network, then you should make sure that you have the appropriate permissions to mount a USB drive and install software. 
+If you are completing this project in a school or other setting with a managed network, then you should make sure that you have the appropriate permissions to mount a USB drive and install software.
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/print){:target="_blank"}.
+
+[Here is a link to the completed scripts for this project](https://rpf.io/p/en/getting-started-with-the-pico-get).
 
 --- /collapse ---
