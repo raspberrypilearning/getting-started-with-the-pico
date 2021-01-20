@@ -43,7 +43,7 @@ Let's create a `machine.Pin` object to correspond with the onboard LED, which ca
 
 If you set the value of the LED to `1`, it turns on. 
 
-Enter the following code, make sure you tap Enter after each line.
+Enter the following code, make sure you tap Enter after each line:
 
 ``` python
 from machine import Pin
@@ -55,7 +55,7 @@ You should see the onboard LED light up.
 
 ![Onboard LED on](images/Pico-onboard-LED.png)
 
-Type the code to set the value to `0` to turn the LED off.
+Type the code to set the value to `0` to turn the LED off:
 
 ``` python
 led.value(0)
