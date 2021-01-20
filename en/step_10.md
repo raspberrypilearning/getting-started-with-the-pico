@@ -14,7 +14,7 @@ In Thonny, click on the **File** menu and then **Save as** for the last program 
 
 --- task ---
 
-When prompted, select 'MicroPython Device' from the pop-up menu.
+When prompted, select 'MicroPython device' from the pop-up menu.
 
 --- /task ---
 
