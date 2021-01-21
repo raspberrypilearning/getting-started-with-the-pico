@@ -2,8 +2,8 @@ title: Getting started with Raspberry Pi Pico
 hero_image: images/banner.png
 description: How to start programming you Raspberry Pi Pico with Thonny and MicroPython
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2020-10-14"
 steps:
   - title: Introduction
