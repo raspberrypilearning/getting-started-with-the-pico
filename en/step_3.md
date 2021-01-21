@@ -31,7 +31,7 @@ title: Install Thonny on other operating systems
 - In the top right-hand corner of the browser window, you will see download links for Windows and macOS, and instructions for Linux
 - Download the relevant files and run them to install Thonny
 
-![THONNY SITE ADD DAY OF RELEASE](IMAGE)
+![Download instructions from thonny site](thonny-site.png)
 
 --- /collapse ---
 
