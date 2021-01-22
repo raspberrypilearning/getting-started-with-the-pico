@@ -22,7 +22,7 @@ Thonny is now able to communicate with your Raspberry Pi Pico using the REPL (re
 
 --- task ---
 
-Now you can type commands directly into the Shell and they will run on the Raspberry Pi Pico.
+Now you can type commands directly into the Shell and they will run on your Raspberry Pi Pico.
 
 Type the following command.
 

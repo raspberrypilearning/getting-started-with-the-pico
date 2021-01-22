@@ -2,7 +2,7 @@
 
 The Shell is useful to make sure everything is working and try out quick commands. However, it's better to put longer programs in a file. 
 
-Thonny can save and run MicroPython programs directly on the Raspberry Pi Pico.
+Thonny can save and run MicroPython programs directly on your Raspberry Pi Pico.
 
 In this step, you will create a MicroPython program to blink the onboard LED on and off in a loop. 
 

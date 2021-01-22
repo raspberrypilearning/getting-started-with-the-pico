@@ -10,7 +10,7 @@ Use a resistor between about 50 and 330 ohms, an LED, and a pair of M-M jumper l
 
 --- /task ---
 
-In this example, the LED is connected to pin 15. If you use a different pin, remember to look up the number in the pinout diagram in the [Meet the Raspberry Pi Pico section](1.html).
+In this example, the LED is connected to pin 15. If you use a different pin, remember to look up the number in the pinout diagram in the [Meet Raspberry Pi Pico section](1.html).
 
 --- task ---
 
@@ -41,7 +41,7 @@ Add a button to your circuit as shown in the diagram below.
 
 --- /task ---
 
-The button is on pin `14`, and is connected to the 3.3V pin on the Raspberry Pi Pico. This means when you set up the pin, you need to tell MicroPython that it is an input pin and needs to be *pulled down*.
+The button is on pin `14`, and is connected to the 3.3V pin on your Raspberry Pi Pico. This means when you set up the pin, you need to tell MicroPython that it is an input pin and needs to be *pulled down*.
 
 --- task ---
 

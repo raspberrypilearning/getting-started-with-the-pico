@@ -30,6 +30,6 @@ You can now disconnect your Raspberry Pi Pico from your computer and use a micro
 
 --- /task ---
 
-Once connected, the `main.py` file should run automatically so you can interact with the components attached to the Raspberry Pi Pico.
+Once connected, the `main.py` file should run automatically so you can interact with the components attached to your Raspberry Pi Pico.
 
 --- save ---

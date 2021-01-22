@@ -1,4 +1,4 @@
-## Meet the Raspberry Pi Pico
+## Meet Raspberry Pi Pico
 
 This is a Raspberry Pi Pico. Hopefully your device has already had the header pins soldered on, but if not, you might like to have a look at our [Getting started with soldering resource](https://projects.raspberrypi.org/en/projects/getting-started-with-soldering).
 
