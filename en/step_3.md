@@ -5,7 +5,7 @@ In this step, you will install Thonny or make sure you have the latest version. 
 --- collapse ---
 ---
 
-title: Thonny on the Raspberry Pi
+title: Thonny on Raspberry Pi
 
 ---
 - Thonny is already installed on Raspberry Pi OS, but may need to be updated to the latest version
