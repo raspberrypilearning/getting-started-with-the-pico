@@ -12,7 +12,7 @@ Press the BOOTSEL button and hold it while you connect the other end of the micr
 
 ![USB cable plugged into a Raspberry Pi](images/Pico-Raspberry-Pi-4-Plug.png)
 
-This puts the Raspberry Pi Pico into USB mass storage device mode. 
+This puts your Raspberry Pi Pico into USB mass storage device mode. 
 
 --- /task ---
 
@@ -34,7 +34,7 @@ If you don't see this option, then check that you have plugged in your Raspberry
 
 A dialog box will pop up to install the latest version of the MicroPython firmware on your Raspberry Pi Pico. 
 
-Click the **Install** button to copy the firmware to the Raspberry Pi Pico. 
+Click the **Install** button to copy the firmware to your Raspberry Pi Pico. 
 
 ![Firmware install](images/thonny-install-micropython-pico.png)
 
@@ -61,7 +61,7 @@ The interpreter settings will open.
 
 Click on **Install or update firmware**. 
 
-You will be prompted to plug in the Raspberry Pi Pico while you hold the BOOTSEL button. 
+You will be prompted to plug in your Raspberry Pi Pico while you hold the BOOTSEL button. 
 
 ![Hold BOOTSEL button and plug in](images/thonny-bootsel.png)
 
