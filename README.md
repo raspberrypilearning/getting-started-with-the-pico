@@ -1,6 +1,6 @@
-# getting-started-with-the
+# getting-started-with-the-pico
 
-![getting-started-with-the](en/images/banner.png)
+![getting-started-with-the-pico](en/images/banner.png)
 
 Find the project online at [projects.raspberrypi.org/en/projects/getting-started-with-the-pico](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
 
