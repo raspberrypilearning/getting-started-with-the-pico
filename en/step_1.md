@@ -6,6 +6,10 @@ A Raspberry Pi Pico is a low-cost microcontroller device. Microcontrollers are t
 
 A Raspberry Pi Pico has GPIO pins, much like a Raspberry Pi computer, which means it can be used to control and receive input from a variety of electronic devices.
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">[**The new Introduction to Raspberry Pi Pico path**](https://projects.raspberrypi.org/en/pathways/pico-intro)</span> uses the [picozero](https://picozero.readthedocs.io/en/latest/) package to engage in some creative physical computing projects.
+</p>
+
 ### What you will make
 
 You will connect a Raspberry Pi Pico to your computer, install the Thonny Python IDE, and write a MicroPython program to blink the onboard LED. If you have additional components available, then you can also try out some more examples.
