@@ -8,15 +8,17 @@ copyedit: true
 last_tested: '2020-10-14'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Meet Raspberry Pi Pico
 - title: Install Thonny
+  completion:
+  - engaged
 - title: Add the MicroPython firmware
 - title: Use the Shell
 - title: Blink the onboard LED
 - title: Use digital inputs and outputs
 - title: Control LED brightness with PWM
 - title: Control an LED with an analogue input
-  completion: internal
 - title: Power your Raspberry Pi Pico
+  completion:
+  - internal
 - title: What next?
