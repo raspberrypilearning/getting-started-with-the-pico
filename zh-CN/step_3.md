@@ -1,16 +1,16 @@
-## Install Thonny
+## 安装 Thonny
 
-In this step, you will install Thonny or make sure you have the latest version. Then you will connect to a Raspberry Pi Pico and run some simple Python code using the Shell.
+在这一步中，您将安装Thonny或确保您拥有最新版本。 然后，您将连接到一个 Raspberry Pi Pico，并使用 Shell 运行一些简单的 Python 代码。
 
 ## --- collapse ---
 
-title: Thonny on Raspberry Pi
+title: 树莓派上的 Thonny
 
 ***
 
-- Thonny is already installed on Raspberry Pi OS, but may need to be updated to the latest version
-- Open a terminal window, either by clicking the icon in the top left-hand corner of the screen or by pressing the Ctrl+Alt+T keys at the same time
-- In the window, type the following to update your OS and Thonny
+- Thonny 已经安装在 Raspberry Pi OS 上，但可能需要更新到最新版本
+- 打开一个终端窗口，可以通过点击屏幕左上角的图标，或者同时按下Ctrl+Alt+T键
+- 在窗口中输入以下内容以更新您的操作系统和 Thonny
 
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -22,30 +22,30 @@ sudo apt update && sudo apt upgrade -y
 
 ***
 
-title: Install Thonny on other operating systems
+title: 在其他操作系统上安装 Thonny
 
 ***
 
-- On Windows, macOS, and Linux, you can install the latest Thonny IDE or update an existing version
-- In a web browser, navigate to [thonny.org](https://thonny.org/)
-- In the top right-hand corner of the browser window, you will see download links for Windows and macOS, and instructions for Linux
-- Download the relevant files and run them to install Thonny
+- 在 Windows、macOS 和 Linux 上，您可以安装最新的 Thonny IDE 或更新现有版本
+- 在网页浏览器中，打开 [thonny.org](https://thonny.org/)
+- 在浏览器窗口的右上角，你会看到 Windows 和 macOS 的下载链接，以及 Linux 的使用说明
+- 下载相关文件并运行以安装 Thonny
 
-![Download instructions from thonny site](images/thonny-site.png)
+![从 thonny 网站下载的说明](images/thonny-site.png)
 
 \--- /collapse ---
 
 \--- task ---
 
-Open Thonny from your application launcher. It should look something like this:
+从应用程序启动器中打开Thonny。 它看起来像这样：
 
-![Thonny application](images/thonny-editor.png)
+![Thonny 应用](images/thonny-editor.png)
 
 \--- /task ---
 
 \--- task ---
 
-You can use Thonny to write standard Python code. Type the following in the main window, and then click the **Run** button (you will be asked to save the file).
+你可以使用 Thonny 来编写标准的 Python 代码。 在主窗口中输入以下内容，然后点击运行按钮（你会被要求保存文件）。
 
 ```python3
 print('Hello World!')
@@ -53,4 +53,4 @@ print('Hello World!')
 
 \--- /task ---
 
-You're now ready to move on to the next step and connect your Raspberry Pi Pico.
+你现在可以准备好进行下一步，连接你的 Raspberry Pi Pico了。
