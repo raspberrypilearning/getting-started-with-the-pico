@@ -1,0 +1,24 @@
+---
+title: 开始使用 Raspberry Pi Pico
+hero_image: images/banner.png
+description: 如何使用 Thonny 和 MicroPython 开始编程您的 Raspberry Pi Pico
+version: 4
+listed: true
+copyedit: true
+last_tested: '2020-10-14'
+steps:
+  - title: 导言
+  - title: 认识 Raspberry Pi Pico
+  - title: 安装 Thonny
+    completion:
+      - engaged
+  - title: 添加 MicroPython 固件
+  - title: 使用 Shell
+  - title: 让板载 LED 闪烁
+  - title: 使用数字输入和输出
+  - title: 使用 PWM 控制 LED 亮度
+  - title: 使用模拟输入控制 LED
+  - title: 为你的 Raspberry Pi Pico 供电
+    completion:
+      - internal
+  - title: 接下来还有什么？
