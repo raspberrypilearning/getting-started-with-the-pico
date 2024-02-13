@@ -1,18 +1,18 @@
-## Introduction
+## 导言
 
-In this project, you will connect a Raspberry Pi Pico to another computer and learn how to program it using MicroPython.
+在这个项目中，您将把 Raspberry Pi Pico 连接到另一台计算机，并学习如何使用 MicroPython 进行编程。
 
-A Raspberry Pi Pico is a low-cost microcontroller device. Microcontrollers are tiny computers, but they tend to lack large volume storage and peripheral devices that you can plug in (for example, keyboards or monitors).
+Raspberry Pi Pico是一款低成本的微控制器设备。 微控制器是微型计算机，但它们往往缺乏大容量存储和外围设备（例如，键盘或显示器）。
 
-A Raspberry Pi Pico has GPIO pins, much like a Raspberry Pi computer, which means it can be used to control and receive input from a variety of electronic devices.
+Raspberry Pi Pico 具有 GPIO 引脚，很像树莓派计算机，这意味着它可以用来控制和接收来自各种电子设备的输入。
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">[**The new Introduction to Raspberry Pi Pico path**](https://projects.raspberrypi.org/en/pathways/pico-intro)</span> uses the [picozero](https://picozero.readthedocs.io/en/latest/) package to engage in some creative physical computing projects.
+<span style="color: #0faeb0">[**新的 Raspberry Pi Pico 入门课程**](https://projects.raspberrypi.org/en/pathways/pico-intro)</span> 使用 [picozero](https://picozero.readthedocs.io/en/latest/) 包进行一些创意物理计算项目。
 </p>
 
-### What you will make
+### 您将制作什么
 
-You will connect a Raspberry Pi Pico to your computer, install the Thonny Python IDE, and write a MicroPython program to blink the onboard LED. If you have additional components available, then you can also try out some more examples.
+您将把一个 Raspberry Pi Pico 连接到您的电脑，安装 Thonny Python IDE，并编写一个 MicroPython 程序来让板载 LED 闪烁。 如果您有额外的组件，那么您也可以尝试一些其他的例子。
 
 \--- no-print ---
 ![LED blinking on a Pico board](images/showcase.gif)
@@ -24,44 +24,44 @@ You will connect a Raspberry Pi Pico to your computer, install the Thonny Python
 
 ## --- collapse ---
 
-## title: What you will need
+## 您将需要
 
-### Hardware
+### 硬件
 
-- A Raspberry Pi Pico with soldered headers
-- A computer that can run the Thonny IDE and program a Raspberry Pi Pico
-- A micro USB cable
-- A selection of electronics components, such as a button, an LED with appropriate resistor, and a potentiometer (optional)
-- A breadboard and M-M jumper leads for connecting additional components (optional)
-- An external 5V micro USB power source (optional)
+- 一个焊接了排针的 Raspberry Pi Pico
+- 一台可以运行 Thonny IDE 并对 Raspberry Pi Pico 编程的计算机
+- 一根 micro USB 数据线
+- 一些电子元件，比如一个按钮、一个带合适电阻的LED灯以及一个的电位器（可选）
+- 面包板和公对公跳线用于连接额外的组件（可选）
+- 一个5V micro USB电源（可选）
 
-### Software
+### 软件
 
-The project will guide you through the installation of:
+该项目将指导您完成以下内容的安装：
 
-- MicroPython firmware for Raspberry Pi Pico
-- The Thonny Python IDE
-
-\--- /collapse ---
-
-## --- collapse ---
-
-## title: What you will learn
-
-- How to load the MicroPython firmware onto a Raspberry Pi Pico
-- How to program a Raspberry Pi Pico using MicroPython
-- How to connect additional components to a Raspberry Pi Pico and write MicroPython programs to interact with them
+- 适用于 Raspberry Pi Pico 的 MicroPython固件
+- Thonny Python IDE
 
 \--- /collapse ---
 
 ## --- collapse ---
 
-## title: Additional information for educators
+## 你将学到
 
-If you are completing this project in a school or other setting with a managed network, then you should make sure that you have the appropriate permissions to mount a USB drive and install software.
+- 如何将 MicroPython 固件加载到 Raspberry Pi Pico 上
+- 如何使用 MicroPython 编程 Raspberry Pi Pico
+- 如何将额外的组件连接到 Raspberry Pi Pico 并编写 MicroPython 程序与它们交互
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/print){:target="_blank"}.
+\--- /collapse ---
 
-[Here is a link to the completed scripts for this project](https://rpf.io/p/en/getting-started-with-the-pico-get).
+## --- collapse ---
+
+## title: 为教育者提供的额外信息
+
+如果您在学校或其他受管理环境中完成这个项目，那么您应确保您有挂载 USB 驱动器和安装软件的适当权限。
+
+如果您需要打印这个项目，请使用[适合打印的版本](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/print){:target="_blank"}。
+
+[这里是此项目已完成脚本的链接](https://rpf.io/p/en/getting-started-with-the-pico-get)。
 
 \--- /collapse ---
