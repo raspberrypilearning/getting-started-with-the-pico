@@ -1,16 +1,16 @@
-## Blink the onboard LED
+## 让板载 LED 闪烁
 
-The Shell is useful to make sure everything is working and try out quick commands. However, it's better to put longer programs in a file.
+Shell 很有用，可以确保一切正常运行并且试验快速命令。 然而，将较长的程序放在文件中会更好。
 
-Thonny can save and run MicroPython programs directly on your Raspberry Pi Pico.
+Thonny 可以直接在你的 Raspberry Pi Pico 上保存和运行 MicroPython 程序。
 
-In this step, you will create a MicroPython program to blink the onboard LED on and off in a loop.
+在这一步中，您将创建一个 MicroPython 程序，以循环方式让板载 LED 闪烁。
 
 \--- task ---
 
-Click in the main editor pane of Thonny.
+在Thonny的主编辑区域点击。
 
-Enter the following code to toggle the LED.
+输入以下代码以切换LED（开关状态）。
 
 ```python
 from machine import Pin
@@ -23,27 +23,27 @@ led.toggle()
 
 \--- task ---
 
-Click the **Run** button to run your code.
+点击 **运行** 按钮来运行你的代码。
 
-Thonny will ask whether you want to save the file on **This computer** or the **MicroPython device**. Choose **MicroPython device**.
+Thonny 会询问你是想将文件保存在 **这台计算机** 上还是 **MicroPython 设备** 上。 选择 **MicroPython 设备**。
 
-![Option to save the file on This computer or the MicroPython device](images/save-on-device.png)
+![将文件保存到 此计算机 或 MicroPython 设备](images/save-on-device.png)
 
-Enter `blink.py` as the file name.
+输入 `blink.py` 作为文件名。
 
-**Tip:** You need to enter the `.py` file extension so that Thonny recognises the file as a Python file.
+**提示：** 您需要输入 `.py` 文件扩展名，以便 Thonny 识别该文件为 Python 文件。
 
-Thonny can save your program to your Raspberry Pi Pico and run it.
+Thonny 能将你的程序保存到你的 Raspberry Pi Pico 上并运行它。
 
-You should see the onboard LED switch between on and off each time you click the **Run** button.
+每次单击 **运行** 按钮时，你都应该能看到板载 LED 在打开和关闭之间切换。
 
 \--- /task ---
 
 \--- task ---
 
-You can use the `Timer` module to set a timer that runs a function at regular intervals.
+你可以使用 `Timer` 模块来设置一个定时器，以固定间隔运行一个函数。
 
-Update your code so it looks like this:
+调整你的代码让它看起来像这样：
 
 ```python
 from machine import Pin, Timer
@@ -56,7 +56,7 @@ def blink(timer):
 timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 ```
 
-Click **Run** and your program will blink the LED on and off until you click the **Stop** button.
+点击 **运行**，你的程序会让 LED 灯开关闪烁，直到你点击停止按钮。
 
 \--- /task ---
 
