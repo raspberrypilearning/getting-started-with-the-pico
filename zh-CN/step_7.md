@@ -1,20 +1,20 @@
-## Use digital inputs and outputs
+## 使用数字输入和输出
 
-Now you know the basics, you can learn to control an external LED with your Raspberry Pi Pico, and get it to read input from a button.
+现在你已经掌握了基础知识，你可以学习如何用你的 Raspberry Pi Pico 来控制一个外部的 LED 灯，并且让它读取按钮的输入。
 
 \--- task ---
 
-Use a resistor between about 50 and 330 ohms, an LED, and a pair of M-M jumper leads to connect up your Raspberry Pi Pico as shown in the image below.
+使用一个大约50到330欧姆的电阻、一个LED以及一对公对公跳线，按照下图连接你的 Raspberry Pi Pico。
 
-![LED and resistor connected to the Pico](images/single_LED.png)
+![连接到 Pico 的 LED 和电阻](images/single_LED.png)
 
 \--- /task ---
 
-In this example, the LED is connected to pin 15. If you use a different pin, remember to look up the number in the pinout diagram in the [Meet Raspberry Pi Pico section](1.html).
+在这个例子中，LED 连接到15号引脚。 如果你使用其他引脚，请记得在 [认识 Raspberry Pi Pico 部分](1.html) 部分的引脚图中查找对应的编号。
 
 \--- task ---
 
-Use the same code as you did to blink the onboard LED, but change the pin number to `15`.
+使用和你之前让板载 LED 闪烁相同的代码，但是将引脚号改为 `15`。
 
 ```python
 from machine import Pin, Timer
@@ -29,23 +29,23 @@ timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 
 \--- /task ---
 
-Run your program and your LED should start to blink. If it's not working, check your wiring to be sure that the LED is connected.
+运行你的程序，你的LED灯应该会开始闪烁。 如果它没有工作，请检查你的线路确保 LED 灯已经连接好。
 
-Next, let's try and control the LED using a button.
+接下来，让我们尝试使用按钮来控制 LED 。
 
 \--- task ---
 
-Add a button to your circuit as shown in the diagram below.
+如下图所示，在你的电路中添加一个按钮。
 
-![LED and button on a breadboard](images/button_and_LED.png)
+![面包板上的 LED 和按钮](images/button_and_LED.png)
 
 \--- /task ---
 
-The button is on pin `14`, and is connected to the 3.3V pin on your Raspberry Pi Pico. This means when you set up the pin, you need to tell MicroPython that it is an input pin and needs to be _pulled down_.
+按钮连接在引脚 `14` 上，并且与你的 Raspberry Pi Pico 上的3.3V引脚相连。 这意味着当你设置这个引脚时，你需要告诉MicroPython它是一个输入引脚，并且需要被下拉。
 
 \--- task ---
 
-Create a new file and add this code.
+创建一个新文件并添加这段代码。
 
 ```python
 from machine import Pin
@@ -64,7 +64,7 @@ while True:
 
 \--- task ---
 
-Run your code and then when you press the button, the LED should toggle on or off. If you hold the button down, it will flash.
+运行你的代码，当你按下按钮时，LED 灯应该会在开和关之间切换。 如果你长按按钮，它会闪烁。
 
 \--- /task ---
 
