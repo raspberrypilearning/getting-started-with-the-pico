@@ -1,44 +1,44 @@
-## Add the MicroPython firmware
+## 添加 MicroPython 固件
 
-If you have never used MicroPython on your Raspberry Pi Pico, you will need to add the MicroPython firmware.
+如果您从未在 Raspberry Pi Pico 上使用过 MicroPython，您需要添加 MicroPython 固件。
 
 \--- task ---
 
-Find the BOOTSEL button on your Raspberry Pi Pico.
+在你的 Raspberry Pi Pico 上找到 BOOTSEL 按钮。
 
-![BOOTSEL button](images/Pico-bootsel.png)
+![BOOTSEL 按钮](images/Pico-bootsel.png)
 
-Press the BOOTSEL button and hold it while you connect the other end of the micro USB cable to your computer. A Raspberry Pi is shown in the image below, but the same applies to any computer.
+按下 BOOTSEL 按钮并保持，同时将 micro USB 数据线的另一端连接到你的电脑。 下面的图片展示了一个树莓派，但同样适用于任何电脑。
 
-![USB cable plugged into a Raspberry Pi](images/Pico-Raspberry-Pi-4-Plug.png)
+![将 USB 数据线插入树莓派](images/Pico-Raspberry-Pi-4-Plug.png)
 
-This puts your Raspberry Pi Pico into USB mass storage device mode.
+这会将你的 Raspberry Pi Pico 置于USB大容量存储设备模式。
 
 \--- /task ---
 
 \--- task ---
 
-In the bottom right-hand corner of the Thonny window, you will see the version of Python that you are currently using.
+在 Thonny 窗口的右下角，你会看到你当前正在使用的 Python 版本。
 
-![Status bar version](images/thonny-status-bar-version.png)
+![状态栏上的版本](images/thonny-status-bar-version.png)
 
-Click on the Python version and choose 'MicroPython (Raspberry Pi Pico)':
+点击 Python 版本，然后选择'MicroPython (Raspberry Pi Pico)'：
 
-![Select MicroPython from the menu](images/thonny-micropython-pico-menu.png)
+![从菜单中选择 MicroPython](images/thonny-micropython-pico-menu.png)
 
-If you don't see this option, then check that you have plugged in your Raspberry Pi Pico.
+如果你没有看到这个选项，请检查你的 Raspberry Pi Pico是否已经插好。
 
 \--- /task ---
 
 \--- task ---
 
-A dialog box will pop up to install the latest version of the MicroPython firmware on your Raspberry Pi Pico.
+将弹出一个对话框，以安装最新版本的 MicroPython 固件到你的 Raspberry Pi Pico 上。
 
-Click the **Install** button to copy the firmware to your Raspberry Pi Pico.
+点击 **安装** 按钮将固件复制到你的 Raspberry Pi Pico。
 
-![Firmware install](images/thonny-install-micropython-pico.png)
+![固件安装](images/thonny-install-micropython-pico.png)
 
-Wait for the installation to complete and click **Close**.
+等待安装完成后点击 **关闭**。
 
 \--- /task ---
 
@@ -46,30 +46,30 @@ Wait for the installation to complete and click **Close**.
 
 ***
 
-title: Firmware installation menu
+title: 固件安装菜单
 
 ***
 
-You can also access the firmware installation menu if you click on 'MicroPython (Raspberry Pi Pico)' in the status bar and choose 'Configure interpreter ...'.
+你也可以点击状态栏中的 “MicroPython（Raspberry Pi Pico）” 并选择 “配置解释器” 来访问固件安装菜单。
 
-![Configure interpreter menu](images/thonny-configure-interpreter.png)
+![配置解释器菜单](images/thonny-configure-interpreter.png)
 
-The interpreter settings will open.
+解释器设置将打开。
 
-![Configure interpreter settings](images/thonny-interpreter-settings.png)
+![配置解释器设置](images/thonny-interpreter-settings.png)
 
-Click on **Install or update firmware**.
+点击 **安装或更新MicroPython**
 
-You will be prompted to plug in your Raspberry Pi Pico while you hold the BOOTSEL button.
+你将被提示在按住BOOTSEL按钮的同时连接您的 Raspberry Pi Pico。
 
-![Hold BOOTSEL button and plug in](images/thonny-bootsel.png)
+![按住 BOOTSEL 按钮并插入](images/thonny-bootsel.png)
 
-Then you can click **Install**.
+然后你可以点击 **安装**。
 
-![Install firmware](images/thonny-firmware-install.png)
+![安装固件](images/thonny-firmware-install.png)
 
-Wait for the installation to complete and click **Close**.
+等待安装完成后点击 **关闭**。
 
 \--- /collapse ---
 
-You don't need to update the firmware every time you use your Raspberry Pi Pico. Next time, you can just plug it into your computer without pressing the BOOTSEL button.
+你不需要每次使用 Raspberry Pi Pico 时都更新固件。 下次，你只需将其插入电脑，无需按 BOOTSEL 按钮。
