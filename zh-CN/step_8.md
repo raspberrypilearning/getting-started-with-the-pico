@@ -1,12 +1,12 @@
-## Control LED brightness with PWM
+## 使用 PWM 控制 LED 亮度
 
-[**P**ulse **w**idth **m**odulation](https://en.wikipedia.org/wiki/Pulse-width_modulation), allows you to give analogue behaviours to digital devices, such as LEDs. This means that rather than an LED being simply on or off, you can control its brightness.
+[脉冲宽度调制（PWM）](https://zh.wikipedia.org/wiki/%E8%84%88%E8%A1%9D%E5%AF%AC%E5%BA%A6%E8%AA%BF%E8%AE%8A)允许你让数字设备，比如 LED 灯，表现出类似模拟的行为。 这意味着你可以控制 LED 灯的亮度，而不仅仅是简单的开或关。
 
-For this activity, you can use the circuit from the last step.
+在这个活动中，你可以使用上一步的电路。
 
 \--- task ---
 
-Open a new file in Thonny and add the following code.
+在Thonny中打开一个新文件，并添加以下代码。
 
 ```python
 from machine import Pin, PWM
@@ -29,17 +29,17 @@ while True:
 
 \--- task ---
 
-Save and run the file. You should see the LED pulse bright and dim, in a continuous cycle.
+保存并运行文件。 你应该会看到 LED 灯亮起和变暗，持续循环。
 
 \--- /task ---
 
-The **frequency** (`pwm.freq`) tells Raspberry Pi Pico how often to switch the power between on and off for the LED.
+**频率**（ `pwm.freq` ）告诉 Raspberry Pi Pico 切换 LED 电源开和关的频率。
 
-The duty cycle tells the LED for how long it should be on each time. For Raspberry Pi Pico in MicroPython, this can range from `0` to `65025`. `65025` would be 100% of the time, so the LED would stay bright. A value of around `32512` would indicate that it should be on for half the time.
+占空比告诉 LED 每次应该亮多长时间。 对于用 MicroPython 编程的 Raspberry Pi Pico ，这个值可以从 `0` 变化到 `65025` 。 `65025` 意味着100%的时间，因此 LED 将保持明亮。 大约 `32512` 的数值则表示它应当开启一半的时间。
 
 \--- task ---
 
-Have a play with the `pwm.freq()` values and the `pwm.duty_u16` values, as well as the length of time for the `sleep`, to get a feel for how you can adjust the brightness and pace of the pulsing LED.
+尝试调整 `pwm.freq()` 的数值和 `pwm.duty_u16` 的数值，以及 `sleep` 持续时间的长度，来体会你如何调节脉冲 LED 的亮度和闪烁速度。
 
 \--- /task ---
 
