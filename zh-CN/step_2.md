@@ -1,27 +1,27 @@
-## Meet Raspberry Pi Pico
+## 认识 Raspberry Pi Pico
 
-This is a Raspberry Pi Pico. Hopefully your device has already had the header pins soldered on, but if not, you might like to have a look at our [Getting started with soldering resource](https://projects.raspberrypi.org/en/projects/getting-started-with-soldering).
+这是一个 Raspberry Pi Pico。 希望你的设备已经焊上了排针，如果还没有，你可能想看看我们的[焊接入门资源](https://projects.raspberrypi.org/en/projects/getting-started-with-soldering)。
 
 ![Raspberry Pi Pico](images/Pico-Top-Headers.png)
 
 \--- task ---
 
-If you have a breadboard, put your Raspberry Pi Pico on the board.
+如果你有一个面包板，请将你的 Raspberry Pi Pico放在板子上。
 
-Place it so that the two headers are separated by the ravine in the middle.
+放置它时要确保两个排针之间隔着中间的裂缝。
 
-![Pico board on a breadboard](images/Pico-Top-Breadboard.png)
+![放在面包板的 Pico](images/Pico-Top-Breadboard.png)
 
 \--- /task ---
 
 \--- task ---
 
-Plug your micro USB cable into the port on the left-hand side of the board.
+将 micro USB 线插入主板左侧的端口。
 
-![Micro USB cable plugged into the Pico](images/Pico-Top-Plug-v2.png)
+![将 Micro USB 数据线插入 Pico](images/Pico-Top-Plug-v2.png)
 
 \--- /task ---
 
-If you need to know the pin numbers for a Raspberry Pi Pico, you can refer to the following diagram.
+如果你想知道树莓派Pico的引脚编号，可以参考下面的图表。
 
-![Pinout of a Raspberry Pi Pico](images/Pico-R3-Pinout.png)
+![Raspberry Pi Pico 的引脚](images/Pico-R3-Pinout.png)
