@@ -24,7 +24,7 @@ Raspberry Pi Pico 具有 GPIO 引脚，很像树莓派计算机，这意味着�
 
 ## --- collapse ---
 
-## 您将需要
+## title: 您将需要
 
 ### 硬件
 
@@ -46,7 +46,7 @@ Raspberry Pi Pico 具有 GPIO 引脚，很像树莓派计算机，这意味着�
 
 ## --- collapse ---
 
-## 你将学到
+## title: 你将学到
 
 - 如何将 MicroPython 固件加载到 Raspberry Pi Pico 上
 - 如何使用 MicroPython 编程 Raspberry Pi Pico
