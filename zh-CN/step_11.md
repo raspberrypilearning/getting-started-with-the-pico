@@ -7,3 +7,11 @@
 - 如需进一步了解如何使用你的 Raspberry Pi Pico，请参阅[此文档](https://www.raspberrypi.org/documentation/pico/getting-started/)。
 
 你喜欢这个项目吗？ 发现了错误吗？ 请点击下面的 **Send feedback** 按钮告诉我们！
+
+***
+
+该项目由以下志愿者翻译：
+
+乌鲁
+
+正因为志愿者们的辛勤工作，我们才能为世界各地的人们提供用母语来学习的机会。您也可以通过志愿翻译工作来帮助我们吸引更多的人 - 更多信息，请访问[rpf.io/translate](https://rpf.io/translate)。
