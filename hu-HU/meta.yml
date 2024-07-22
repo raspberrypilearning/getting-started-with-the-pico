@@ -1,0 +1,24 @@
+---
+title: A raspberry Pi Pico használata
+hero_image: images/banner.png
+description: Hogyan kezdjük el a Raspberry Pi Pico programozását Thonny és MicroPython segítségével
+version: 4
+listed: true
+copyedit: true
+last_tested: '2020-10-14'
+steps:
+  - title: Bevezetés
+  - title: Ismerd meg a Raspberry Pi Pico-t
+  - title: Thonny telepítése
+    completion:
+      - engaged
+  - title: MicroPython firmware hozzáadása
+  - title: Shell használata
+  - title: Panelen lévő LED villogtatása
+  - title: Digitális be- és kimenetek használata
+  - title: A LED fényerejének szabályozása PWM-mel
+  - title: LED vezérlése analóg bemenettel
+  - title: Raspberry Pi Pico tápellátása
+    completion:
+      - internal
+  - title: Mi a következő lépés?
