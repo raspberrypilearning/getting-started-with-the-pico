@@ -2,17 +2,17 @@
 
 在这个项目中，您将把 Raspberry Pi Pico 连接到另一台计算机，并学习如何使用 MicroPython 进行编程。
 
-Raspberry Pi Pico是一款低成本的微控制器设备。 微控制器是微型计算机，但它们往往缺乏大容量存储和外围设备（例如，键盘或显示器）。
+Raspberry Pi Pico是一款低成本的微控制器设备。 微控制器是微型计算机，但它们往往缺乏大容量存储和外围设备（例如，键盘或显示器）。 微控制器是微型计算机，但它们往往缺乏大容量存储和外围设备（例如，键盘或显示器）。
 
 Raspberry Pi Pico 具有 GPIO 引脚，很像树莓派计算机，这意味着它可以用来控制和接收来自各种电子设备的输入。
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">[**新的 Raspberry Pi Pico 入门课程**](https://projects.raspberrypi.org/en/pathways/pico-intro)</span> 使用 [picozero](https://picozero.readthedocs.io/en/latest/) 包进行一些创意物理计算项目。
+<span style="color: #0faeb0">[**新的 Raspberry Pi Pico 入门课程**](https://projects.raspberrypi.org/zh-CN/pathways/pico-intro)</span> 使用 [picozero](https://picozero.readthedocs.io/zh-CN/latest/) 包进行一些创意物理计算项目。
 </p>
 
 ### 您将制作什么
 
-您将把一个 Raspberry Pi Pico 连接到您的电脑，安装 Thonny Python IDE，并编写一个 MicroPython 程序来让板载 LED 闪烁。 如果您有额外的组件，那么您也可以尝试一些其他的例子。
+您将把一个 Raspberry Pi Pico 连接到您的电脑，安装 Thonny Python IDE，并编写一个 MicroPython 程序来让板载 LED 闪烁。 如果您有额外的组件，那么您也可以尝试一些其他的例子。 如果您有额外的组件，那么您也可以尝试一些其他的例子。
 
 \--- no-print ---
 ![LED blinking on a Pico board](images/showcase.gif)
@@ -60,8 +60,8 @@ Raspberry Pi Pico 具有 GPIO 引脚，很像树莓派计算机，这意味着�
 
 如果您在学校或其他受管理环境中完成这个项目，那么您应确保您有挂载 USB 驱动器和安装软件的适当权限。
 
-如果您需要打印这个项目，请使用[适合打印的版本](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/print){:target="_blank"}。
+如果您需要打印这个项目，请使用[适合打印的版本](https://projects.raspberrypi.org/zh-CN/projects/getting-started-with-the-pico/print){:target="_blank"}。
 
-[这里是此项目已完成脚本的链接](https://rpf.io/p/en/getting-started-with-the-pico-get)。
+[这里是此项目已完成脚本的链接](https://rpf.io/p/zh-CN/getting-started-with-the-pico-get)。
 
 \--- /collapse ---
