@@ -1,9 +1,9 @@
-## What next?
+## Mi a következő lépés?
 
-- Try the new [Introduction to Raspberry Pi Pico path](https://projects.raspberrypi.org/en/pathways/pico-intro), using the picozero package, to control LEDs and buzzers and read signals from switches and dials.
+- Próbálja ki az új [Introduction to Raspberry Pi Pico path](https://projects.raspberrypi.org/en/pathways/pico-intro) segítségével a picozero csomagot LED-ek és zümmerek vezérléséhez, valamint kapcsolók és potencióméterek jeleinek olvasásához.
 
-- Why not try out a few more components with your Raspberry Pi Pico — perhaps a buzzer, a light-dependent resistor (LDR), or even a motor controller
+- Miért ne próbálhatnál ki még néhány alkatrészt a Raspberry Pi Pico-val – például egy hangjelzőt, egy fényérzékeny ellenállást (LDR) vagy akár egy motorvezérlőt
 
-- For further guidance on using your Raspberry Pi Pico, you can have a look at the [documentation here](https://www.raspberrypi.org/documentation/pico/getting-started/)
+- A Raspberry Pi Pico használatával kapcsolatos további útmutatásért tekintsd meg az [itt található dokumentációt](https://www.raspberrypi.org/documentation/pico/getting-started/)
 
-Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below and let us know!
+Élvezted a projektet? Észrevettél egy hibát? Kérjük, kattints az alábbi **Send feedback/ Visszajelzés küldése** gombra, és tudasd velünk!
