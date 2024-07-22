@@ -1,75 +1,75 @@
-## Add the MicroPython firmware
+## MicroPython firmware hozzáadása
 
-If you have never used MicroPython on your Raspberry Pi Pico, you will need to add the MicroPython firmware.
+Ha még soha nem használtad a MicroPython-t Raspberry Pi Pico-n, akkor hozzá kell adnod a MicroPython firmware-t.
 
 \--- task ---
 
-Find the BOOTSEL button on your Raspberry Pi Pico.
+Keresd meg a BOOTSEL gombot a Raspberry Pi Pico-n.
 
-![BOOTSEL button](images/Pico-bootsel.png)
+![BOOTSEL gomb](images/Pico-bootsel.png)
 
-Press the BOOTSEL button and hold it while you connect the other end of the micro USB cable to your computer. A Raspberry Pi is shown in the image below, but the same applies to any computer.
+Nyomd meg és tartsd lenyomva a BOOTSEL gombot, amíg a mikro-USB-kábel másik végét csatlakoztatod a számítógéphez. Az alábbi képen egy Raspberry Pi látható, de ugyanez vonatkozik minden számítógépre.
 
-![USB cable plugged into a Raspberry Pi](images/Pico-Raspberry-Pi-4-Plug.png)
+![USB-kábel csatlakoztatása egy Raspberry Pi-hez](images/Pico-Raspberry-Pi-4-Plug.png)
 
-This puts your Raspberry Pi Pico into USB mass storage device mode.
+Ezzel a Raspberry Pi Pico USB-háttértár módba kerül.
 
 \--- /task ---
 
 \--- task ---
 
-In the bottom right-hand corner of the Thonny window, you will see the version of Python that you are currently using.
+A Thonny ablak jobb alsó sarkában láthatod a Python jelenleg használt verzióját.
 
-![Status bar version](images/thonny-status-bar-version.png)
+![Állapotsor verzió](images/thonny-status-bar-version.png)
 
-Click on the Python version and choose 'MicroPython (Raspberry Pi Pico)':
+Kattints a Python verzióra, és válaszd a „MicroPython (Raspberry Pi Pico)” lehetőséget:
 
-![Select MicroPython from the menu](images/thonny-micropython-pico-menu.png)
+![Válaszd ki a MicroPythont a menüből](images/thonny-micropython-pico-menu.png)
 
-If you don't see this option, then check that you have plugged in your Raspberry Pi Pico.
+Ha nem látod ezt a lehetőséget, akkor ellenőrizd, hogy csatlakoztatva van-e a Raspberry Pi Pico.
 
 \--- /task ---
 
 \--- task ---
 
-A dialog box will pop up to install the latest version of the MicroPython firmware on your Raspberry Pi Pico.
+Ezt követően egy párbeszédpanel ugril fel a MicroPython firmware legújabb verziójának Raspberry Pi Pico alaplapra történő telepítéséhez.
 
-Click the **Install** button to copy the firmware to your Raspberry Pi Pico.
+Kattints az **Install / Telepítés** gombra, hogy átmásold a firmware-t a Raspberry Pi Pico alaplapra.
 
-![Firmware install](images/thonny-install-micropython-pico.png)
+![Firmware telepítése](images/thonny-install-micropython-pico.png)
 
-Wait for the installation to complete and click **Close**.
+Várd meg, amíg a telepítés befejeződik, majd kattints a **Close/ Bezárás** gombra.
 
 \--- /task ---
 
 \--- collapse ---
 
-***
+---&#x20;
 
-title: Firmware installation menu
+cím: Firmware telepítésmenü
 
-***
+---
 
-You can also access the firmware installation menu if you click on 'MicroPython (Raspberry Pi Pico)' in the status bar and choose 'Configure interpreter ...'.
+A firmware-telepítési menüt az állapotsorban a „MicroPython (Raspberry Pi Pico)” elemre kattinva is elérheted, és válaszd ki az „Configuer interpreter…” lehetőséget.
 
-![Configure interpreter menu](images/thonny-configure-interpreter.png)
+![Configure interpreter konfigurálása menü](images/thonny-configure-interpreter.png)
 
-The interpreter settings will open.
+Megnyílik az interpreter beállítása.
 
-![Configure interpreter settings](images/thonny-interpreter-settings.png)
+![Configure interpreter konfigurálása menü](images/thonny-interpreter-settings.png)
 
-Click on **Install or update firmware**.
+Kattints az **Install or update firmware / Firmware telepítése vagy frissítése** lehetőségre.
 
-You will be prompted to plug in your Raspberry Pi Pico while you hold the BOOTSEL button.
+Miközben lenyomva tartod a BOOTSEL gombot, a rendszer kéri, hogy csatlakoztasd a Raspberry Pi Pico-t.
 
-![Hold BOOTSEL button and plug in](images/thonny-bootsel.png)
+![Tartsd lenyomva a BOOTSEL gombot, és csatlakoztasd](images/thonny-bootsel.png)
 
-Then you can click **Install**.
+Ezután kattints a **Install / Telepítés** gombra.
 
-![Install firmware](images/thonny-firmware-install.png)
+![Firmware telepítése](images/thonny-firmware-install.png)
 
-Wait for the installation to complete and click **Close**.
+Várd meg, amíg a telepítés befejeződik, majd kattints a **Close/ Bezárás** gombra.
 
 \--- /collapse ---
 
-You don't need to update the firmware every time you use your Raspberry Pi Pico. Next time, you can just plug it into your computer without pressing the BOOTSEL button.
+A Raspberry Pi Pico használatakor nem kell minden alkalommal frissítened a firmware-t. Legközelebb egyszerűen csatlakoztathatod a számítógéphez a BOOTSEL gomb megnyomása nélkül.
