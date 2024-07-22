@@ -1,35 +1,35 @@
-## Power your Raspberry Pi Pico
+## Raspberry Pi Pico bekapcsolása
 
-If you want to run your Raspberry Pi Pico without it being attached to a computer, you need to use a USB power supply.
+Ha a Raspberry Pi Pico-t nem számítógépről szeretnéd használni, akkor USB tápegységre lesz szükséged.
 
-Safe operating voltages are between 1.8V and 5.5V.
+A biztonságos üzemi feszültség 1,8 V és 5,5 V között van.
 
-To automatically run a MicroPython program, simply save it to the device with the name `main.py`
+A MicroPython program automatikus futtatásához egyszerűen`main.py` néven mentsd az eszközre
 
 \--- task ---
 
-In Thonny, click on the **File** menu and then **Save as** for the last program you wrote.
+Thonnyban kattints a **File/Fájl** menüre, majd a **Save as/Mentés másként** elemre az utoljára írt programhoz.
 
 \--- /task ---
 
 \--- task ---
 
-When prompted, select 'MicroPython device' from the pop-up menu.
+Amikor a rendszer kéri, válaszd ki a „MicroPython device/MicroPython-eszköz” lehetőséget az előugró menüből.
 
 \--- /task ---
 
 \--- task ---
 
-Name your file `main.py`
+Nevezd el a fájlt "main.py"-nek
 
 \--- /task ---
 
 \--- task ---
 
-You can now disconnect your Raspberry Pi Pico from your computer and use a micro USB cable to connect it to a mobile power source, such as a battery pack.
+Most már leválaszthatod a Raspberry Pi Pico készüléket a számítógépről, és mikro USB-kábellel csatlakoztasd egy mobil áramforráshoz, például külső akkumulátorhoz.
 
 \--- /task ---
 
-Once connected, the `main.py` file should run automatically so you can interact with the components attached to your Raspberry Pi Pico.
+A csatlakozás után a \`main.py' fájlnak automatikusan le kell futnia, így interakcióba léphet a Raspberry Pi Pico-hoz csatolt komponensekkel.
 
 \--- save ---
