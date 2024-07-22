@@ -1,16 +1,16 @@
-## Blink the onboard LED
+## Panelen lévő LED villogtatása
 
-The Shell is useful to make sure everything is working and try out quick commands. However, it's better to put longer programs in a file.
+A Shell nagyon hasznos a működés ellenőrzéséhez és parancsok élesben történő kipróbálásához. A hosszabb programokat azonban jobb fájlba menteni.
 
-Thonny can save and run MicroPython programs directly on your Raspberry Pi Pico.
+A Thonny közvetlenül a Raspberry Pi Pico-ra tudja menteni és futtatni a MicroPython programokat.
 
-In this step, you will create a MicroPython program to blink the onboard LED on and off in a loop.
+Ebben a lépésben egy MicroPython programot írhatsz, amely villogtatja az alaplapon lévő LED-et.
 
 \--- task ---
 
-Click in the main editor pane of Thonny.
+Kattints a Thonny fő szerkesztőpaneljére.
 
-Enter the following code to toggle the LED.
+Írd be a következő kódot a LED ki/be kapcsolásához.
 
 ```python
 from machine import Pin
@@ -23,27 +23,27 @@ led.toggle()
 
 \--- task ---
 
-Click the **Run** button to run your code.
+A program futtatásához kattints a **Run** gombra.
 
-Thonny will ask whether you want to save the file on **This computer** or the **MicroPython device**. Choose **MicroPython device**.
+Thonny megkérdezi, hogy **Erre a számítógépre** vagy a **MicroPython-eszközre** szeretnéd menteni a fájlt. Válaszd a **MicroPython eszköz** lehetőséget.
 
-![Option to save the file on This computer or the MicroPython device](images/save-on-device.png)
+![Választhatsz, hogy a filet Erre a számítógépre vagy a MicroPython eszközre mented](images/save-on-device.png)
 
-Enter `blink.py` as the file name.
+Fájlnévként a „blink.py”-t add meg.
 
-**Tip:** You need to enter the `.py` file extension so that Thonny recognises the file as a Python file.
+**Tipp:** Meg kell adnod a `.py` fájlkiterjesztést, hogy azt a Thonny Python fájlként ismerje fel.
 
-Thonny can save your program to your Raspberry Pi Pico and run it.
+Thonny a Raspberry Pi Pico-ra menti a programot, és futtathatja azt.
 
-You should see the onboard LED switch between on and off each time you click the **Run** button.
+Valahányszor a **Run/Futtatás** gombra kattintassz, látod ahogy a LED ki- és bekapcsol az alaplapon.
 
 \--- /task ---
 
 \--- task ---
 
-You can use the `Timer` module to set a timer that runs a function at regular intervals.
+Az "Timer/Időzítő" modul segítségével beállíthatsz egy időzítőt, amely rendszeres időközönként futtat egy funkciót.
 
-Update your code so it looks like this:
+Frissítse a kódot, hogy így nézzen ki:
 
 ```python
 from machine import Pin, Timer
@@ -56,7 +56,7 @@ def blink(timer):
 timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 ```
 
-Click **Run** and your program will blink the LED on and off until you click the **Stop** button.
+Kattints **Run/Futtatás** gombra, és a program addig villogtatja a LED-et, amíg a **Stop** gombra nem kattintasz.
 
 \--- /task ---
 
