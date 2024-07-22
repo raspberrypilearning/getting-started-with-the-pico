@@ -1,6 +1,6 @@
 ## 让板载 LED 闪烁
 
-Shell 很有用，可以确保一切正常运行并且试验快速命令。 然而，将较长的程序放在文件中会更好。
+Shell 很有用，可以确保一切正常运行并且试验快速命令。 然而，将较长的程序放在文件中会更好。 然而，将较长的程序放在文件中会更好。
 
 Thonny 可以直接在你的 Raspberry Pi Pico 上保存和运行 MicroPython 程序。
 
@@ -25,7 +25,7 @@ led.toggle()
 
 点击 **运行** 按钮来运行你的代码。
 
-Thonny 会询问你是想将文件保存在 **这台计算机** 上还是 **MicroPython 设备** 上。 选择 **MicroPython 设备**。
+Thonny 会询问你是想将文件保存在 **这台计算机** 上还是 **MicroPython 设备** 上。 选择 **MicroPython 设备**。 选择 **MicroPython 设备**。
 
 ![将文件保存到 此计算机 或 MicroPython 设备](images/save-on-device.png)
 
