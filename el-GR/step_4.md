@@ -44,11 +44,11 @@ Wait for the installation to complete and click **Close**.
 
 \--- collapse ---
 
-***
+---&#x20;
 
 title: Firmware installation menu
 
-***
+---
 
 You can also access the firmware installation menu if you click on 'MicroPython (Raspberry Pi Pico)' in the status bar and choose 'Configure interpreter ...'.
 
