@@ -1,6 +1,6 @@
 ## 认识 Raspberry Pi Pico
 
-这是一个 Raspberry Pi Pico。 希望你的设备已经焊上了排针，如果还没有，你可能想看看我们的[焊接入门资源](https://projects.raspberrypi.org/en/projects/getting-started-with-soldering)。
+放置它时要确保两个排针之间隔着中间的裂缝。 这是一个 Raspberry Pi Pico。 希望你的设备已经焊上了排针，如果还没有，你可能想看看我们的[焊接入门资源](https://projects.raspberrypi.org/zh-CN/projects/getting-started-with-soldering)。
 
 ![Raspberry Pi Pico](images/Pico-Top-Headers.png)
 
