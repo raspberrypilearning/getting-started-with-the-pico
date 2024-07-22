@@ -1,20 +1,20 @@
-## Use digital inputs and outputs
+## Digitális be- és kimenetek használata
 
-Now you know the basics, you can learn to control an external LED with your Raspberry Pi Pico, and get it to read input from a button.
+Most hogy már ismered az alapokat, megtanulhatod a külső LED vezérlését a Raspberry Pi Pico segítségével, és meghatározhatod egy, a bemenetre kötött nyomógomb állapotát.
 
 \--- task ---
 
-Use a resistor between about 50 and 330 ohms, an LED, and a pair of M-M jumper leads to connect up your Raspberry Pi Pico as shown in the image below.
+50 és 330 ohm közötti ellenállást, LED-et és egy pár M-M (papa-papa) jumper kábelt használj a Raspberry Pi Pico csatlakoztatásához a lenti képen látható módon.
 
-![LED and resistor connected to the Pico](images/single_LED.png)
+![LED és ellenállás a Pico-hoz csatlakoztatva](images/single_LED.png)
 
 \--- /task ---
 
-In this example, the LED is connected to pin 15. If you use a different pin, remember to look up the number in the pinout diagram in the [Meet Raspberry Pi Pico section](1.html).
+Ebben a példában a LED a 15-ös lábhoz csatlakozik. Ha másik lábat használsz, ne felejtsd el megkeresni a számot a [Meet Raspberry Pi Pico szakasz] (1.html) lábkiosztás ábráján.
 
 \--- task ---
 
-Use the same code as you did to blink the onboard LED, but change the pin number to `15`.
+Ugyanazt a kódot használd, mint a panelen lévő LED villogtatásához, de a PIN-számot "15"-re írd át.
 
 ```python
 from machine import Pin, Timer
@@ -29,23 +29,23 @@ timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 
 \--- /task ---
 
-Run your program and your LED should start to blink. If it's not working, check your wiring to be sure that the LED is connected.
+Futtasd a programot, a LED-nek villognia kell. Ha nem működik, ellenőrizd a kábelezést, és győződj meg róla, hogy a LED csatlakoztatva van.
 
-Next, let's try and control the LED using a button.
+Ezután próbáld meg egy gombbal vezérelni a LED-et.
 
 \--- task ---
 
-Add a button to your circuit as shown in the diagram below.
+Adj hozzá egy nyomógombot az áramkörödhöz az alábbi ábra szerint.
 
-![LED and button on a breadboard](images/button_and_LED.png)
+![LED és gomb a próbapanelen](images/button_and_LED.png)
 
 \--- /task ---
 
-The button is on pin `14`, and is connected to the 3.3V pin on your Raspberry Pi Pico. This means when you set up the pin, you need to tell MicroPython that it is an input pin and needs to be _pulled down_.
+A gomb a "14"-es bemenetet, és a Raspberry Pi Pico 3,3 V-os kimenetét köti össze. Ez azt jelenti, hogy amikor beállítod a lábat, meg kell adni a MicroPython-ban, hogy ez egy bemeneti pin, valamint a _pulled down_ parancs megadása is szükséges.
 
 \--- task ---
 
-Create a new file and add this code.
+Hozz létre egy új fájlt, és add hozzá ezt a kódot.
 
 ```python
 from machine import Pin
@@ -64,7 +64,7 @@ while True:
 
 \--- task ---
 
-Run your code and then when you press the button, the LED should toggle on or off. If you hold the button down, it will flash.
+Futtasd a parancsot, és a gomb megnyomásakor a LED-nek ki- vagy be kell kapcsolnia. Ha lenyomva tartod a gombot, villogni fog.
 
 \--- /task ---
 
