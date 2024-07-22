@@ -44,11 +44,11 @@
 
 \--- collapse ---
 
-***
+---&#x20;
 
 title: 固件安装菜单
 
-***
+---
 
 你也可以点击状态栏中的 “MicroPython（Raspberry Pi Pico）” 并选择 “配置解释器” 来访问固件安装菜单。
 
@@ -72,4 +72,4 @@ title: 固件安装菜单
 
 \--- /collapse ---
 
-你不需要每次使用 Raspberry Pi Pico 时都更新固件。 下次，你只需将其插入电脑，无需按 BOOTSEL 按钮。
+你不需要每次使用 Raspberry Pi Pico 时都更新固件。 下次，你只需将其插入电脑，无需按 BOOTSEL 按钮。 下次，你只需将其插入电脑，无需按 BOOTSEL 按钮。
