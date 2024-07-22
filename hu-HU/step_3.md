@@ -1,16 +1,16 @@
-## Install Thonny
+## Thonny telepítése
 
-In this step, you will install Thonny or make sure you have the latest version. Then you will connect to a Raspberry Pi Pico and run some simple Python code using the Shell.
+Ebben a lépésben telepítheted a Thonnyt, vagy ha már telepítve van akkor győződj meg róla, hogy a legújabb verzióval rendelkezel. Ezután csatlakoztasd a Raspberry Pi Pico-t a számítógéphez és futtass le néhány egyszerű Python kódot a Shell segítségével.
 
 ## --- collapse ---
 
-title: Thonny on Raspberry Pi
+cím: Thonny a Raspberry Pi-n
 
-***
+---
 
-- Thonny is already installed on Raspberry Pi OS, but may need to be updated to the latest version
-- Open a terminal window, either by clicking the icon in the top left-hand corner of the screen or by pressing the Ctrl+Alt+T keys at the same time
-- In the window, type the following to update your OS and Thonny
+- A Thonny már telepítve van a Raspberry Pi OS programcsomagban, de előfordulhat, hogy frissíteni kell a legújabb verzióra
+- A képernyő bal felső sarkában lévő ikonra kattintva vagy a Ctrl+Alt+T billentyűk egyidejű lenyomásával nyisd meg a terminál ablakot
+- Az OS és a Thonny frissítéséhez gépeld be a következőket az ablakba
 
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -20,32 +20,32 @@ sudo apt update && sudo apt upgrade -y
 
 \--- collapse ---
 
-***
+---
 
-title: Install Thonny on other operating systems
+cím: Thonny telepítése más operációs rendszerekre
 
-***
+---
 
-- On Windows, macOS, and Linux, you can install the latest Thonny IDE or update an existing version
-- In a web browser, navigate to [thonny.org](https://thonny.org/)
-- In the top right-hand corner of the browser window, you will see download links for Windows and macOS, and instructions for Linux
-- Download the relevant files and run them to install Thonny
+- Windows, macOS és Linux rendszerekre telepítheted a legújabb Thonny IDE-t, vagy frissítheted a meglévő verziót
+- Egy webböngészőben nyisd meg a [thonny.org](https://thonny.org/) webhelyet
+- A telepítéshez a böngészőablak jobb felső sarkában Windows és macOS rendszerhez letöltési hivatkozások, Linuxhoz pedig utasítások találhatók
+- Töltsd le a megfelelő fájlokat, és futtasd őket a Thonny telepítéséhez
 
-![Download instructions from thonny site](images/thonny-site.png)
+![Töltsd le az utasításokat a thonny webhelyről](images/thonny-site.png)
 
 \--- /collapse ---
 
 \--- task ---
 
-Open Thonny from your application launcher. It should look something like this:
+Nyisd meg a Thonnyt az alkalmazásindítóból. Valami hasonlót kellene látnod:
 
-![Thonny application](images/thonny-editor.png)
+![Thonny alkalmazás](images/thonny-editor.png)
 
 \--- /task ---
 
 \--- task ---
 
-You can use Thonny to write standard Python code. Type the following in the main window, and then click the **Run** button (you will be asked to save the file).
+A Thonny segítségével szabványos Python kódokat írhatsz. Gépeld be a következőket a főablakba, majd kattints a **Run / Futtatás** gombra (a rendszer kérini fogja, hogy mentsd el a fájlt).
 
 ```python3
 print('Hello World!')
@@ -53,4 +53,4 @@ print('Hello World!')
 
 \--- /task ---
 
-You're now ready to move on to the next step and connect your Raspberry Pi Pico.
+Most már készen állsz a következő lépésre, csatlakoztasd a Raspberry Pi Pico-d.
