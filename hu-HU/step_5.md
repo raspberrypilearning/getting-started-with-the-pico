@@ -1,36 +1,36 @@
-## Use the Shell
+## Shell használata
 
-In this step, you will use the Thonny Shell to run some simple Python code on your Raspberry Pi Pico.
+Ebben a részben megtudhatot, hogy hogyan futtathatsz néhány egyszerű Python programot a Raspberry Pi Pico alaplapon a Thonny Shell segítségével.
 
 \--- task ---
 
-Make sure that your Raspberry Pi Pico is connected to your computer and you have selected the MicroPython (Raspberry Pi Pico) interpreter.
+Győződj meg róla, hogy a Raspberry Pi Pico csatlakozik a számítógépedhez, és a MicroPython (Raspberry Pi Pico) interpreter programot választottad ki.
 
 \--- /task ---
 
 \--- task ---
 
-Look at the Shell panel at the bottom of the Thonny editor.
+Nézd meg a Shell panelt a Thonny szerkesztő alján.
 
-You should see something like this:
+Valami hasonlót kellene látnod:
 
-![REPL initial connection messages](images/repl-connected.png)
+![REPL kezdeti kapcsolódási üzenetek](images/repl-connected.png)
 
-Thonny is now able to communicate with your Raspberry Pi Pico using the REPL (read–eval–print loop), which allows you to type Python code into the Shell and see the output.
+Thonny mostantól képes kommunikálni a Raspberry Pi Pico-val a REPL (read-eval-print loop) használatával. Most már beírhatod a Python-kódot a Shell-be, és megnézheted a kimenetet.
 
 \--- /task ---
 
 \--- task ---
 
-Now you can type commands directly into the Shell and they will run on your Raspberry Pi Pico.
+Most már közvetlenül beírhatod a parancsokat a Shell-be, és ezek futni fognak a Raspberry Pi Pico-n.
 
-Type the following command.
+Gépeld be a következő parancsot.
 
 ```python
-print("Hello")
+print ("Hello")
 ```
 
-Tap the Enter key and you will see the output:
+Nyomj egy Entert és látni fogod a kimenetet:
 
 ![Print Hello output](images/print-hello-output.png)
 
@@ -38,13 +38,13 @@ Tap the Enter key and you will see the output:
 
 \--- task ---
 
-MicroPython adds hardware-specific modules, such as `machine`, that you can use to program your Raspberry Pi Pico.
+A MicroPython olyan hardver-specifikus modulokat ad hozzá, mint például a "machine", amelyek segítségével programozhatod a Raspberry Pi Pico-t.
 
-Let's create a `machine.Pin` object to correspond with the onboard LED, which can be accessed using GPIO pin 25.
+Hozzunk létre egy "machine.Pin" objektumot, hogy hozzáférhessünk az alaplapon lévő LED-hez, amely a 25-ös GPIO kimenet segítségével érhető el.
 
-If you set the value of the LED to `1`, it turns on.
+Ha a LED értéket '1'-re állítod be akkor az világítani fog.
 
-Enter the following code, make sure you tap Enter after each line.
+Írd be a következő kódot, ne feledd, hogy minden sor után feltétlenül nyomj egy Entert.
 
 ```python
 from machine import Pin
@@ -52,20 +52,20 @@ led = Pin(25, Pin.OUT)
 led.value(1)
 ```
 
-You should see the onboard LED light up.
+Az alaplapon lévő LED bekapcsol.
 
 ![Onboard LED on](images/Pico-onboard-LED.png)
 
-Type the code to set the value to `0` to turn the LED off.
+A LED kikapcsolásához írd be a program kódot, és az értékhez írj '0'-t.
 
 ```python
 led.value(0)
 ```
 
-Turn the LED on and off as many times as you like.
+Kapcsold ki/be a LED-et, ahányszor csak akarod.
 
-**Tip:** You can use the up arrow on the keyboard to quickly access previous lines.
+**Tipp:** Az előző sorok gyors eléréséhez használhatod a billentyűzet felfelé mutató nyilát.
 
 \--- /task ---
 
-If you want to write a longer program, then it's best to save it in a file. You'll do this in the next step.
+Ha hosszabb programot szeretnél írni, akkor a legjobb, ha elmented egy fájlba. Ezt fogjuk megtenni a következő lépésben.
