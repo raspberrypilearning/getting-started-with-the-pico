@@ -1,12 +1,12 @@
-## Control LED brightness with PWM
+## A LED fényerejének szabályozása PWM-mel
 
-[**P**ulse **w**idth **m**odulation](https://en.wikipedia.org/wiki/Pulse-width_modulation), allows you to give analogue behaviours to digital devices, such as LEDs. This means that rather than an LED being simply on or off, you can control its brightness.
+[**P**ulse **w**idth **m**odulation/impulzus szélesség moduláció](https://en.wikipedia.org/wiki/Pulse-width_modulation), lehetővé teszi, hogy analóg módon viselkedjenek a digitális eszközök, mint pl. a LED-ek. Ez azt jelenti, hogy a LED-et nem csak egyszerűen ki- vagy bekapcsolhatod, hanem a fényerejét is szabályozhatod.
 
-For this activity, you can use the circuit from the last step.
+Ehhez használhatod az előző lépésből származó áramkört.
 
 \--- task ---
 
-Open a new file in Thonny and add the following code.
+Nyiss egy új fájlt Thonny-ban, és írd be a következő kódot.
 
 ```python
 from machine import Pin, PWM
@@ -29,17 +29,17 @@ while True:
 
 \--- task ---
 
-Save and run the file. You should see the LED pulse bright and dim, in a continuous cycle.
+Mentsd el és futtasd a fájlt. Látnod kell, hogy a LED ciklikusan pulzáló fénnyel világít.
 
 \--- /task ---
 
-The **frequency** (`pwm.freq`) tells Raspberry Pi Pico how often to switch the power between on and off for the LED.
+A **frequency/frekvencia** (`pwm.freq`) jelzi a Raspberry Pi Pico-nak, hogy milyen gyakran kapcsolja be és ki a LED-et.
 
-The duty cycle tells the LED for how long it should be on each time. For Raspberry Pi Pico in MicroPython, this can range from `0` to `65025`. `65025` would be 100% of the time, so the LED would stay bright. A value of around `32512` would indicate that it should be on for half the time.
+A "duty cycle/kitöltési tényező" megadja a LED-nek, hogy mennyi ideig kell alkalmanként bekapcsolva lennie. A Raspberry Pi Pico esetében a MicroPythonban ez tartomány 0-tól 65025-ig terjedhet. A „65025” az esetek 100%-a lenne, így a LED bekapcsolva maradna. A 32512 körüli érték azt jelzi, hogy csak az idő felében működne.
 
 \--- task ---
 
-Have a play with the `pwm.freq()` values and the `pwm.duty_u16` values, as well as the length of time for the `sleep`, to get a feel for how you can adjust the brightness and pace of the pulsing LED.
+Játssz a "pwm.freq()" és a "pwm.duty_u16", valamint a "sleep" paraméterekkel, hogy megértsd, hogyan állíthatod be a LED fényerejét és a pulzálás ütemét.
 
 \--- /task ---
 
