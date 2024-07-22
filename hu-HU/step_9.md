@@ -1,22 +1,22 @@
-## Control an LED with an analogue input
+## LED vezérlése analóg bemenettel
 
-Your Raspberry Pi Pico has input pins that can receive analogue signals. This means that instead of only reading the values of `1` and `0` (on and off), it can read values in between.
+A Raspberry Pi Pico rendelkezik analóg jelek fogadására képes bemenetekkel. Ez azt jelenti, hogy nemcsak az „1” és „0” (be és ki) állapotoka ismeri, hanem a közöttük lévő értékeket is képes beolvasni.
 
-A potentiometer is the  perfect analogue device for this activity.
+A potenciométer egy tökéletes analóg eszköz ehhez a feladathoz.
 
 \--- task ---
 
-Replace the button in your circuit with a potentiometer. Follow the wiring diagram below to connect it to an analogue pin.
+Cseréld ki az áramkör nyomógombját egy potenciométerre. A lenti ábra szerint kösd be a potenciamétert az analóg bemenetre.
 
-![Potentiometer connected with an LED to the Pico](images/pot_and_LED.png)
+![Potenciométer LED-el csatlakoztatva a Pico panelen](images/pot_and_LED.png)
 
 \--- /task ---
 
 \--- task ---
 
-In a new file in Thonny, you can first read the resistance of the potentiometer.
+A Thonny alatt egy új file-ban először olvasd ki a potenciométer értékét.
 
-Add this code to a new file, and then run it.
+Add hozzá ezt a kódot egy új fájlhoz, majd futtasd.
 
 ```python
 from machine import ADC, Pin
@@ -29,17 +29,17 @@ while True:
     time.sleep(1)
 ```
 
-Turn the potentiometer to see your maximum and minimum values.
+A maximális és minimális érték megtekintéséhez forgasd el a potenciométert.
 
-They should be approximately between `0` and `65025`.
+Körülbelül 0 és 65025 között kellene lenniük.
 
 \--- /task ---
 
 \--- task ---
 
-You can now use this value to control the duty cycle for PWM on the LED.
+Most már használhatod ezt az értéket a LED-en a PWM munkaciklusának vezérlésére.
 
-Change the code to the following. Once you have run it, tune the dial on the potentiometer to control the LED's brightness.
+Módosítsd a programot a következőre. Miután futtattad, a potenciométer gombjának tekergetésével szabályozhatod a LED fényerejét.
 
 ```python
 from machine import Pin, PWM, ADC
