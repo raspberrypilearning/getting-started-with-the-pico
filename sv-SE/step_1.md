@@ -1,18 +1,18 @@
-## Introduction
+## Introduktion
 
-In this project, you will connect a Raspberry Pi Pico to another computer and learn how to program it using MicroPython.
+I det här projektet kommer du att ansluta en Raspberry Pi Pico till en annan dator och lära dig hur du programmerar den med MicroPython.
 
-A Raspberry Pi Pico is a low-cost microcontroller device. Microcontrollers are tiny computers, but they tend to lack large volume storage and peripheral devices that you can plug in (for example, keyboards or monitors).
+En Raspberry Pi Pico är en billig mikrokontrollenhet. Mikrokontroller är små datorer, men de saknar ofta större lagringsutrymme och kringutrustning som du kan koppla in (till exempel tangentbord eller bildskärmar).
 
-A Raspberry Pi Pico has GPIO pins, much like a Raspberry Pi computer, which means it can be used to control and receive input from a variety of electronic devices.
+En Raspberry Pi Pico har GPIO-stift, ungefär som en Raspberry Pi-dator, vilket innebär att den kan användas för att styra och ta emot input från en mängd olika elektroniska enheter.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">[**The new Introduction to Raspberry Pi Pico path**](https://projects.raspberrypi.org/en/pathways/pico-intro)</span> uses the [picozero](https://picozero.readthedocs.io/en/latest/) package to engage in some creative physical computing projects.
+<span style="color: #0faeb0">[**Den nya introduktionen till Raspberry Pi Pico-vägen**](https://projects.raspberrypi.org/en/pathways/pico-intro)</span> använder [picozero](https://picozero.readthedocs.io/en/latest/)-paket för att delta i några kreativa fysiska datorprojekt.
 </p>
 
-### What you will make
+### Vad du kommer att göra
 
-You will connect a Raspberry Pi Pico to your computer, install the Thonny Python IDE, and write a MicroPython program to blink the onboard LED. If you have additional components available, then you can also try out some more examples.
+Du kommer att ansluta en Raspberry Pi Pico till din dator, installera Thonny Python IDE och skriva ett MicroPython-program för att blinka den inbyggda lysdioden. Om du har ytterligare komponenter tillgängliga kan du också prova några fler exempel.
 
 \--- no-print ---
 ![LED blinking on a Pico board](images/showcase.gif)
@@ -24,44 +24,44 @@ You will connect a Raspberry Pi Pico to your computer, install the Thonny Python
 
 ## --- collapse ---
 
-## title: What you will need
+## title: Vad du behöver
 
-### Hardware
+### Hårdvara
 
-- A Raspberry Pi Pico with soldered headers
-- A computer that can run the Thonny IDE and program a Raspberry Pi Pico
-- A micro USB cable
-- A selection of electronics components, such as a button, an LED with appropriate resistor, and a potentiometer (optional)
-- A breadboard and M-M jumper leads for connecting additional components (optional)
-- An external 5V micro USB power source (optional)
+- En Raspberry Pi Pico med lödda stift
+- En dator som kan köra Thonny IDE och programmera en Raspberry Pi Pico
+- En micro-USB-kabel
+- Ett urval av elektronikkomponenter, såsom en knapp, en lysdiod med lämpligt motstånd och en potentiometer (tillval)
+- En breadboard (kopplingsplatta) och MM-bygelkablar för anslutning av ytterligare komponenter (tillval)
+- En extern 5V mikro-USB-strömkälla (tillval)
 
-### Software
+### Programvara
 
-The project will guide you through the installation of:
+Projektet guidar dig genom installationen av:
 
-- MicroPython firmware for Raspberry Pi Pico
-- The Thonny Python IDE
-
-\--- /collapse ---
-
-## --- collapse ---
-
-## title: What you will learn
-
-- How to load the MicroPython firmware onto a Raspberry Pi Pico
-- How to program a Raspberry Pi Pico using MicroPython
-- How to connect additional components to a Raspberry Pi Pico and write MicroPython programs to interact with them
+- MicroPython firmware för Raspberry Pi Pico
+- Thonny Python IDE
 
 \--- /collapse ---
 
 ## --- collapse ---
 
-## title: Additional information for educators
+## title: Vad du kommer att lära dig
 
-If you are completing this project in a school or other setting with a managed network, then you should make sure that you have the appropriate permissions to mount a USB drive and install software.
+- Hur man laddar MicroPython-firmware på en Raspberry Pi Pico
+- Hur man programmerar en Raspberry Pi Pico med MicroPython
+- Hur man ansluter ytterligare komponenter till en Raspberry Pi Pico och skriver MicroPython-program för att interagera med dem
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/print){:target="_blank"}.
+\--- /collapse ---
 
-[Here is a link to the completed scripts for this project](https://rpf.io/p/en/getting-started-with-the-pico-get).
+## --- collapse ---
+
+## titel: Ytterligare information till lärare
+
+Om du slutför det här projektet i en skola eller annan miljö med ett hanterat nätverk, bör du se till att du har rätt behörighet att montera en USB-enhet och installera programvara.
+
+Om du behöver skriva ut det här projektet, använd den [utskriftsvänliga versionen](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/print){:target="_blank "}.
+
+[Här är en länk till de färdiga skripten för detta projekt](https://rpf.io/p/en/getting-started-with-the-pico-get).
 
 \--- /collapse ---
