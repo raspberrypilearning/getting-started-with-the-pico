@@ -1,9 +1,9 @@
-## What next?
+## Vad härnäst?
 
-- Try the new [Introduction to Raspberry Pi Pico path](https://projects.raspberrypi.org/en/pathways/pico-intro), using the picozero package, to control LEDs and buzzers and read signals from switches and dials.
+- Prova den nya [Introduktion till Raspberry Pi Pico path](https://projects.raspberrypi.org/en/pathways/pico-intro), med hjälp av picozero paketet, för att styra lysdioder och summer och läsa signaler från switchar och rattar.
 
-- Why not try out a few more components with your Raspberry Pi Pico — perhaps a buzzer, a light-dependent resistor (LDR), or even a motor controller
+- Varför inte prova några fler komponenter med din Raspberry Pi Pico - kanske en summer, ett ljusberoende motstånd (LDR) eller till och med en motorstyrenhet
 
-- For further guidance on using your Raspberry Pi Pico, you can have a look at the [documentation here](https://www.raspberrypi.org/documentation/pico/getting-started/)
+- För ytterligare vägledning om hur du använder din Raspberry Pi Pico kan du ta en titt på [dokumentationen här](https://www.raspberrypi.org/documentation/pico/getting-started/)
 
-Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below and let us know!
+Gillade du projektet? Har du upptäckt ett misstag? Vänligen klicka på knappen **Send feedback** nedan och meddela oss!
