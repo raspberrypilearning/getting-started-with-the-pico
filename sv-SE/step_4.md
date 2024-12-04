@@ -1,12 +1,12 @@
-## Add the MicroPython firmware
+## Lägg till MicroPython-firmware
 
-If you have never used MicroPython on your Raspberry Pi Pico, you will need to add the MicroPython firmware.
+Om du aldrig har använt MicroPython på din Raspberry Pi Pico, måste du lägga till MicroPython-firmware.
 
 \--- task ---
 
-Find the BOOTSEL button on your Raspberry Pi Pico.
+Hitta BOOTSEL-knappen på din Raspberry Pi Pico.
 
-![BOOTSEL button](images/Pico-bootsel.png)
+![BOOTSEL-knapp](images/Pico-bootsel.png)
 
 Press the BOOTSEL button and hold it while you connect the other end of the micro USB cable to your computer. A Raspberry Pi is shown in the image below, but the same applies to any computer.
 
