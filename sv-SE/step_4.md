@@ -8,37 +8,37 @@ Hitta BOOTSEL-knappen på din Raspberry Pi Pico.
 
 ![BOOTSEL-knapp](images/Pico-bootsel.png)
 
-Press the BOOTSEL button and hold it while you connect the other end of the micro USB cable to your computer. A Raspberry Pi is shown in the image below, but the same applies to any computer.
+Tryck på BOOTSEL-knappen och håll den nedtryckt medan du ansluter den andra änden av mikro-USB-kabeln till din dator. En Raspberry Pi visas på bilden nedan, men detsamma gäller för vilken dator som helst.
 
-![USB cable plugged into a Raspberry Pi](images/Pico-Raspberry-Pi-4-Plug.png)
+![USB-kabel ansluten till en Raspberry Pi](images/Pico-Raspberry-Pi-4-Plug.png)
 
-This puts your Raspberry Pi Pico into USB mass storage device mode.
+Detta sätter din Raspberry Pi Pico i USB-masslagringsenhetsläge.
 
 \--- /task ---
 
 \--- task ---
 
-In the bottom right-hand corner of the Thonny window, you will see the version of Python that you are currently using.
+I det nedre högra hörnet av Thonny-fönstret ser du den version av Python som du använder för närvarande.
 
 ![Status bar version](images/thonny-status-bar-version.png)
 
-Click on the Python version and choose 'MicroPython (Raspberry Pi Pico)':
+Klicka på Python-versionen och välj "MicroPython (Raspberry Pi Pico)":
 
-![Select MicroPython from the menu](images/thonny-micropython-pico-menu.png)
+![Välj MicroPython från menyn](images/thonny-micropython-pico-menu.png)
 
-If you don't see this option, then check that you have plugged in your Raspberry Pi Pico.
+Om du inte ser det här alternativet, kontrollera att du har anslutit din Raspberry Pi Pico.
 
 \--- /task ---
 
 \--- task ---
 
-A dialog box will pop up to install the latest version of the MicroPython firmware on your Raspberry Pi Pico.
+En dialogruta dyker upp för att installera den senaste versionen av MicroPython-firmware på din Raspberry Pi Pico.
 
-Click the **Install** button to copy the firmware to your Raspberry Pi Pico.
+Klicka på knappen **Install** för att kopiera firmware till din Raspberry Pi Pico.
 
-![Firmware install](images/thonny-install-micropython-pico.png)
+![Firmwareinstallation](images/thonny-install-micropython-pico.png)
 
-Wait for the installation to complete and click **Close**.
+Vänta tills installationen är klar och klicka på **Close**.
 
 \--- /task ---
 
@@ -46,30 +46,30 @@ Wait for the installation to complete and click **Close**.
 
 ---&#x20;
 
-title: Firmware installation menu
+titel: Meny för installation av firmware
 
 ---
 
-You can also access the firmware installation menu if you click on 'MicroPython (Raspberry Pi Pico)' in the status bar and choose 'Configure interpreter ...'.
+Du kan också komma åt installationsmenyn för fast programvara om du klickar på "MicroPython (Raspberry Pi Pico)" i statusfältet och väljer "Konfigurera tolk ...".
 
-![Configure interpreter menu](images/thonny-configure-interpreter.png)
+![Konfigurera tolkmeny](images/thonny-configure-interpreter.png)
 
-The interpreter settings will open.
+Tolkinställningarna öppnas.
 
-![Configure interpreter settings](images/thonny-interpreter-settings.png)
+![Konfigurera tolkinställningar](images/thonny-interpreter-settings.png)
 
-Click on **Install or update firmware**.
+Klicka på **Install or update firmware**.
 
-You will be prompted to plug in your Raspberry Pi Pico while you hold the BOOTSEL button.
+Du kommer att uppmanas att koppla in din Raspberry Pi Pico medan du håller ned BOOTSEL-knappen.
 
-![Hold BOOTSEL button and plug in](images/thonny-bootsel.png)
+![Håll BOOTSEL-knappen och koppla in](images/thonny-bootsel.png)
 
-Then you can click **Install**.
+Sedan kan du klicka på **Install**.
 
-![Install firmware](images/thonny-firmware-install.png)
+![Installera firmware](images/thonny-firmware-install.png)
 
-Wait for the installation to complete and click **Close**.
+Vänta tills installationen är klar och klicka på **Close**.
 
 \--- /collapse ---
 
-You don't need to update the firmware every time you use your Raspberry Pi Pico. Next time, you can just plug it into your computer without pressing the BOOTSEL button.
+Du behöver inte uppdatera firmware varje gång du använder din Raspberry Pi Pico. Nästa gång kan du bara ansluta den till din dator utan att trycka på BOOTSEL-knappen.
