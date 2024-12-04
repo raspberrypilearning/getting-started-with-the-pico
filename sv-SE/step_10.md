@@ -1,35 +1,35 @@
-## Power your Raspberry Pi Pico
+## Driv din Raspberry Pi Pico
 
-If you want to run your Raspberry Pi Pico without it being attached to a computer, you need to use a USB power supply.
+Om du vill köra din Raspberry Pi Pico utan att den är ansluten till en dator, måste du använda en USB-strömförsörjning.
 
-Safe operating voltages are between 1.8V and 5.5V.
+Säkra driftspänningar är mellan 1,8V och 5,5V.
 
-To automatically run a MicroPython program, simply save it to the device with the name `main.py`
+För att automatiskt köra ett MicroPython-program, spara det på enheten med namnet `main.py`
 
 \--- task ---
 
-In Thonny, click on the **File** menu and then **Save as** for the last program you wrote.
+I Thonny klickar du på menyn **File** och sedan **Save as** för det senaste programmet du skrev.
 
 \--- /task ---
 
 \--- task ---
 
-When prompted, select 'MicroPython device' from the pop-up menu.
+När du uppmanas, välj "MicroPython device" från popup-menyn.
 
 \--- /task ---
 
 \--- task ---
 
-Name your file `main.py`
+Namnge din fil `main.py`
 
 \--- /task ---
 
 \--- task ---
 
-You can now disconnect your Raspberry Pi Pico from your computer and use a micro USB cable to connect it to a mobile power source, such as a battery pack.
+Du kan nu koppla bort din Raspberry Pi Pico från din dator och använda en mikro-USB-kabel för att ansluta den till en mobil strömkälla, till exempel ett batteri.
 
 \--- /task ---
 
-Once connected, the `main.py` file should run automatically so you can interact with the components attached to your Raspberry Pi Pico.
+När du är ansluten bör filen `main.py` köras automatiskt så att du kan interagera med komponenterna som är anslutna till din Raspberry Pi Pico.
 
 \--- save ---
