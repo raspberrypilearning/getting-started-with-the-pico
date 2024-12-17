@@ -56,7 +56,7 @@ Projektet guidar dig genom installationen av:
 
 ## --- collapse ---
 
-## titel: Ytterligare information till lärare
+## title: Ytterligare information till lärare
 
 Om du slutför det här projektet i en skola eller annan miljö med ett hanterat nätverk, bör du se till att du har rätt behörighet att montera en USB-enhet och installera programvara.
 
