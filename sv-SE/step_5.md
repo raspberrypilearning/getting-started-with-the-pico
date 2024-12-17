@@ -1,36 +1,36 @@
-## Use the Shell
+## Använd Shell
 
-In this step, you will use the Thonny Shell to run some simple Python code on your Raspberry Pi Pico.
+I det här steget kommer du att använda Thonny Shell för att köra lite enkel Python-kod på din Raspberry Pi Pico.
 
 \--- task ---
 
-Make sure that your Raspberry Pi Pico is connected to your computer and you have selected the MicroPython (Raspberry Pi Pico) interpreter.
+Se till att din Raspberry Pi Pico är ansluten till din dator och att du har valt MicroPython (Raspberry Pi Pico)-tolken.
 
 \--- /task ---
 
 \--- task ---
 
-Look at the Shell panel at the bottom of the Thonny editor.
+Titta på Shell-panelen längst ned i Thonny-redigeraren.
 
-You should see something like this:
+Det borde se ut ungefär så här:
 
 ![REPL initial connection messages](images/repl-connected.png)
 
-Thonny is now able to communicate with your Raspberry Pi Pico using the REPL (read–eval–print loop), which allows you to type Python code into the Shell and see the output.
+Thonny kan nu kommunicera med din Raspberry Pi Pico med hjälp av REPL (read–eval–print loop), som låter dig skriva Python-kod i Shell och se resultatet.
 
 \--- /task ---
 
 \--- task ---
 
-Now you can type commands directly into the Shell and they will run on your Raspberry Pi Pico.
+Nu kan du skriva kommandon direkt i skalet och de kommer att köras på din Raspberry Pi Pico.
 
-Type the following command.
+Skriv följande kommando.
 
 ```python
 print("Hello")
 ```
 
-Tap the Enter key and you will see the output:
+Tryck på Enter-tangenten så ser du resultatet:
 
 ![Print Hello output](images/print-hello-output.png)
 
@@ -38,13 +38,13 @@ Tap the Enter key and you will see the output:
 
 \--- task ---
 
-MicroPython adds hardware-specific modules, such as `machine`, that you can use to program your Raspberry Pi Pico.
+MicroPython lägger till hårdvaruspecifika moduler, som "maskin", som du kan använda för att programmera din Raspberry Pi Pico.
 
-Let's create a `machine.Pin` object to correspond with the onboard LED, which can be accessed using GPIO pin 25.
+Vi skapar ett `machine.Pin`-objekt för att motsvara den inbyggda lysdioden, som kan nås med GPIO pin 25.
 
-If you set the value of the LED to `1`, it turns on.
+Om du ställer in värdet på lysdioden (LED) till "1", tänds den.
 
-Enter the following code, make sure you tap Enter after each line.
+Vi skapar ett `machine.Pin`-objekt för att motsvara den inbyggda lysdioden (LED), som kan nås med GPIO pin 25.
 
 ```python
 from machine import Pin
@@ -52,20 +52,20 @@ led = Pin(25, Pin.OUT)
 led.value(1)
 ```
 
-You should see the onboard LED light up.
+Du bör se den inbyggda Lysdioden lysa.
 
 ![Onboard LED on](images/Pico-onboard-LED.png)
 
-Type the code to set the value to `0` to turn the LED off.
+Skriv in koden för att ställa in värdet på "0" för att stänga av lysdioden.
 
 ```python
 led.value(0)
 ```
 
-Turn the LED on and off as many times as you like.
+Slå på och av lysdioden så många gånger du vill.
 
-**Tip:** You can use the up arrow on the keyboard to quickly access previous lines.
+**Tips:** Du kan använda uppåtpilen på tangentbordet för att snabbt komma åt tidigare rader.
 
 \--- /task ---
 
-If you want to write a longer program, then it's best to save it in a file. You'll do this in the next step.
+Om du vill skriva ett längre program är det bäst att spara det i en fil. Du kommer att göra detta i nästa steg.
