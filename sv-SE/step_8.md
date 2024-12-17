@@ -1,12 +1,12 @@
-## Control LED brightness with PWM
+## Styr lysdiodens ljusstyrka med PWM (Pulsvariation)
 
-[**P**ulse **w**idth **m**odulation](https://en.wikipedia.org/wiki/Pulse-width_modulation), allows you to give analogue behaviours to digital devices, such as LEDs. This means that rather than an LED being simply on or off, you can control its brightness.
+[**P**ulse **w**idth **m**odulation](https://en.wikipedia.org/wiki/Pulse-width_modulation), låter dig ge analoga beteenden till digitala enheter, som t.ex. lysdioder. Detta innebär att du kan styra ljusstyrkan i stället för att en lysdiod är på eller av.
 
-For this activity, you can use the circuit from the last step.
+För denna aktivitet kan du använda kopplingen från förra steget.
 
 \--- task ---
 
-Open a new file in Thonny and add the following code.
+Öppna en ny fil i Thonny och lägg till följande kod.
 
 ```python
 from machine import Pin, PWM
@@ -29,17 +29,17 @@ while True:
 
 \--- task ---
 
-Save and run the file. You should see the LED pulse bright and dim, in a continuous cycle.
+Spara och kör filen. Du bör se lysdioden pulsera starkt och svagt, i en kontinuerlig cykel.
 
 \--- /task ---
 
-The **frequency** (`pwm.freq`) tells Raspberry Pi Pico how often to switch the power between on and off for the LED.
+**frequency** (`pwm.freq`) talar om för Raspberry Pi Pico hur ofta strömmen ska slås på och av för lysdioden.
 
-The duty cycle tells the LED for how long it should be on each time. For Raspberry Pi Pico in MicroPython, this can range from `0` to `65025`. `65025` would be 100% of the time, so the LED would stay bright. A value of around `32512` would indicate that it should be on for half the time.
+**duty**-loopen talar om för lysdioden hur länge den ska lysa varje gång. För Raspberry Pi Pico i MicroPython kan detta variera från `0` till `65025`. "65025" är 100 % av tiden, så lysdioden lyser kontinuerligt. Ett värde på runt "32512" betyder att den är på halva tiden.
 
 \--- task ---
 
-Have a play with the `pwm.freq()` values and the `pwm.duty_u16` values, as well as the length of time for the `sleep`, to get a feel for how you can adjust the brightness and pace of the pulsing LED.
+Test med olika `pwm.freq()`-värden och `pwm.duty_u16`-värden, samt längden på tiden för `sleep`, för att få en känsla för hur du kan justera ljusstyrkan och takten för pulserande LED.
 
 \--- /task ---
 
