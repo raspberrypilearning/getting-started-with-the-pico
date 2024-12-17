@@ -1,16 +1,16 @@
-## Blink the onboard LED
+## Blinka den inbyggda lysdioden
 
-The Shell is useful to make sure everything is working and try out quick commands. However, it's better to put longer programs in a file.
+Shell är användbart för att se till att allt fungerar och prova enkla kommandon. Det är dock bättre att lägga längre program i en fil.
 
-Thonny can save and run MicroPython programs directly on your Raspberry Pi Pico.
+Thonny kan spara och köra MicroPython-program direkt på din Raspberry Pi Pico.
 
-In this step, you will create a MicroPython program to blink the onboard LED on and off in a loop.
+I det här steget kommer du att skapa ett MicroPython-program för att få den inbyggda lysdioden att blinka på och av i en loop.
 
 \--- task ---
 
-Click in the main editor pane of Thonny.
+Klicka i huvudredigeringsfönstret i Thonny.
 
-Enter the following code to toggle the LED.
+Skriv in följande kod för att växla lysdioden.
 
 ```python
 from machine import Pin
@@ -23,27 +23,27 @@ led.toggle()
 
 \--- task ---
 
-Click the **Run** button to run your code.
+Klicka på knappen **Run** för att köra din kod.
 
-Thonny will ask whether you want to save the file on **This computer** or the **MicroPython device**. Choose **MicroPython device**.
+Thonny kommer att fråga om du vill spara filen på **This Computer** eller **MicroPython device**. Välj **MicroPython device**.
 
-![Option to save the file on This computer or the MicroPython device](images/save-on-device.png)
+![Möjlighet att spara filen på This Computer eller MicroPython device](images/save-on-device.png)
 
-Enter `blink.py` as the file name.
+Skriv "blink.py" som filnamn.
 
-**Tip:** You need to enter the `.py` file extension so that Thonny recognises the file as a Python file.
+**Tips:** Du måste ange filtillägget `.py` så att Thonny känner igen filen som en Python-fil.
 
-Thonny can save your program to your Raspberry Pi Pico and run it.
+Thonny kan spara ditt program till din Raspberry Pi Pico och köra det.
 
-You should see the onboard LED switch between on and off each time you click the **Run** button.
+Du bör se den inbyggda lysdioden växla mellan på och av varje gång du klickar på knappen **Run**.
 
 \--- /task ---
 
 \--- task ---
 
-You can use the `Timer` module to set a timer that runs a function at regular intervals.
+Du kan använda "Timer"-modulen för att ställa in en timer som kör en funktion med jämna mellanrum.
 
-Update your code so it looks like this:
+Ändra din kod så att den ser ut så här:
 
 ```python
 from machine import Pin, Timer
@@ -56,7 +56,7 @@ def blink(timer):
 timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 ```
 
-Click **Run** and your program will blink the LED on and off until you click the **Stop** button.
+Klicka på **Run** och ditt program blinkar med lysdioden tills du klickar på **Stop**-knappen.
 
 \--- /task ---
 
