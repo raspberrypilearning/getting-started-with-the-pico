@@ -1,0 +1,24 @@
+---
+title: Kom igång med Raspberry Pi Pico
+hero_image: images/banner.png
+description: Så här börjar du programmera Raspberry Pi Pico med Thonny och MicroPython
+version: 4
+listed: true
+copyedit: true
+last_tested: '2020-10-14'
+steps:
+  - title: Introduktion
+  - title: Möt Raspberry Pi Pico
+  - title: Installera Thonny
+    completion:
+      - engaged
+  - title: Lägg till MicroPython-firmware
+  - title: Använd skalet
+  - title: Blinka den inbyggda lysdioden
+  - title: Använd digitala in- och utgångar
+  - title: Styr LED-ljusstyrkan med PWM
+  - title: Styr en lysdiod med en analog ingång
+  - title: Driv din Raspberry Pi Pico
+    completion:
+      - internal
+  - title: Vad härnäst?
