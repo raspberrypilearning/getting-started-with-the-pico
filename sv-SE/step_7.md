@@ -1,20 +1,20 @@
-## Use digital inputs and outputs
+## Använd digitala in- och utgångar
 
-Now you know the basics, you can learn to control an external LED with your Raspberry Pi Pico, and get it to read input from a button.
+Nu när du kan grunderna, så kan du lära dig att styra en extern lysdiod med din Raspberry Pi Pico, och få den att läsa indata från en knapp.
 
 \--- task ---
 
-Use a resistor between about 50 and 330 ohms, an LED, and a pair of M-M jumper leads to connect up your Raspberry Pi Pico as shown in the image below.
+Använd ett motstånd mellan cirka 50 och 330 ohm, en lysdiod och ett par M-M bygelkablar för att ansluta din Raspberry Pi Pico som visas i bilden nedan.
 
-![LED and resistor connected to the Pico](images/single_LED.png)
+![LED och resistor anslutna till Pico](images/single_LED.png)
 
 \--- /task ---
 
-In this example, the LED is connected to pin 15. If you use a different pin, remember to look up the number in the pinout diagram in the [Meet Raspberry Pi Pico section](1.html).
+I det här exemplet är lysdioden ansluten till stift 15. Om du använder en annan pin, kom ihåg att slå upp numret i pinout-diagrammet i [Meet Raspberry Pi Pico-sektionen](1.html).
 
 \--- task ---
 
-Use the same code as you did to blink the onboard LED, but change the pin number to `15`.
+Använd samma kod som du gjorde för att blinka den inbyggda lysdioden, men ändra pinnumret till `15`.
 
 ```python
 from machine import Pin, Timer
@@ -29,23 +29,23 @@ timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 
 \--- /task ---
 
-Run your program and your LED should start to blink. If it's not working, check your wiring to be sure that the LED is connected.
+Kör ditt program och din lysdiod bör börja blinka. Om det inte fungerar, kontrollera dina kablar för att vara säker på att lysdioden är korrekt ansluten.
 
-Next, let's try and control the LED using a button.
+Låt oss sedan försöka styra lysdioden med en knapp.
 
 \--- task ---
 
-Add a button to your circuit as shown in the diagram below.
+Lägg till en knapp till din krets som visas i diagrammet nedan.
 
-![LED and button on a breadboard](images/button_and_LED.png)
+![LED och knapp på en breadboard](images/button_and_LED.png)
 
 \--- /task ---
 
-The button is on pin `14`, and is connected to the 3.3V pin on your Raspberry Pi Pico. This means when you set up the pin, you need to tell MicroPython that it is an input pin and needs to be _pulled down_.
+Knappen sitter på stift 14 och är ansluten till 3,3V stiftet på din Raspberry Pi Pico. Det betyder att när du ställer in stiftet måste du tala om för MicroPython att det är ett ingångsstift och måste _tryckas ner_.
 
 \--- task ---
 
-Create a new file and add this code.
+Skapa en ny fil och lägg till denna kod.
 
 ```python
 from machine import Pin
@@ -64,7 +64,7 @@ while True:
 
 \--- task ---
 
-Run your code and then when you press the button, the LED should toggle on or off. If you hold the button down, it will flash.
+Kör din kod och när du trycker på knappen ska lysdioden slås på eller av. Om du håller ner knappen kommer den att blinka.
 
 \--- /task ---
 
