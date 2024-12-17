@@ -46,7 +46,7 @@ Vänta tills installationen är klar och klicka på **Close**.
 
 ---&#x20;
 
-titel: Meny för installation av firmware
+title: Meny för installation av firmware
 
 ---
 
