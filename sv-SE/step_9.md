@@ -1,22 +1,22 @@
-## Control an LED with an analogue input
+## Styr en lysdiod med en analog ingång
 
-Your Raspberry Pi Pico has input pins that can receive analogue signals. This means that instead of only reading the values of `1` and `0` (on and off), it can read values in between.
+Din Raspberry Pi Pico har ingångsstift som kan ta emot analoga signaler. Detta innebär att istället för att bara läsa värdena "1" och "0" (på och av), kan den läsa värden däremellan.
 
-A potentiometer is the  perfect analogue device for this activity.
+En potentiometer är den perfekta analoga enheten för denna aktivitet.
 
 \--- task ---
 
-Replace the button in your circuit with a potentiometer. Follow the wiring diagram below to connect it to an analogue pin.
+Byt ut knappen i din krets med en potentiometer. Följ kopplingsschemat nedan för att ansluta den till ett analogt stift.
 
-![Potentiometer connected with an LED to the Pico](images/pot_and_LED.png)
+![Potentiometer ansluten med en lysdiod till Pico](images/pot_and_LED.png)
 
 \--- /task ---
 
 \--- task ---
 
-In a new file in Thonny, you can first read the resistance of the potentiometer.
+I en ny fil i Thonny kan du först läsa av potentiometerns motstånd.
 
-Add this code to a new file, and then run it.
+Lägg till den här koden i en ny fil och kör den sedan.
 
 ```python
 from machine import ADC, Pin
@@ -29,17 +29,17 @@ while True:
     time.sleep(1)
 ```
 
-Turn the potentiometer to see your maximum and minimum values.
+Vrid potentiometern för att se dens största och lägsta värde.
 
-They should be approximately between `0` and `65025`.
+Värdet bör vara ungefär mellan `0` och `65025`.
 
 \--- /task ---
 
 \--- task ---
 
-You can now use this value to control the duty cycle for PWM on the LED.
+Du kan nu använda detta värde för att styra arbetscykeln för PWM (Pulsvariation) på lysdioden.
 
-Change the code to the following. Once you have run it, tune the dial on the potentiometer to control the LED's brightness.
+Ändra koden till följande. När du har startat den, ställ in ratten på potentiometern för att kontrollera lysdiodens ljusstyrka.
 
 ```python
 from machine import Pin, PWM, ADC
