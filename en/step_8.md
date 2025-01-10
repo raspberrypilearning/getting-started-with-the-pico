@@ -1,45 +1,72 @@
-## Control LED brightness with PWM
-
-[**P**ulse **w**idth **m**odulation](https://en.wikipedia.org/wiki/Pulse-width_modulation), allows you to give analogue behaviours to digital devices, such as LEDs. This means that rather than an LED being simply on or off, you can control its brightness.
+## Control LED brightness
 
 For this activity, you can use the circuit from the last step.
 
+### LED fader
+
 --- task ---
 
-Open a new file in Thonny and add the following code.
+Change the last line in your code
 
 ```python
-from machine import Pin, PWM
-from time import sleep
+from picozero import LED, Button
 
-pwm = PWM(Pin(15))
+led = LED(15)
+button = Button(14)
 
-pwm.freq(1000)
-
-while True:
-    for duty in range(65025):
-		pwm.duty_u16(duty)
-		sleep(0.0001)
-	for duty in range(65025, 0, -1):
-		pwm.duty_u16(duty)
-		sleep(0.0001)
+button.when_pressed = led.pulse
 ```
 
 --- /task ---
 
 --- task ---
 
-Save and run the file. You should see the LED pulse bright and dim, in a continuous cycle.
+Run the file. You should see the LED pulse bright and dim, in a continuous cycle.
 
 --- /task ---
 
-The **frequency** (`pwm.freq`) tells Raspberry Pi Pico how often to switch the power between on and off for the LED.
+--- task ---
 
-The duty cycle tells the LED for how long it should be on each time. For Raspberry Pi Pico in MicroPython, this can range from `0` to `65025`. `65025` would be 100% of the time, so the LED would stay bright. A value of around `32512` would indicate that it should be on for half the time.
+Stop your program.
+
+--- /task ---
+
+--- save ---
+
+### Fine brightness control
+
+You can manually set brightness levels.
 
 --- task ---
 
-Have a play with the `pwm.freq()` values and the `pwm.duty_u16` values, as well as the length of time for the `sleep`, to get a feel for how you can adjust the brightness and pace of the pulsing LED.
+Create a new file and add this code.
+
+```python
+from picozero import LED
+from time import sleep
+
+led = LED(15)
+
+while True:
+    led.brightness = 0.1  # very dim
+    sleep(1)
+    led.brightness = 0.5  # half brightness
+    sleep(1)
+    led.brightness = 1  # full brightness
+    sleep(1)
+```
+
+--- /task ---
+
+--- task ---
+
+Run the file. You should see the LED brightness change between the three levels set in your code.
+
+--- /task ---
+
+--- task ---
+
+Stop your program.
 
 --- /task ---
 
