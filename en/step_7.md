@@ -66,7 +66,7 @@ button.when_pressed = led.toggle
 
 --- task ---
 
-Run your code. 
+**Run** your code. 
 
 When you press the button, the LED should switch from on to off, (and from off to on!)turn on, if it is off and off if it is on. If you hold the button down, it will flash.
 

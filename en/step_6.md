@@ -47,7 +47,6 @@ Thonny will give you the option to save the file on **This computer**, or the **
 
 --- task ---
 Choose **Raspberry Pi Pico**.
---- /task ---
 
 Enter `blink.py` as the file name and Click 'OK'. 
 

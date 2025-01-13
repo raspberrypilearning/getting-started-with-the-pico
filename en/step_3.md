@@ -12,7 +12,7 @@ In the window, type the following to update your OS and Thonny.
 sudo apt update && sudo apt upgrade -y
 ```
 
-### Other operating systems
+### Other operating systems
 
 In a web browser, navigate to [thonny.org](https://thonny.org/){:target="_blank"}
 
