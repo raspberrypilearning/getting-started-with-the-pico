@@ -4,7 +4,7 @@ The Shell is useful to make sure everything is working and try out quick command
 
 Thonny can save and run MicroPython programs directly on your Raspberry Pi Pico.
 
-In this step, you will create a MicroPython program to blink the onboard LED on and off in a loop. 
+Create a MicroPython program to blink the onboard LED on and off in a loop. 
 
 --- task ---
 
@@ -13,51 +13,45 @@ Click in the main editor pane of Thonny.
 Enter the following code to toggle the LED. 
 
 ``` python
-from machine import Pin
-led = Pin(25, Pin.OUT)
+from picozero import pico_led
 
-led.toggle()
+while True:
+    pico_led.blink()
 ```
 
 --- /task ---
 
 --- task ---
 
-Click the **Run** button to run your code. 
+Click **Run** and the LED will blink on and off.
 
-Thonny will ask whether you want to save the file on **This computer** or the **MicroPython device**. Choose **MicroPython device**.
+--- /task ---
 
-![Option to save the file on **This computer** or the **MicroPython device**](images/save-on-device.png)
+--- task ---
 
-Enter `blink.py` as the file name. 
+Click the **Stop** button.  
+
+--- /task ---
+
+### Save your program to your Pico
+
+--- task ---
+
+Make sure you have Stopped the program, then click the 'Save' icon, or choose 'Save' from the 'File' menu.
+
+--- /task ---
+
+Thonny will give you the option to save the file on **This computer**, or the **Raspberry Pi Pico**. 
+
+![Option buttons to save the file on **This computer** or the **Raspberry Pi Pico**](images/save-on-device.png)
+
+--- task ---
+Choose **Raspberry Pi Pico**.
+
+Enter `blink.py` as the file name and Click 'OK'. 
 
 **Tip:** You need to enter the `.py` file extension so that Thonny recognises the file as a Python file. 
 
-Thonny can save your program to your Raspberry Pi Pico and run it. 
-
-You should see the onboard LED switch between on and off each time you click the **Run** button.
-
 --- /task ---
 
---- task ---
-
-You can use the `Timer` module to set a timer that runs a function at regular intervals. 
-
-Update your code so it looks like this:
-
-``` python
-from machine import Pin, Timer
-led = Pin(25, Pin.OUT)
-timer = Timer()
-
-def blink(timer):
-    led.toggle()
-
-timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
-```
-
-Click **Run** and your program will blink the LED on and off until you click the **Stop** button. 
-
---- /task ---
-
---- save ---
+**Debug**: If you get an error saying the device is busy, you need to first 'Stop' 🛑 the program running on the Pico.
