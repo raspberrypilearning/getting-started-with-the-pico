@@ -39,7 +39,7 @@ while True:
 
 --- task ---
 
-Stop your program.
+Stop 🛑 the program.
 
 --- /task ---
 

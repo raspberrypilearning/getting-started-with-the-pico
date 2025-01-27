@@ -18,7 +18,7 @@ steps:
 - title: Use digital inputs and outputs
 - title: Control LED brightness
 - title: Control an LED with an analogue input
-- title: Run headless
+- title: Run from a power supply
   completion:
   - internal
 - title: What can you do now?

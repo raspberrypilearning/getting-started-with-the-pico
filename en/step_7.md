@@ -8,19 +8,19 @@ If you have a breadboard, put your Raspberry Pi Pico on the board.
 
 Place it so that the two headers are separated by the ravine in the middle.
 
-![Pico board on a breadboard](images/Pico-Top-Breadboard.png)
-
 --- /task ---
+
+Connect the LED to pin 15.
 
 --- task ---
 
 Use a resistor between about 50 and 330 ohms, an LED, and a pair of pin-to-pin jumper leads to connect up your Raspberry Pi Pico on a breadboard, as shown in this image.
 
+The LED's long leg is at the bottom.
+
 ![LED and resistor connected to the Pico](images/single_LED.png)
 
 --- /task ---
-
-In this example, the LED is connected to pin 15. If you use a different pin, remember to look up the number in the pinout diagram in the [Meet Raspberry Pi Pico](1) section.
 
 --- task ---
 
@@ -39,7 +39,11 @@ while True:
 
 --- /task ---
 
+--- task ---
+
 Run your program and your LED should start to blink. If it's not working, check your wiring to be sure that the LED is connected.
+
+--- /task ---
 
 --- task ---
 
@@ -78,7 +82,7 @@ button.when_pressed = led.toggle
 
 **Run** your code. 
 
-When you press the button, the LED should switch from on to off, (and from off to on!)turn on, if it is off and off if it is on. If you hold the button down, it will flash.
+When you press the button, the LED should switch from on to off (or from off to on).
 
 --- /task ---
 

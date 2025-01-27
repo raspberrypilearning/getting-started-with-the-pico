@@ -2,7 +2,7 @@
 
 For this activity, you can use the circuit from the last step.
 
-### LED fader
+### LED pulse
 
 --- task ---
 
