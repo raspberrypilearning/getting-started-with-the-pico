@@ -4,6 +4,16 @@ Now you know the basics, you can control an external LED with your Raspberry Pi 
 
 --- task ---
 
+If you have a breadboard, put your Raspberry Pi Pico on the board.
+
+Place it so that the two headers are separated by the ravine in the middle.
+
+![Pico board on a breadboard](images/Pico-Top-Breadboard.png)
+
+--- /task ---
+
+--- task ---
+
 Use a resistor between about 50 and 330 ohms, an LED, and a pair of pin-to-pin jumper leads to connect up your Raspberry Pi Pico on a breadboard, as shown in this image.
 
 ![LED and resistor connected to the Pico](images/single_LED.png)

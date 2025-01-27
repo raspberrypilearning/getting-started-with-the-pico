@@ -1,4 +1,4 @@
-## Blink the onboard LED
+## Write a longer program
 
 The Shell is useful to make sure everything is working and try out quick commands. However, it's better to put longer programs in a file. 
 

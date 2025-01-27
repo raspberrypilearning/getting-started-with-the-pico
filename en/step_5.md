@@ -1,4 +1,4 @@
-## Use the Shell
+## Blink the onboard LED
 
 Use the Thonny Shell to run some simple Python code on your Raspberry Pi Pico.
 
@@ -16,14 +16,6 @@ You should see something like this:
 
 ![REPL initial connection messages](images/repl-connected.png)
 
-Thonny is now able to communicate with your Raspberry Pi Pico using the REPL (read–eval–print loop), which allows you to type Python code into the Shell and see the output. 
-
---- /task ---
-
-MicroPython adds hardware-specific modules, such as `machine`, that you can use to program your Raspberry Pi Pico. 
-
---- task ---
-
 Enter the following code in the Shell, making sure you tap Enter after each line.
 
 ``` python
@@ -36,11 +28,19 @@ You should see the onboard LED light up.
 
 ![Onboard LED on](images/Pico-onboard-LED.png)
 
+--- /task ---
+
+--- task ---
+
 Type the code to turn the LED off.
 
 ``` python
 pico_led.off()
 ```
+
+--- /task ---
+
+--- task ---
 
 Turn the LED on and off as many times as you like. 
 
