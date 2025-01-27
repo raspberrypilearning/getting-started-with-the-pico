@@ -13,12 +13,12 @@ steps:
   completion:
   - engaged
 - title: Add the MicroPython firmware
-- title: Use the Shell
 - title: Blink the onboard LED
+- title: Write a longer program
 - title: Use digital inputs and outputs
 - title: Control LED brightness
 - title: Control an LED with an analogue input
-- title: Run headless
+- title: Run from a power supply
   completion:
   - internal
 - title: What can you do now?

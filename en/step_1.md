@@ -18,14 +18,12 @@ A Raspberry Pi Pico has GPIO pins, much like a Raspberry Pi computer, which mean
 
 ### You will need
 
-+ A Raspberry Pi Pico with soldered headers
-+ A computer that can run the Thonny IDE and program a Raspberry Pi Pico
++ A Raspberry Pi Pico
++ A computer or laptop
 + A micro USB cable
-+ A selection of electronics components, such as a button, an LED with appropriate resistor, and a potentiometer (optional)
-+ A breadboard and jumper leads for connecting additional components (optional) 
-+ An external 5V micro USB power source (optional)
-
-The project will guide you through the installation of:
- 
-+ MicroPython firmware for Raspberry Pi Pico
-+ The Thonny Python IDE
+  
+### Optional
++ A Pico with soldered headers
++ A selection of electronics components, such as a button, an LED with appropriate resistor, and a potentiometer
++ A breadboard and jumper leads for connecting additional components 
++ An external 5V micro USB power source.

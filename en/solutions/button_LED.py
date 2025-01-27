@@ -1,10 +1,6 @@
-from machine import Pin
-import time
+from picozero import LED, Button
 
-led = Pin(15, Pin.OUT)
-button = Pin(14, Pin.IN, Pin.PULL_DOWN)
+led = LED(15)
+button = Button(14)
 
-while True:
-    if button.value():
-	    led.toggle()
-        time.sleep(0.5)
+button.when_pressed = led.toggle
