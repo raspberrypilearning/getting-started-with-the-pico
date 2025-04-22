@@ -10,7 +10,7 @@ Create a MicroPython program to blink the onboard LED on and off in a loop.
 
 Click in the main editor pane of Thonny. 
 
-Enter the following code to toggle the LED. 
+Enter this code to toggle the LED. 
 
 ``` python
 from picozero import pico_led

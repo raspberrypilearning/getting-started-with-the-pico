@@ -16,7 +16,7 @@ You should see something like this:
 
 ![REPL initial connection messages](images/repl-connected.png)
 
-Enter the following code in the Shell, making sure you tap Enter after each line.
+Enter this code in the Shell, making sure you tap Enter after each line.
 
 ``` python
 from picozero import pico_led
