@@ -20,7 +20,6 @@ Create a new file and add this code.
 
 ```python
 from picozero import LED, Pot
-from time import sleep
 
 led = LED(15)
 pot = Pot(26)
