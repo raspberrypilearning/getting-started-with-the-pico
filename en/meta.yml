@@ -13,6 +13,7 @@ steps:
   completion:
   - engaged
 - title: Add the MicroPython firmware
+- title: Add the picozero package
 - title: Blink the onboard LED
 - title: Write a longer program
 - title: Use digital inputs and outputs

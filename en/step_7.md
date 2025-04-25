@@ -1,95 +1,57 @@
-## Use digital inputs and outputs
+## Write a longer program
 
-Now you know the basics, you can control an external LED with your Raspberry Pi Pico, and get it to read input from a button.
+The Shell is useful to make sure everything is working and try out quick commands. However, it's better to put longer programs in a file. 
 
---- task ---
+Thonny can save and run MicroPython programs directly on your Raspberry Pi Pico.
 
-If you have a breadboard, put your Raspberry Pi Pico on the board.
-
-Place it so that the two headers are separated by the ravine in the middle.
-
---- /task ---
-
-Connect the LED to pin 15.
+Create a MicroPython program to blink the onboard LED on and off in a loop. 
 
 --- task ---
 
-Use a resistor between about 50 and 330 ohms, an LED, and a pair of pin-to-pin jumper leads to connect up your Raspberry Pi Pico on a breadboard, as shown in this image.
+Click in the main editor pane of Thonny. 
 
-The LED's long leg is at the bottom.
+Enter this code to toggle the LED. 
 
-![LED and resistor connected to the Pico](images/single_LED.png)
-
---- /task ---
-
---- task ---
-
-Create a new file and add this code.
-
-```python
-from picozero import LED
-
-led = LED(15)
+``` python
+from picozero import pico_led
 
 while True:
-    led.blink()
-```
-
-**Notice** you now `import LED` rather than `import pico_led`, as you want to control an LED connected to a GPIO pin.
-
---- /task ---
-
---- task ---
-
-Run your program and your LED should start to blink. If it's not working, check your wiring to be sure that the LED is connected.
-
---- /task ---
-
---- task ---
-
-Stop your program.
-
---- /task ---
-
-### Control the LED with a button
-
---- task ---
-
-Add a button to your circuit as shown in this diagram.
-
-![LED and button on a breadboard](images/button_and_LED.png)
-
---- /task ---
-
-The button is connected to GPIO pin `14`.
-
---- task ---
-
-Create a new file and add this code.
-
-```python
-from picozero import LED, Button
-
-led = LED(15)
-button = Button(14)
-
-button.when_pressed = led.toggle
+    pico_led.blink()
 ```
 
 --- /task ---
 
 --- task ---
 
-**Run** your code. 
-
-When you press the button, the LED should switch from on to off (or from off to on).
+Click **Run** and the LED will blink on and off.
 
 --- /task ---
 
 --- task ---
 
-Stop your program.
+Click the **Stop** button.  
 
 --- /task ---
 
---- save ---
+### Save your program to your Pico
+
+--- task ---
+
+Make sure you have Stopped the program, then click the 'Save' icon, or choose 'Save' from the 'File' menu.
+
+--- /task ---
+
+Thonny will give you the option to save the file on **This computer**, or the **Raspberry Pi Pico**. 
+
+![Option buttons to save the file on **This computer** or the **Raspberry Pi Pico**](images/save-on-device.png)
+
+--- task ---
+Choose **Raspberry Pi Pico**.
+
+Enter `blink.py` as the file name and Click 'OK'. 
+
+**Tip:** You need to enter the `.py` file extension so that Thonny recognises the file as a Python file. 
+
+--- /task ---
+
+**Debug**: If you get an error saying the device is busy, you need to first 'Stop' 🛑 the program running on the Pico.

@@ -1,43 +1,45 @@
-## Run from a power supply
+## Control an LED with an analogue input
 
-If you want to run your Raspberry Pi Pico without it being attached to your computer, you need to use a USB power supply.
+Your Raspberry Pi Pico has input pins that can receive analogue signals. This means that instead of only reading the values of `1` and `0` (on and off), it can read values in between.
 
-To automatically run a MicroPython program when the Pico powers up, you can save it to the Pico with the name `main.py`
+A potentiometer is the perfect analogue device for this activity. 
+
+--- task ---
+ 
+Replace the button in your circuit with a potentiometer. Follow the wiring diagram below to connect it to GPIO pin 26.
+
+![Potentiometer connected with an LED to the Pico](images/pot_and_LED.png)
+
+--- /task ---
+
+### Dial up the brightness!
 
 --- task ---
 
-Make sure you have pressed 'Stop' 🛑.
+Create a new file and add this code.
+
+```python
+from picozero import LED, Pot
+
+led = LED(15)
+pot = Pot(26)
+
+while True:
+    led.value = pot.value
+```
 
 --- /task ---
 
 --- task ---
 
-In Thonny, click on the **File** menu and then **Save as** for the last program you wrote.
+**Run** your program and dial up your potentiometer to change the LED brightness!
 
 --- /task ---
 
 --- task ---
 
-When prompted, select 'Raspberry Pi Pico' from the pop-up menu.
+Stop 🛑 the program.
 
 --- /task ---
 
---- task ---
-
-Name your file `main.py`
-
---- /task ---
-
---- task ---
-
-You can now disconnect your Raspberry Pi Pico from your computer and use a micro USB cable to connect it to a mobile power source, such as a power bank.
-
-![USB power bank](images/power-bank.jpg)
-
-__Image credit__: [StockSnap](https://pixabay.com/photos/power-bank-battery-technology-925569/)
-
-Safe operating voltages are between 1.8V and 5.5V.
-
---- /task ---
-
-Once connected, the `main.py` file should run automatically.
+--- save ---

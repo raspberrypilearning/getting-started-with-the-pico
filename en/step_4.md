@@ -2,6 +2,20 @@
 
 --- task ---
 
+Download the correct MicroPython UF2 file for your board:
+
+- [Pico](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2){:target="_blank"}
+
+- [Pico W](https://micropython.org/download/rp2-pico-w/rp2-pico-w-latest.uf2){:target="_blank"}
+
+- [Pico 2](https://micropython.org/download/RPI_PICO2/RPI_PICO2-latest.uf2){:target="_blank"}
+
+- [Pico 2 W](https://downloads.raspberrypi.com/micropython/mp_firmware_unofficial_latest.uf2){:target="_blank"}
+
+--- /task ---
+
+--- task ---
+
 Find the BOOTSEL button on your Raspberry Pi Pico. 
 
 ![BOOTSEL button](images/Pico-bootsel.png)
@@ -10,7 +24,15 @@ Press the BOOTSEL button and hold it while you connect the other end of the micr
 
 ![USB cable plugged into a Raspberry Pi](images/Pico-Raspberry-Pi-4-Plug.png)
 
-This puts your Raspberry Pi Pico into USB mass storage device mode. 
+This puts your Raspberry Pi Pico into USB mass storage device mode and the Pico will appear as 'RPI-RP2'.
+
+--- /task ---
+
+--- task ---
+
+Drag and drop the MicroPython UF2 file you downloaded onto the RPI-RP2 volume. 
+
+Your Pico will reboot.
 
 --- /task ---
 
@@ -30,23 +52,7 @@ By default, Thonny uses the interpreter on the 'Local' computer (the one running
 
 --- task ---
 
-Click the Python interpreter and select Install MicroPython.
-
-![A menu showing the available interpreters, with MicroPython selected](images/thonny-micropython-pico-menu.png)
-
---- /task ---
-
---- task ---
-
-A dialog box will pop up to install the latest version of the MicroPython firmware on your Raspberry Pi Pico. 
-
-Select the variant and the version should be the latest, so leave it set at that.
-
-![Firmware install](images/thonny-install-micropython-pico.png)
-
-Click the **Install** button to copy the firmware to your Raspberry Pi Pico.
-
-Wait for the installation to complete and click **Close**.
+Click the Python interpreter and select MicroPython.
 
 --- /task ---
 

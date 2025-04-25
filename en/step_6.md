@@ -1,57 +1,51 @@
-## Write a longer program
+## Blink the onboard LED
 
-The Shell is useful to make sure everything is working and try out quick commands. However, it's better to put longer programs in a file. 
-
-Thonny can save and run MicroPython programs directly on your Raspberry Pi Pico.
-
-Create a MicroPython program to blink the onboard LED on and off in a loop. 
+Use the Thonny Shell to run some simple Python code on your Raspberry Pi Pico.
 
 --- task ---
 
-Click in the main editor pane of Thonny. 
+Make sure that your Raspberry Pi Pico is connected to your computer and you have selected the MicroPython (Raspberry Pi Pico) interpreter.
 
-Enter this code to toggle the LED. 
+--- /task ---
+
+--- task ---
+
+Look at the Shell panel at the bottom of the Thonny editor. 
+
+You should see something like this:
+
+![REPL initial connection messages](images/repl-connected.png)
+
+Enter this code in the Shell, making sure you tap Enter after each line.
 
 ``` python
 from picozero import pico_led
 
-while True:
-    pico_led.blink()
+pico_led.on()
+```
+
+You should see the onboard LED light up. 
+
+![Onboard LED on](images/Pico-onboard-LED.png)
+
+--- /task ---
+
+--- task ---
+
+Type the code to turn the LED off.
+
+``` python
+pico_led.off()
 ```
 
 --- /task ---
 
 --- task ---
 
-Click **Run** and the LED will blink on and off.
+Turn the LED on and off as many times as you like. 
+
+**Tip:** You can use the up arrow on the keyboard to quickly access previous lines. 
 
 --- /task ---
 
---- task ---
-
-Click the **Stop** button.  
-
---- /task ---
-
-### Save your program to your Pico
-
---- task ---
-
-Make sure you have Stopped the program, then click the 'Save' icon, or choose 'Save' from the 'File' menu.
-
---- /task ---
-
-Thonny will give you the option to save the file on **This computer**, or the **Raspberry Pi Pico**. 
-
-![Option buttons to save the file on **This computer** or the **Raspberry Pi Pico**](images/save-on-device.png)
-
---- task ---
-Choose **Raspberry Pi Pico**.
-
-Enter `blink.py` as the file name and Click 'OK'. 
-
-**Tip:** You need to enter the `.py` file extension so that Thonny recognises the file as a Python file. 
-
---- /task ---
-
-**Debug**: If you get an error saying the device is busy, you need to first 'Stop' 🛑 the program running on the Pico.
+If you want to write a longer program, then it's best to save it in a file. You'll do this in the next step.
