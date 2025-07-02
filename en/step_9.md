@@ -1,44 +1,72 @@
-## Control an LED with an analogue input
+## Control LED brightness
 
-Your Raspberry Pi Pico has input pins that can receive analogue signals. This means that instead of only reading the values of `1` and `0` (on and off), it can read values in between.
+For this activity, you can use the circuit from the last step.
 
-A potentiometer is the perfect analogue device for this activity. 
-
---- task ---
- 
-Replace the button in your circuit with a potentiometer. Follow the wiring diagram below to connect it to GPIO pin 26.
-
-![Potentiometer connected with an LED to the Pico](images/pot_and_LED.png)
-
---- /task ---
-
-### Dial up the brightness!
+### LED pulse
 
 --- task ---
 
-Create a new file and add this code.
+Change the last line in your code
 
 ```python
-from picozero import LED, Pot
+from picozero import LED, Button
 
 led = LED(15)
-pot = Pot(26)
+button = Button(14)
 
-while True:
-    led.value = pot.value
+button.when_pressed = led.pulse
 ```
 
 --- /task ---
 
 --- task ---
 
-**Run** your program and dial up your potentiometer to change the LED brightness!
+Run the file. You should see the LED pulse bright and dim, in a continuous cycle.
 
 --- /task ---
 
 --- task ---
 
-Stop 🛑 the program.
+Stop your program.
+
+--- /task ---
+
+--- save ---
+
+### Fine brightness control
+
+You can manually set brightness levels.
+
+--- task ---
+
+Create a new file and add this code.
+
+```python
+from picozero import LED
+from time import sleep
+
+led = LED(15)
+
+while True:
+    led.brightness = 0.1  # very dim
+    sleep(1)
+    led.brightness = 0.5  # half brightness
+    sleep(1)
+    led.brightness = 1  # full brightness
+    sleep(1)
+```
+
+--- /task ---
+
+--- task ---
+
+Run the file. You should see the LED brightness change between the three levels set in your code.
+
+--- /task ---
+
+--- task ---
+
+Stop your program.
 
 --- /task ---
 
