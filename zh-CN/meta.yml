@@ -21,4 +21,3 @@ steps:
   - title: 为你的 Raspberry Pi Pico 供电
     completion:
       - internal
-  - title: 接下来还有什么？
