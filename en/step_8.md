@@ -31,8 +31,7 @@ from picozero import LED
 
 led = LED(15)
 
-while True:
-    led.blink()
+led.blink()
 ```
 
 **Notice** you now `import LED` rather than `import pico_led`, as you want to control an LED connected to a GPIO pin.

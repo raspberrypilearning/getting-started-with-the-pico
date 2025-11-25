@@ -15,8 +15,7 @@ Enter this code to toggle the LED.
 ``` python
 from picozero import pico_led
 
-while True:
-    pico_led.blink()
+pico_led.blink()
 ```
 
 --- /task ---
